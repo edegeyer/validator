@@ -41,7 +41,7 @@ public class IntegerComp implements ComparerInterface {
         return array;
     }
 
-
+/*
     private void arrangeLength(ArrayList<Integer> a, ArrayList<Integer> b){
 
         if (a.size() != b.size()){
@@ -59,7 +59,9 @@ public class IntegerComp implements ComparerInterface {
             }
         }
     }
-
+*/
+// durch arrangeLength werden viele 0 am kurze Integer hinzugefügt, bis zwei Interger gleichstellig sind, das könnte aber zu schlecht Ergebnis führen, wenn 
+// das lange Integer viele 0 besitzen
     private double compareLength(ArrayList<Integer> a, ArrayList<Integer> b, double sig){
 
         double result;
@@ -102,14 +104,23 @@ public class IntegerComp implements ComparerInterface {
 
 
         double length = compareLength(org,anonymus,sig);
-        arrangeLength(org, anonymus);
-        int len = org.size();
+  //    arrangeLength(org, anonymus);
+        int len;
+        if (org.size()>anonymus.size())
+        {
+        	len=anonymus.size();
+        }
+        else
+        	{
+        	len = org.size();
+        	}
+        
         double sum = 0.0;
 
-        for (int i = 0; i < len; i++) {
-            sum += exp(-0.5*(pow(org.get(i)-anonymus.get(i)/sig,2)));
+        for (int i = len-1; i >= 0; i--) {
+            sum += exp(-0.5*(pow((org.get(i)-anonymus.get(i))/sig,2)));
         }
-
+// hier steht nicht mit thesis überein
         Collections.reverse(anonymus);
         if (org.equals(anonymus))
             sum =  0.0;

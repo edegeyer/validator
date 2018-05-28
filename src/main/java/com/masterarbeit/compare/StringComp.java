@@ -21,7 +21,8 @@ public class StringComp implements ComparerInterface {
     }
 
     private Long StringToLong(String x) {
-        x = x.replaceAll("\\s+", "");
+        x = x.replaceAll("\\s+", "");                                  
+        // regular expression, leerzeichen weg
         return Long.parseLong(x);
 
     }
@@ -40,7 +41,7 @@ public class StringComp implements ComparerInterface {
         }
         return result;
     }
-
+// errechnet wie viel mal ein char in string vorkommt
     private int findCharInStringRight(char x, String a, int pos){
 
         if (pos>=a.length())
@@ -98,21 +99,21 @@ public class StringComp implements ComparerInterface {
 
             if (right[i]>left[i] && right[i]>-1) {
                 res[i] = right[i];
-                System.out.println("re größer li");
+                System.out.println("recht größer als link");
             }
             if (left[i]>right[i] && left[i]>-1) {
                 res[i] = right[i];
-                System.out.println("li größer re");
+                System.out.println("link größer als recht");
             }
             if (left[i]==right[i] && left[i]>-1) {
                 res[i] = right[i];
-                System.out.println("li gl re");
+                System.out.println("link gleich wie  recht");
             }
             if (left[i]==right[i] && left[i]==-1){
                 res[i] = -1;
             }
         }
-
+// output soll verständlicher sein
         int count = 0;
         for (Integer i: res) {
             if (i!=-1)
@@ -148,7 +149,7 @@ public class StringComp implements ComparerInterface {
             if (_b.get(c)!=null)
                 y=_b.get(c);
 
-            transpositions.put(c, Math.abs(x-y));
+            transpositions.put(c, Math.abs(x-y)); // wie viel mal mehr char c in string a als in string b vorkommt
         }
          return transpositions;
 

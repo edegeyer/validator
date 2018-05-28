@@ -21,7 +21,7 @@ public class CompareService {
     private BoolComp boolComp = new BoolComp();
 
     private Comparer comp = new Comparer(intCompare,doubleCompare,dateCompare,stringCompare,boolComp, insuranceNumberComp);
-    private double sigma = 2.0;
+    private double sigma = 2.0;  // kontrollparameter
 
     public Map<Integer, Double> compareOneOnOne(List<Patient> patients, List<Patient_anonym> patient_anonym) throws IllegalAccessException, ParseException {
 
@@ -37,7 +37,7 @@ public class CompareService {
         }
         return resultsPerRecord;
     }
-
+// complexität o(N^2)
     public Map<Integer, Double> doCompareSAP(List<sap> original, List<qup_sap> anonym) throws IllegalAccessException, ParseException {
 
         Iterator<sap> it1 = original.iterator();
@@ -80,6 +80,7 @@ public class CompareService {
 
         return overallOutcome;
     }
+    // terminbuchung in sap qup_sap
 
     public double getAbsolute(Map<String,Double> entry){
 
@@ -93,7 +94,7 @@ public class CompareService {
         }
         return sum/(set.size());
     }
-
+// gesamteanonymisierungsgrad aufsummieren
     public double resultForTable(Map<Integer, Double> map){
 
         double result=0;
@@ -118,6 +119,7 @@ public class CompareService {
                 fieldPatientAnonym[i].setAccessible(true);
                 result.put(fieldPatient[i].getName(), comp.compare(fieldPatient[i].get(p), fieldPatientAnonym[i].get(pa), sigma));
             }
+            // wird je nach objekt typ entsprend gerechnet:datecomp doublecomp intergercomp stringcomp
         Set set = result.entrySet();
         Iterator i = set.iterator();
 
@@ -132,7 +134,7 @@ public class CompareService {
 
         return result;
     }
-
+// wird in compareoneonone aufgerufen
     public Integer findTheMostLikely(Patient p, List<Patient_anonym> patient_anonym) throws IllegalAccessException, ParseException {
 
         double res = 1.0;
@@ -148,7 +150,7 @@ public class CompareService {
         }
         return mostLikely;
     }
-
+  //finde das ähnlichste patient_anonym zu p
     public double compareAttribute(Object a, Object b) throws ParseException {
 
         return comp.compare(a,b,sigma);

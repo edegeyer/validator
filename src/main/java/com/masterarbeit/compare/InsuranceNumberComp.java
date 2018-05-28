@@ -16,7 +16,7 @@ public class InsuranceNumberComp implements ComparerInterface {
         this.dateComp = d1;
     }
 
-
+// versichertennummer?
     @Override
     public double compare(Object a, Object b, double sig) throws ParseException {
 

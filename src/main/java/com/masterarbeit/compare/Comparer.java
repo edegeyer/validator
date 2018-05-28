@@ -55,3 +55,4 @@ public class Comparer implements ComparerInterface {
         return 0.0;
     }
 }
+// funktion zuordnen
