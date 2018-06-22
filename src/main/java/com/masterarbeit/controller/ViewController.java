@@ -2,6 +2,7 @@ package com.masterarbeit.controller;
 
 import com.masterarbeit.dbOperations.DatabaseOperations;
 import com.masterarbeit.compare.CompareService;
+import com.masterarbeit.compare.Sigma;
 import com.masterarbeit.entities.Patient;
 import com.masterarbeit.entities.Patient_anonym;
 import com.masterarbeit.repositories.PatientAnonymRepository;
@@ -13,6 +14,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.FileNotFoundException;
 import java.text.ParseException;
 import java.time.LocalDate;
 import java.util.*;
@@ -47,11 +49,11 @@ public class ViewController {
     }
 
     @RequestMapping("/compare")
-    public String compare(Model theModel) throws IllegalAccessException, ParseException {
+    public String compare(Model theModel) throws IllegalAccessException, ParseException, FileNotFoundException {
 
         CompareService compareService = new CompareService();
         Map<Integer,Double> results = compareService.compareOneOnOne(patientRepository.findAll(), patientAnonymRepository.findAll());
-        double tableResult = compareService.resultForTable(results);
+        double tableResult = compareService.resultForTable(results);// gesamt ergebnis
         theModel.addAttribute("patients", patientRepository.findAll());
         theModel.addAttribute("patientsAnonym", patientAnonymRepository.findAll());
         theModel.addAttribute("result", results);
@@ -75,7 +77,7 @@ public class ViewController {
     }
 
     @RequestMapping("/compareOne")
-    public String compareOne(Model model, @RequestParam(name="pid") String selection) throws IllegalAccessException, ParseException {
+    public String compareOne(Model model, @RequestParam(name="pid") String selection) throws IllegalAccessException, ParseException,FileNotFoundException {
 
         compareService = new CompareService();
         Patient p = patientRepository.findOne(Integer.parseInt(selection));
@@ -89,7 +91,7 @@ public class ViewController {
     }
 
     @RequestMapping("/findTheMostLikely")
-    public String findTheMostLikely(Model model, @RequestParam(name="pid") String selection) throws IllegalAccessException, ParseException {
+    public String findTheMostLikely(Model model, @RequestParam(name="pid") String selection) throws IllegalAccessException, ParseException , FileNotFoundException{
 
         compareService = new CompareService();
         Patient p = patientRepository.findOne(Integer.parseInt(selection));
@@ -149,7 +151,7 @@ public class ViewController {
     }
 
     @RequestMapping("/test")
-    public String test() throws ParseException {
+    public String test(Model model) throws ParseException {
 
 
         compareService = new CompareService();
@@ -172,6 +174,11 @@ public class ViewController {
         double seven = 123.45;
         double eight = 6.7890;
         compareService.compareAttribute(seven,eight);
+        
+        Sigma s1= new Sigma();
+        double input = 2.0;
+      //  model.addAttribute("sigint",input);
+      //  s1.setBool(input);
 
         return "test";
 

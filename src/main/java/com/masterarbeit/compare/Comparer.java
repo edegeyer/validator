@@ -28,28 +28,28 @@ public class Comparer implements ComparerInterface {
     public double compare(Object a, Object b, double sig) throws ParseException {
 
         if (a.getClass() != b.getClass()) {
-            System.out.println("Error: Objects are not the same type");
+     //       System.out.println("Error: Objects are not the same type");
             return 0.0;
         }
         if (a.getClass() == Integer.class || a.getClass() == Long.class){
-            System.out.println("int oder long");
-            System.out.println(a);
-            return this.intComp.compare(a,b,sig);
+ //           System.out.println("int oder long");
+  //          System.out.println(a);
+            return this.intComp.compare(a,b,Sigma.Inte);
         }
         if (a.getClass() == Double.class){
-            System.out.println("double");
-            return this.doubleComp.compare(a,b,sig);
+  //          System.out.println("double");
+            return this.doubleComp.compare(a,b,Sigma.Doub);
         }
         if (a.getClass() == LocalDate.class || a.getClass() == Date.class){
-            System.out.println("LocalDate oder Date");
-            return this.dateComp.compare(a,b,sig);
+  //          System.out.println("LocalDate oder Date");
+            return this.dateComp.compare(a,b,Sigma.Datum);
         }
         if (a.getClass() == String.class){
-            return this.stringComp.compare(a,b,sig);
+            return this.stringComp.compare(a,b,Sigma.Str);
         }
         if (a.getClass() == Boolean.class){
-            System.out.println("Boolean");
-            return this.boolComp.compare(a,b, sig);
+  //          System.out.println("Boolean");
+            return this.boolComp.compare(a,b, Sigma.Bool);
         }
 
         return 0.0;

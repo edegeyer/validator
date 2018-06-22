@@ -34,7 +34,7 @@ public class DoubleComp implements ComparerInterface {
     	
     	
     	double res =   1-exp(-0.5*(pow((ObjecttoDouble(a)-ObjecttoDouble(b))/sig,2)));
-    	 System.out.println(res);
+   // 	 System.out.println(res);
     	return res;
     }
 /*

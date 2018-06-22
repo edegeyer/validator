@@ -1,4 +1,8 @@
 package com.masterarbeit.compare;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 
 import com.masterarbeit.entities.Patient;
 import com.masterarbeit.entities.Patient_anonym;
@@ -21,9 +25,11 @@ public class CompareService {
     private BoolComp boolComp = new BoolComp();
 
     private Comparer comp = new Comparer(intCompare,doubleCompare,dateCompare,stringCompare,boolComp, insuranceNumberComp);
-    private double sigma = 2.0;  // kontrollparameter
 
-    public Map<Integer, Double> compareOneOnOne(List<Patient> patients, List<Patient_anonym> patient_anonym) throws IllegalAccessException, ParseException {
+    private double sigma ;  // kontrollparameter
+    File file = new File("out.txt");
+
+    public Map<Integer, Double> compareOneOnOne(List<Patient> patients, List<Patient_anonym> patient_anonym) throws IllegalAccessException, ParseException, FileNotFoundException {
 
         Iterator<Patient> it1 = patients.iterator();
         Iterator<Patient_anonym> it2 = patient_anonym.iterator();
@@ -90,7 +96,8 @@ public class CompareService {
         for (Object aSet: set) {
             Map.Entry me = (Map.Entry) aSet;
             sum = sum + (Double) me.getValue();
-            System.out.println("Key: " + me.getKey() + " Value: " + me.getValue());
+  //          System.out.println("Key: " + me.getKey() + " Value: " + me.getValue());
+            // theta per datensatz
         }
         return sum/(set.size());
     }
@@ -108,34 +115,53 @@ public class CompareService {
 
     }
 
-    public HashMap<String, Double> compareEntities(Patient p, Patient_anonym pa) throws IllegalAccessException, ParseException {
+    public LinkedHashMap<String, Double> compareEntities(Patient p, Patient_anonym pa) throws IllegalAccessException, ParseException, FileNotFoundException {
 
-        HashMap result = new HashMap();
+    	LinkedHashMap<String, Double>  result = new LinkedHashMap();
         Field[] fieldPatient = p.getClass().getDeclaredFields();
         Field[] fieldPatientAnonym = pa.getClass().getDeclaredFields();
 
+        try
+        {
+            FileOutputStream fos = new FileOutputStream(file,true);
+            PrintStream ps = new PrintStream(fos);
+  	    	System.setOut(ps);						
+ 	    	
+ 	    	
             for (int i=1; i<fieldPatientAnonym.length; i++) {
                 fieldPatient[i].setAccessible(true);
                 fieldPatientAnonym[i].setAccessible(true);
                 result.put(fieldPatient[i].getName(), comp.compare(fieldPatient[i].get(p), fieldPatientAnonym[i].get(pa), sigma));
+    //            System.out.print( "what is fieldpatient.get"+fieldPatient[i].get(p)+"\n");
+     //birthday insruance firstname lastname phone  id amount private_insuracne  email        
+                
             }
             // wird je nach objekt typ entsprend gerechnet:datecomp doublecomp intergercomp stringcomp
         Set set = result.entrySet();
         Iterator i = set.iterator();
+       
+       
 
-        System.out.println("------Compare---------------");
-        while(i.hasNext()) {
+        System.out.println();
+        int j =1;
+        while(i.hasNext()&& j<fieldPatientAnonym.length) {
             Map.Entry me = (Map.Entry)i.next();
-            System.out.print(me.getKey() + ": ");
+            System.out.print( "original:\t"+fieldPatient[j].get(p)+"\t"+"anonym:\t "+fieldPatientAnonym[j].get(pa)+"\t");
+            j++;
+            System.out.print(me.getKey() + ":\t");
             System.out.println(me.getValue());
         }
-        System.out.println("-----------------------------");
-
-
-        return result;
+        System.out.println();
+        }
+        catch  (FileNotFoundException ex) 
+        {
+        
+        }
+        
+		return result;
     }
 // wird in compareoneonone aufgerufen
-    public Integer findTheMostLikely(Patient p, List<Patient_anonym> patient_anonym) throws IllegalAccessException, ParseException {
+    public Integer findTheMostLikely(Patient p, List<Patient_anonym> patient_anonym) throws IllegalAccessException, ParseException, FileNotFoundException {
 
         double res = 1.0;
         int mostLikely = 0;

@@ -2,6 +2,8 @@ package com.masterarbeit.compare;
 
 import java.text.ParseException;
 import java.util.*;
+import java.lang.Math.*;
+
 
 import static java.lang.Math.exp;
 
@@ -19,12 +21,66 @@ public class StringComp implements ComparerInterface {
         this.integerComp = integerComp;
         this.insuranceNumberComp = insuranceNumberComp;
     }
-
-    private Long StringToLong(String x) {
+    
+    // Levenshtein Distance Implementation
+    public int calculate(String x, String y) {
+        int[][] dp = new int[x.length() + 1][y.length() + 1];
+     
+        for (int i = 0; i <= x.length(); i++) {
+            for (int j = 0; j <= y.length(); j++) {
+                if (i == 0) {
+                    dp[i][j] = j;
+                }
+                else if (j == 0) {
+                    dp[i][j] = i;
+                }
+                else {
+                    dp[i][j] = min(dp[i - 1][j - 1] 
+                     + costOfSubstitution(x.charAt(i - 1), y.charAt(j - 1)), 
+                     min( dp[i - 1][j] + 1, 
+                      dp[i][j - 1] + 1));
+                }
+            }
+        }
+     
+        return dp[x.length()][y.length()];
+    }
+    private int min(int i, int j) {
+		// TODO Auto-generated method stub
+    	if (i>=j)
+    		return j;
+    	else
+		    return i;
+	}
+	public int costOfSubstitution(char a, char b) {
+    	if (a == b)
+    		return 0; 
+    	else
+    		return 1;
+    	
+    }
+    public double compare(Object a, Object b, double sig) throws ParseException {
+    	String _a= (String)a;
+    	String _b=(String)b;
+    	double nenner= Math.max (_a.length(), _b.length());
+    	
+    	
+		return calculate(_a,_b)/nenner;
+    	
+    }
+    
+// naive string distance
+  /*  private Long StringToLong(String x) {
+    	if(x.length()>0)
+    	{
         x = x.replaceAll("\\s+", "");                                  
         // regular expression, leerzeichen weg
         return Long.parseLong(x);
-
+    	}
+    	else
+    	{
+    	return 0L;
+    	}
     }
 
     private HashMap<Character, Integer> StringToHashMap(String s){
@@ -99,15 +155,15 @@ public class StringComp implements ComparerInterface {
 
             if (right[i]>left[i] && right[i]>-1) {
                 res[i] = right[i];
-                System.out.println("recht größer als link");
+            //    System.out.println("recht größer als link");
             }
             if (left[i]>right[i] && left[i]>-1) {
                 res[i] = right[i];
-                System.out.println("link größer als recht");
+           //     System.out.println("link größer als recht");
             }
             if (left[i]==right[i] && left[i]>-1) {
                 res[i] = right[i];
-                System.out.println("link gleich wie  recht");
+             //   System.out.println("link gleich wie  recht");
             }
             if (left[i]==right[i] && left[i]==-1){
                 res[i] = -1;
@@ -169,16 +225,16 @@ public class StringComp implements ComparerInterface {
         }
 
         result += longest - shortest;
-        System.out.println(s1 + " " + s2 + " :" + result);
+   //     System.out.println(s1 + " " + s2 + " :" + result);
         return result;
     }
 
     private double compareLength(String a, String b, double sig) {
 
         double length = Math.abs(a.length() - b.length());
-        System.out.println("CL length: " + length);
+     //   System.out.println("CL length: " + length);
         double result = 1.0 - (exp(-0.5 * (Math.pow(length/sig, 2))));
-        System.out.println("compareLength: " + result);
+       // System.out.println("compareLength: " + result);
         return result;
     }
 
@@ -187,7 +243,7 @@ public class StringComp implements ComparerInterface {
         double order = compareOrder(a, b, sig);
         double distribution = compareDistribution(a, b, sig);
         double result = 0.5 * (order + distribution);
-        System.out.println("compareContent: " + result);
+    //    System.out.println("compareContent: " + result);
         return result;
     }
 
@@ -201,22 +257,22 @@ public class StringComp implements ComparerInterface {
         while (i.hasNext()) {
             Map.Entry<Character, Integer> entry = (Map.Entry) i.next();
             double d = entry.getValue();
-            System.out.println(d + " " + entry.getKey());
+   //         System.out.println(d + " " + entry.getKey());
             sum += 1.0 - exp(-0.5 * (Math.pow(d / sig, 2)));
         }
         int size = distributions.size();
         if (size==0)
             return sum;
-        System.out.println("compareDistribution: " + sum * (1.0 / size));
+     //   System.out.println("compareDistribution: " + sum * (1.0 / size));
         return (sum * (1.0 / size));
     }
 
     private double compareOrder(String a, String b, double sig) {
 
         int[] transpositions = getTranspositions(a, b);
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(Arrays.toString(transpositions));
+  //      System.out.println(a);
+  //      System.out.println(b);
+   //     System.out.println(Arrays.toString(transpositions));
         if (transpositions.length == 0)
             return 0.0;
         double sum = 0.0;
@@ -225,7 +281,7 @@ public class StringComp implements ComparerInterface {
             sum = sum + (1.0-exp(-0.5 * Math.pow(i / sig, 2.0)));
         }
 
-        System.out.println("compareOrder: " + (sum * (1.0/transpositions.length)));
+   //     System.out.println("compareOrder: " + (sum * (1.0/transpositions.length)));
         return (sum * (1.0/transpositions.length));
     }
 
@@ -237,16 +293,16 @@ public class StringComp implements ComparerInterface {
         String _b = (String) b;
 
         if (_a.matches("\\d+") && _b.matches("\\D+")) {
-            System.out.println("Error: different typ of inputs");
+    //        System.out.println("Error: different typ of inputs");
             return 0.0;
         }
         if (_b.matches("\\d+") && _a.matches("\\D+")) {
-            System.out.println("Error: different typ of inputs");
+     //       System.out.println("Error: different typ of inputs");
             return 0.0;
         }
 
         if (_a.matches("^\\d+[a-zA-Z][a-zA-Z\\d]*$") && _b.matches("^\\d+[a-zA-Z][a-zA-Z\\d]*$")){
-            System.out.println("String ist alphaNum");
+     //       System.out.println("String ist alphaNum");
             if ((_a.length()==12 && _b.length()==12)) {
                 String x = _a.substring(8,9);
                 String y = _b.substring(8,9);
@@ -256,14 +312,15 @@ public class StringComp implements ComparerInterface {
         }
 
         if (_a.matches("[A-z]+[0-9]$") && _b.matches("[A-z]+[0-9]$")){
-            System.out.println("String ist alphanumerisch " + _a);
+       //     System.out.println("String ist alphanumerisch " + _a);
             return 0.0;
         } else if (_a.matches("[0-9 ]+") && _b.matches("[0-9 ]+")){
-            System.out.println("String ist numerisch " + _a);
-            return this.integerComp.compare( StringToLong(_a), StringToLong(_b),sig);
+       //     System.out.println("String ist numerisch " + _a);
+           // return this.integerComp.compare( StringToLong(_a), StringToLong(_b),sig);
+            return 0.0;
         }
-        else
-            System.out.println("String ist alpha " + _a);
+       // else
+      //      System.out.println("String ist alpha " + _a);
 
 
         double content = compareContent(_a, _b, sig);
@@ -274,7 +331,9 @@ public class StringComp implements ComparerInterface {
         }
 
         double result = 0.5 * (length + content);
-        System.out.println("Compare: " + result);
+    //    System.out.println("Compare: " + result);
+        
         return result;
     }
+    */
 }

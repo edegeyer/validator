@@ -103,7 +103,7 @@ public class IntegerComp implements ComparerInterface {
         }
 
 
-        double length = compareLength(org,anonymus,sig);
+        double length = compareLength(org,anonymus,Sigma.Intelength);
   //    arrangeLength(org, anonymus);
         int len;
         if (org.size()>anonymus.size())
