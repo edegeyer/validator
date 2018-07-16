@@ -42,7 +42,7 @@ public class Comparer implements ComparerInterface {
         }
         if (a.getClass() == LocalDate.class || a.getClass() == Date.class){
   //          System.out.println("LocalDate oder Date");
-            return this.dateComp.compare(a,b,Sigma.Datum);
+            return this.dateComp.compare(a,b,Sigma.Monate);
         }
         if (a.getClass() == String.class){
             return this.stringComp.compare(a,b,Sigma.Str);

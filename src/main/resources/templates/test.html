@@ -1,9 +1,17 @@
-    <form action="/someUrl" method="GET">  
-     Sigma für Integer: <input type="text" id="sigint" /><br/>  
-     Sigma für Double: <input type="text" id="sigdoub" /><br/> 
-     Sigma für String: <input type="text" id="sigstr" /><br/>  
-     Sigma für Datum :  <input type="text" id="sigdatum" /><br/> 
-     Sigma für Integerlength: <input type="text" id="sigintlength" /><br/> 
-     Sigma für Bool:     <input type="text" id="sigbool" /><br/> 
-      <input type="submit" value="Submit"/>  
-    </form>  
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Sigma Einstellung für unterschiedlichen Datentypen</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Sigma Werte eingeben und Submit klicken</h1>
+    <form action="#" th:action="@{/test}" th:object="${sigma}" method="post">
+    	<p>Sigma für double: <input type="text" th:field="*{wert}" /></p>
+        <p>Sigma für Tage: <input type="text" th:field="*{tagewert}" /></p>
+        <p>Sigma für Monate: <input type="text" th:field="*{monatewert}" /></p>
+
+        <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+    </form>
+</body>
+</html>

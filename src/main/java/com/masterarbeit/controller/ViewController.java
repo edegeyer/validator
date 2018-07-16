@@ -179,12 +179,19 @@ public class ViewController {
     
         Sigma sigma1=new Sigma();
         model.addAttribute("sigma", sigma1);  // add greeting as object, which is used both in greeting.html and result.html as the instance
-        sigma1.setSigmaDoub(sigma1.wert);
+       
         return "test";
     }
     @PostMapping("/test")
     public String greetingSubmit(@ModelAttribute Sigma sigma) {
     	 // sigma.setSigmaDoub(sigma.wert);
+    	 
+         System.out.println("sigma für double ist jetzt:"+sigma.wert );
+         System.out.println("sigma für tage ist jetzt:"+sigma.tagewert );
+         System.out.println("sigma für monate ist jetzt:"+sigma.monatewert );
+         sigma.setSigmaDoub(sigma.wert);
+         sigma.setSigmaTage(sigma.tagewert);
+         sigma.setSigmaMonate(sigma.monatewert);
         return "result";
     }
         
