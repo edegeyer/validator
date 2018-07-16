@@ -21,7 +21,7 @@ public class StringComp implements ComparerInterface {
         this.integerComp = integerComp;
         this.insuranceNumberComp = insuranceNumberComp;
     }
-    
+    /*
     // Levenshtein Distance Implementation
     public int calculate(String x, String y) {
         int[][] dp = new int[x.length() + 1][y.length() + 1];
@@ -68,9 +68,9 @@ public class StringComp implements ComparerInterface {
 		return calculate(_a,_b)/nenner;
     	
     }
-    
+    */
 // naive string distance
-  /*  private Long StringToLong(String x) {
+   private Long StringToLong(String x) {
     	if(x.length()>0)
     	{
         x = x.replaceAll("\\s+", "");                                  
@@ -335,5 +335,5 @@ public class StringComp implements ComparerInterface {
         
         return result;
     }
-    */
+    
 }

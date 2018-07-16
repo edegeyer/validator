@@ -150,10 +150,10 @@ public class ViewController {
         return "showSelectedTables";
     }
 
-    @RequestMapping("/test")
+    @GetMapping("/test")
     public String test(Model model) throws ParseException {
 
-
+/*
         compareService = new CompareService();
 
         String one = "Annabelle";
@@ -175,13 +175,26 @@ public class ViewController {
         double eight = 6.7890;
         compareService.compareAttribute(seven,eight);
         
-        Sigma s1= new Sigma();
-        double input = 2.0;
+    */   
+    
+        Sigma sigma1=new Sigma();
+        model.addAttribute("sigma", sigma1);  // add greeting as object, which is used both in greeting.html and result.html as the instance
+        sigma1.setSigmaDoub(sigma1.wert);
+        return "test";
+    }
+    @PostMapping("/test")
+    public String greetingSubmit(@ModelAttribute Sigma sigma) {
+    	 // sigma.setSigmaDoub(sigma.wert);
+        return "result";
+    }
+        
+        
+       
       //  model.addAttribute("sigint",input);
       //  s1.setBool(input);
 
-        return "test";
+      
 
     }
 
-}
+

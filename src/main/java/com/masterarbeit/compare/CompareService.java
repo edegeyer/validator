@@ -132,7 +132,7 @@ public class CompareService {
                 fieldPatient[i].setAccessible(true);
                 fieldPatientAnonym[i].setAccessible(true);
                 result.put(fieldPatient[i].getName(), comp.compare(fieldPatient[i].get(p), fieldPatientAnonym[i].get(pa), sigma));
-    //            System.out.print( "what is fieldpatient.get"+fieldPatient[i].get(p)+"\n");
+          //     System.out.print( "what is fieldpatient.getname"+fieldPatient[i].getName()+"\n");
      //birthday insruance firstname lastname phone  id amount private_insuracne  email        
                 
             }
@@ -146,10 +146,15 @@ public class CompareService {
         int j =1;
         while(i.hasNext()&& j<fieldPatientAnonym.length) {
             Map.Entry me = (Map.Entry)i.next();
+            if (fieldPatient[j].getName()=="email"||fieldPatient[j].getName()=="lastAmountInvoiced"||fieldPatient[j].getName()=="birthday")
+            {
             System.out.print( "original:\t"+fieldPatient[j].get(p)+"\t"+"anonym:\t "+fieldPatientAnonym[j].get(pa)+"\t");
-            j++;
+            
             System.out.print(me.getKey() + ":\t");
             System.out.println(me.getValue());
+            }
+            j++;
+            // hier wird nur email lastAmountInvoiced und birthday ausgegeben
         }
         System.out.println();
         }
