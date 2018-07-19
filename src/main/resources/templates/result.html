@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Einstellung Sigma Werte</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Sigma Werte Eingestellt als</h1>
+    <p th:text="'Sigma für double: ' + ${sigma.wert}" />
+     <p th:text="'Sgima für tage: ' + ${sigma.tagewert}" />
+    <p th:text="'Sigma für monate: ' + ${sigma.monatewert}" />  
+
+
+    <a href="/test">Neue Sigma Werte Eingeben  </a>
+    <br />
+    <a href="/">zurück zum Hauptmenü  </a>
+
+
+
+</body>
+</html>
