@@ -16,7 +16,7 @@ public class DatabaseOperations {
     private ResultSet resultSet = null;
 
     public List<String> readDBTables() throws Exception{
-        List tablenames = new LinkedList();
+        List tablenames = new LinkedList<String>();
         try {
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/zahnklinik?user=root&password=Boliga12.");

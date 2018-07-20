@@ -2,7 +2,7 @@ package com.masterarbeit.compare;
 
 import java.text.ParseException;
 import java.util.*;
-import java.lang.Math.*;
+
 
 
 import static java.lang.Math.exp;

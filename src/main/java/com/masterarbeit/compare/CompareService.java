@@ -117,7 +117,7 @@ public class CompareService {
 
     public LinkedHashMap<String, Double> compareEntities(Patient p, Patient_anonym pa) throws IllegalAccessException, ParseException, FileNotFoundException {
 
-    	LinkedHashMap<String, Double>  result = new LinkedHashMap();
+    	LinkedHashMap<String, Double>  result = new LinkedHashMap<String,Double>();
         Field[] fieldPatient = p.getClass().getDeclaredFields();
         Field[] fieldPatientAnonym = pa.getClass().getDeclaredFields();
 
