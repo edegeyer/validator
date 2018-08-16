@@ -3511,3 +3511,1749 @@ sigma für monate ist jetzt:0.0
 [INFO] Finished at: Thu Jul 19 11:51:21 CEST 2018
 [INFO] Final Memory: 42M/129M
 [INFO] ------------------------------------------------------------------------
+
+original:	1976-01-31	anonym:	 1950-07-25	birthday:	0.7519359668467006
+original:	Ebert@BNP_Paribas_S.A..de	anonym:	 PETER2366@aol.com	email:	0.676711966032589
+original:	533.0	anonym:	 818.0	lastAmountInvoiced:	0.039798864192865935
+
+
+original:	1953-12-25	anonym:	 1952-12-24	birthday:	0.1894398099598279
+original:	Klingler-Wolf@BNP_Paribas_S.A..de	anonym:	 RICHARD5922@msn.com	email:	0.8048175865220213
+original:	347.0	anonym:	 181.0	lastAmountInvoiced:	0.013683517781097776
+
+
+original:	1953-03-01	anonym:	 1976-01-09	birthday:	0.7108782630357805
+original:	Waldmüller@BNP_Paribas_S.A..de	anonym:	 JEN6857@hotmail.com	email:	0.806030416160598
+original:	270.0	anonym:	 235.0	lastAmountInvoiced:	6.123124601663532E-4
+
+
+original:	1973-01-29	anonym:	 1949-11-19	birthday:	0.7504616332726185
+original:	Tepel@BNP_Paribas_S.A..de	anonym:	 RICHARD759@hotmail.co.uk	email:	0.25205565324843976
+original:	578.0	anonym:	 862.0	lastAmountInvoiced:	0.03952564810658343
+
+
+original:	1973-01-13	anonym:	 1965-08-03	birthday:	0.7809098387308621
+original:	Nussbaum@BNP_Paribas_S.A..de	anonym:	 DAVID9549@gmail.com	email:	0.7298003139745527
+original:	476.0	anonym:	 472.0	lastAmountInvoiced:	7.999968000049762E-6
+
+
+original:	1997-06-28	anonym:	 1958-10-31	birthday:	0.6669567784354383
+original:	Macher@BNP_Paribas_S.A..de	anonym:	 RICHARD5380@gmail.com	email:	0.6973698930585902
+original:	240.0	anonym:	 136.0	lastAmountInvoiced:	0.005393403093211568
+
+
+original:	1981-12-21	anonym:	 1987-09-30	birthday:	0.7879503133560374
+original:	Schopen@Air_Liquide_Deutschland_GmbH.de	anonym:	 JEN6831@freeserve.com	email:	0.713381526603561
+original:	381.0	anonym:	 385.0	lastAmountInvoiced:	7.999968000049762E-6
+
+
+original:	1958-04-05	anonym:	 1979-01-04	birthday:	0.4830424479152727
+original:	Freygang@Adidas_AG.de	anonym:	 PETER5808@freeserve.com	email:	0.4240510558392323
+original:	484.0	anonym:	 780.0	lastAmountInvoiced:	0.04286228972741424
+
+
+original:	1968-07-04	anonym:	 1948-05-22	birthday:	0.7521938757226546
+original:	Masch@agiplan_GmbH.de	anonym:	 JULIA2266@hotmail.co.uk	email:	0.30242574942265255
+original:	883.0	anonym:	 318.0	lastAmountInvoiced:	0.1475259413299418
+
+
+original:	1952-06-03	anonym:	 1949-12-08	birthday:	0.760626461204518
+original:	Travnicek@Adidas_AG.de	anonym:	 IAN2921@freeserve.com	email:	0.32927513233966504
+original:	335.0	anonym:	 540.0	lastAmountInvoiced:	0.02079327559109634
+
+
+original:	1995-09-20	anonym:	 1960-04-06	birthday:	0.7504617879076191
+original:	Ruckel@Aareon_AG.de	anonym:	 BEN2036@lycos.com	email:	0.3454126939539991
+original:	601.0	anonym:	 157.0	lastAmountInvoiced:	0.09386592659775006
+
+
+original:	1972-10-23	anonym:	 1985-05-11	birthday:	0.775733738382736
+original:	Krusemarck@Aareon_AG.de	anonym:	 PAUL2672@yahoo.com	email:	0.7122019671777359
+original:	20.0	anonym:	 638.0	lastAmountInvoiced:	0.1738360182139811
+
+
+original:	1963-04-15	anonym:	 1949-12-14	birthday:	0.461473336574572
+original:	Heise@AIRBUS_S.A.S..de	anonym:	 MARK9575@hotmail.co.uk	email:	0.17590352016942679
+original:	287.0	anonym:	 64.0	lastAmountInvoiced:	0.024557924524716168
+
+
+original:	1972-01-09	anonym:	 1949-02-06	birthday:	0.4400684991663864
+original:	Dreher@AIRBUS_S.A.S..de	anonym:	 CHRIS2221@freeserve.com	email:	0.2617640951687062
+original:	302.0	anonym:	 574.0	lastAmountInvoiced:	0.03631615521102605
+
+
+original:	1990-05-07	anonym:	 1998-10-01	birthday:	0.7879624256028624
+original:	Wilharm@AIRBUS_S.A.S..de	anonym:	 ALLISON3024@aol.com	email:	0.7683435817972947
+original:	636.0	anonym:	 440.0	lastAmountInvoiced:	0.019024701841140024
+
+
+original:	1987-04-11	anonym:	 1994-08-27	birthday:	0.7756231648011481
+original:	Zintzen@Aixtron_AG.de	anonym:	 PAUL5290@lycos.com	email:	0.48594222640808027
+original:	170.0	anonym:	 561.0	lastAmountInvoiced:	0.0735919660729848
+
+
+original:	1949-06-08	anonym:	 1957-04-22	birthday:	0.7357993198697153
+original:	Schapdick@Aixtron_AG.de	anonym:	 IAN4836@gmail.com	email:	0.6868802993673943
+original:	116.0	anonym:	 247.0	lastAmountInvoiced:	0.008543792574259301
+
+
+original:	1950-10-13	anonym:	 1972-06-16	birthday:	0.6529486302743003
+original:	Beckmann@Allianz_Global_Investors.de	anonym:	 PETER7053@aol.com	email:	0.7001734859407731
+original:	136.0	anonym:	 185.0	lastAmountInvoiced:	0.001199779688148661
+
+
+original:	1965-09-25	anonym:	 1992-05-25	birthday:	0.4174805955022194
+original:	U. Berquet@Amway_GmbH.de	anonym:	 IAN3677@aol.com	email:	0.6597449082935037
+original:	492.0	anonym:	 851.0	lastAmountInvoiced:	0.062408100679562595
+
+
+original:	1978-02-17	anonym:	 1954-06-08	birthday:	0.7555277717692563
+original:	Lachermeier-Seifert@Amway_GmbH.de	anonym:	 JULIA5931@hotmail.co.uk	email:	0.7419163979463997
+original:	212.0	anonym:	 890.0	lastAmountInvoiced:	0.20534085126957968
+
+
+original:	1950-12-09	anonym:	 1972-03-27	birthday:	0.7612779402697177
+original:	Steinfartz@anyWARE_AG.de	anonym:	 JAMES7880@freeserve.com	email:	0.33375228034723686
+original:	939.0	anonym:	 90.0	lastAmountInvoiced:	0.3026030373513009
+
+
+original:	1995-10-02	anonym:	 1998-09-26	birthday:	0.5899526549515489
+original:	Volkmar@Bundesagentur_für_Arbeit.de	anonym:	 ALLISON16@hotmail.co.uk	email:	0.7419409320415222
+original:	497.0	anonym:	 63.0	lastAmountInvoiced:	0.08987925367106797
+
+
+original:	1965-06-17	anonym:	 1998-11-21	birthday:	0.7058127464149253
+original:	Hüttner@ASM_AS_(Siemens_AG).de	anonym:	 MARK3945@msn.com	email:	0.6438007590681937
+original:	349.0	anonym:	 947.0	lastAmountInvoiced:	0.1637285352444543
+
+
+original:	1975-10-01	anonym:	 1981-09-18	birthday:	0.5731092018599778
+original:	Dräger@AstraZeneca_GmbH.de	anonym:	 ALLISON71@hotmail.com	email:	0.6559519041315676
+original:	769.0	anonym:	 208.0	lastAmountInvoiced:	0.14560400646341543
+
+
+original:	1989-09-24	anonym:	 1968-10-27	birthday:	0.4705167052658909
+original:	Röpke@AstraZeneca_GmbH.de	anonym:	 DAVID977@gmail.com	email:	0.5888856727563482
+original:	361.0	anonym:	 251.0	lastAmountInvoiced:	0.006031735601765731
+
+
+original:	1955-08-04	anonym:	 1971-05-08	birthday:	0.7068381878194031
+original:	Piotrowski@AstraZeneca_GmbH.de	anonym:	 JULIA3240@yahoo.co.uk	email:	0.7896010128675144
+original:	817.0	anonym:	 939.0	lastAmountInvoiced:	0.007414376884217644
+
+
+original:	1988-09-21	anonym:	 1949-07-04	birthday:	0.7301743273519848
+original:	Tröger@AT-Design.de	anonym:	 SALLY843@lycos.com	email:	0.18408153584951903
+original:	343.0	anonym:	 951.0	lastAmountInvoiced:	0.1687560788989867
+
+
+original:	1976-10-01	anonym:	 1969-02-12	birthday:	0.7757348956911655
+original:	Ruge@ATOSS_Software_AG.de	anonym:	 JULIA4928@aol.com	email:	0.7551507559079486
+original:	994.0	anonym:	 593.0	lastAmountInvoiced:	0.07725328768592832
+
+
+original:	1952-04-14	anonym:	 1970-05-18	birthday:	0.5139892926199691
+original:	Krüger@Audi_AG.de	anonym:	 DAVID5849@yahoo.co.uk	email:	0.7170347476408616
+original:	895.0	anonym:	 957.0	lastAmountInvoiced:	0.0019201541407698475
+
+
+original:	1981-03-17	anonym:	 1991-08-07	birthday:	0.8169362930525783
+original:	Schuderer@Audi_AG.de	anonym:	 JAMES1276@gmail.com	email:	0.21801489068256683
+original:	88.0	anonym:	 350.0	lastAmountInvoiced:	0.033739681283364575
+
+
+original:	1961-12-18	anonym:	 1966-05-17	birthday:	0.4975011877413846
+original:	Schneider@Audi_AG.de	anonym:	 JULIA3489@lycos.com	email:	0.22614477808350472
+original:	195.0	anonym:	 627.0	lastAmountInvoiced:	0.08909074773095382
+
+
+original:	1964-06-08	anonym:	 1964-05-24	birthday:	0.4644897800957846
+original:	Schäffler@Audi_AG.de	anonym:	 DAVID9149@lycos.com	email:	0.24785131377718242
+original:	106.0	anonym:	 270.0	lastAmountInvoiced:	0.013357979631125061
+
+
+original:	1964-07-24	anonym:	 1981-11-09	birthday:	0.755990024114448
+original:	Bernet@AXA_Winterthur.de	anonym:	 VIJAY1782@yahoo.co.uk	email:	0.4753191014918188
+original:	256.0	anonym:	 463.0	lastAmountInvoiced:	0.021196625665731883
+
+
+original:	1993-11-03	anonym:	 1962-01-10	birthday:	0.7750058219710589
+original:	Scholz@B._Braun_Melsungen_AG.de	anonym:	 JOHN7020@msn.com	email:	0.7604975104976839
+original:	299.0	anonym:	 209.0	lastAmountInvoiced:	0.0040418098104865186
+
+
+original:	1994-03-19	anonym:	 1974-05-08	birthday:	0.7521937857367046
+original:	Schade@BAHAG_AG.de	anonym:	 JULIA158@hotmail.com	email:	0.46436258381611323
+original:	786.0	anonym:	 637.0	lastAmountInvoiced:	0.011039116787937564
+
+
+original:	1950-01-12	anonym:	 1949-10-09	birthday:	0.6670546217019098
+original:	Salewski@BASF_IT_Services_GmbH.de	anonym:	 BEN2299@yahoo.co.uk	email:	0.8096401646673641
+original:	638.0	anonym:	 545.0	lastAmountInvoiced:	0.004315162814277351
+
+
+original:	1983-10-14	anonym:	 1991-08-25	birthday:	0.7357992298913976
+original:	Gehl@BASF_IT_Services_GmbH.de	anonym:	 SALLY1622@freeserve.com	email:	0.631166786888679
+original:	633.0	anonym:	 746.0	lastAmountInvoiced:	0.006364162384727812
+
+
+original:	1996-08-10	anonym:	 1957-05-10	birthday:	0.4382497562514416
+original:	Tiedeke@Baumer_Electric_AG.de	anonym:	 JULIA437@gmail.com	email:	0.7008451327951272
+original:	312.0	anonym:	 515.0	lastAmountInvoiced:	0.020393677735118132
+
+
+original:	1997-05-07	anonym:	 1965-01-09	birthday:	0.5538131375437736
+original:	Döring@Baumer_Optronic_GmbH.de	anonym:	 MARK8522@freeserve.com	email:	0.6672982793115747
+original:	401.0	anonym:	 251.0	lastAmountInvoiced:	0.011186955388766906
+
+
+original:	1949-12-18	anonym:	 1985-05-06	birthday:	0.7500279501346995
+original:	Seiffert@Baxter_Deutschland_GmbH.de	anonym:	 FIONA8116@hotmail.com	email:	0.6820627663392559
+original:	844.0	anonym:	 849.0	lastAmountInvoiced:	1.2499921875352982E-5
+
+
+original:	1983-10-24	anonym:	 1966-08-22	birthday:	0.5088131973408703
+original:	Strigl@Bayerisches_Landesamt_für_Statistik.de	anonym:	 VIJAY4611@lycos.com	email:	0.6825460005675801
+original:	355.0	anonym:	 494.0	lastAmountInvoiced:	0.009613987269120994
+
+
+original:	1971-04-15	anonym:	 1970-10-19	birthday:	0.7718270113324955
+original:	Schönfeld@Bayerisches_Landesamt_für_Statistik.de	anonym:	 MARGE6990@lycos.com	email:	0.6867203607067841
+original:	900.0	anonym:	 597.0	lastAmountInvoiced:	0.04486682694664679
+
+
+original:	1971-02-23	anonym:	 1974-12-05	birthday:	0.7921295415224267
+original:	Ellermann@Beiersdorf_AG.de	anonym:	 MARGE7002@freeserve.com	email:	0.5145020834532145
+original:	297.0	anonym:	 574.0	lastAmountInvoiced:	0.03763790403038392
+
+
+original:	1953-07-25	anonym:	 1975-01-26	birthday:	0.4671123009981926
+original:	Burmeister@Berlin_Institute_of_Technology.de	anonym:	 ANGELA3982@yahoo.co.uk	email:	0.6949593801910873
+original:	795.0	anonym:	 866.0	lastAmountInvoiced:	0.00251732620695011
+
+
+original:	1948-07-21	anonym:	 1997-02-19	birthday:	0.5730941373099734
+original:	Prox@Berliner_Verkehrsbetriebe_(BVG).de	anonym:	 MARGE4233@yahoo.co.uk	email:	0.780141141436577
+original:	895.0	anonym:	 715.0	lastAmountInvoiced:	0.016069485727491672
+
+
+original:	1972-01-17	anonym:	 1981-03-18	birthday:	0.4612668263689834
+original:	Stoffels@Berliner_Verkehrsbetriebe_(BVG).de	anonym:	 BRIAN50@yahoo.co.uk	email:	0.6948232530910019
+original:	34.0	anonym:	 486.0	lastAmountInvoiced:	0.09710769839170796
+
+
+original:	1956-12-16	anonym:	 1991-08-12	birthday:	0.704790550931873
+original:	Seifert@Bertrandt_Services_GmbH.de	anonym:	 JOHN7322@gmail.com	email:	0.6567876795038101
+original:	153.0	anonym:	 902.0	lastAmountInvoiced:	0.2445944336606558
+
+
+original:	1953-02-18	anonym:	 1971-11-11	birthday:	0.7605487765636568
+original:	Smischek@Beta_Systems_Software_AG.de	anonym:	 MARGE6637@msn.com	email:	0.7117770119125018
+original:	97.0	anonym:	 185.0	lastAmountInvoiced:	0.0038645134737269604
+
+
+original:	1964-01-21	anonym:	 1969-05-15	birthday:	0.7878520022218339
+original:	Schindler@Beta_Systems_Software_AG.de	anonym:	 FIONA1052@hotmail.com	email:	0.6832002226343922
+original:	688.0	anonym:	 525.0	lastAmountInvoiced:	0.013196650472495408
+
+
+original:	1980-08-20	anonym:	 1985-10-21	birthday:	0.4523894266701461
+original:	Paffrath@Bewotec_GmbH.de	anonym:	 JAMES3742@aol.com	email:	0.675202989775512
+original:	235.0	anonym:	 127.0	lastAmountInvoiced:	0.005815026899736564
+
+
+original:	1948-09-10	anonym:	 1982-09-01	birthday:	0.4166672898116141
+original:	Bronninger@BMW_AG.de	anonym:	 RICHARD3458@msn.com	email:	0.30062014226144185
+original:	294.0	anonym:	 580.0	lastAmountInvoiced:	0.0400729624877455
+
+
+original:	1991-01-10	anonym:	 1963-02-01	birthday:	0.5539116033206102
+original:	Quassowski@BMW_AG.de	anonym:	 BRIAN1526@lycos.com	email:	0.3403732210796228
+original:	128.0	anonym:	 243.0	lastAmountInvoiced:	0.006590685531084106
+
+
+original:	1981-12-19	anonym:	 1965-08-04	birthday:	0.755541126868184
+original:	Teichmann@BRANDAD_Systems_AG.de	anonym:	 JEN8374@hotmail.co.uk	email:	0.7936826364447307
+original:	4.0	anonym:	 464.0	lastAmountInvoiced:	0.10039544900476849
+
+
+original:	1989-11-24	anonym:	 1952-08-18	birthday:	0.7430568771645527
+original:	Lewerenz@Brandenburgische_Technische_Universität.de	anonym:	 JULIA2262@hotmail.com	email:	0.684318053488954
+original:	631.0	anonym:	 928.0	lastAmountInvoiced:	0.043146038990602986
+
+
+original:	1977-07-03	anonym:	 1978-03-29	birthday:	0.8168269566120588
+original:	Sarnowski@BROCKHAUS_AG.de	anonym:	 JOHN9987@lycos.com	email:	0.7898836297470238
+original:	19.0	anonym:	 694.0	lastAmountInvoiced:	0.20372645287058067
+
+
+original:	1964-11-26	anonym:	 1994-05-23	birthday:	0.6839120473263169
+original:	Petermann@Bruker_Optik_GmbH.de	anonym:	 DAVID7884@yahoo.com	email:	0.6833246185638104
+original:	574.0	anonym:	 331.0	lastAmountInvoiced:	0.029092909873909667
+
+
+original:	1991-10-13	anonym:	 1977-04-14	birthday:	0.4614733314979163
+original:	Holtzmann@BSS_Beiersdorf_Shared_Services_GmbH.de	anonym:	 JAMES7763@yahoo.co.uk	email:	0.7373675261724302
+original:	930.0	anonym:	 261.0	lastAmountInvoiced:	0.20050939670163037
+
+
+original:	1961-09-09	anonym:	 1984-10-06	birthday:	0.4457074693002912
+original:	Meissl@BT_(Germany)_GmbH_&_Co._oHG.de	anonym:	 PETER4296@lycos.com	email:	0.7307795288406903
+original:	562.0	anonym:	 41.0	lastAmountInvoiced:	0.12691337389898116
+
+
+original:	1949-07-14	anonym:	 1971-08-20	birthday:	0.544582989438802
+original:	Winkelhöfer@Bundesdruckerei.de	anonym:	 ALLISON8358@hotmail.co.uk	email:	0.7257241502553687
+original:	222.0	anonym:	 466.0	lastAmountInvoiced:	0.029329296969058616
+
+
+original:	1965-03-22	anonym:	 1978-11-01	birthday:	0.7757349856771155
+original:	Pletat@Bundesministerium_für_Gesundheit.de	anonym:	 SALLY7585@hotmail.co.uk	email:	0.7547726581135672
+original:	360.0	anonym:	 867.0	lastAmountInvoiced:	0.12060798294993147
+
+
+original:	1983-08-25	anonym:	 1988-01-15	birthday:	0.7916655797185257
+original:	Bach@BVG_-_Anstalt_öffentlichen_Rechts.de	anonym:	 IAN8349@aol.com	email:	0.7915870453839631
+original:	253.0	anonym:	 538.0	lastAmountInvoiced:	0.039798864192865935
+
+
+original:	1962-04-06	anonym:	 1960-10-01	birthday:	0.7826599871837298
+original:	Pörschke@BVV_a.G..de	anonym:	 JAMES1924@lycos.com	email:	0.23648281471843988
+original:	598.0	anonym:	 776.0	lastAmountInvoiced:	0.015717175543621953
+
+
+original:	1971-04-15	anonym:	 1993-12-25	birthday:	0.7612766980519895
+original:	Endres@Cassini_Consulting_Frankfurt_GmbH.de	anonym:	 ALLISON9546@hotmail.co.uk	email:	0.7681561504832735
+original:	772.0	anonym:	 736.0	lastAmountInvoiced:	6.477900933422598E-4
+
+
+original:	1990-11-09	anonym:	 1994-12-16	birthday:	0.5887745939992238
+original:	Hatebur@CAT.de	anonym:	 JOHN234@hotmail.com	email:	0.5168731529011968
+original:	773.0	anonym:	 862.0	lastAmountInvoiced:	0.003952667563408507
+
+
+original:	1980-10-14	anonym:	 1982-03-06	birthday:	0.7971938159179256
+original:	W. Luellemann@CAT.de	anonym:	 JULIA2100@gmail.com	email:	0.2887947440790974
+original:	140.0	anonym:	 46.0	lastAmountInvoiced:	0.0044082549944269855
+
+
+original:	1996-09-03	anonym:	 1948-03-02	birthday:	0.46147348614054934
+original:	Lips@cirosec_GmbH.de	anonym:	 CHRIS6095@freeserve.com	email:	0.5624182297716288
+original:	495.0	anonym:	 24.0	lastAmountInvoiced:	0.1049901006122359
+
+
+original:	1977-06-12	anonym:	 1989-08-30	birthday:	0.7357993198773477
+original:	Ruch@Coca_Cola_CCEAG.de	anonym:	 MARGE298@gmail.com	email:	0.711816370394226
+original:	170.0	anonym:	 546.0	lastAmountInvoiced:	0.06824744642123559
+
+
+original:	1982-10-25	anonym:	 1958-12-23	birthday:	0.503174227840594
+original:	Podebrad@Commerzbank_AG.de	anonym:	 PETER7430@hotmail.co.uk	email:	0.48193766043901975
+original:	662.0	anonym:	 686.0	lastAmountInvoiced:	2.8795853198104737E-4
+
+
+original:	1957-12-25	anonym:	 1982-12-18	birthday:	0.4164005330935813
+original:	Witte@conceptq_GmbH.de	anonym:	 MARK8929@freeserve.com	email:	0.23836438765049028
+original:	698.0	anonym:	 980.0	lastAmountInvoiced:	0.03898186574752116
+
+
+original:	1995-08-19	anonym:	 1992-04-14	birthday:	0.7773720761053236
+original:	Lindner@Continental_VDO_Automotive.de	anonym:	 JEN1180@lycos.com	email:	0.6098373686181957
+original:	677.0	anonym:	 350.0	lastAmountInvoiced:	0.052060407737984926
+
+
+original:	1998-03-17	anonym:	 1959-01-17	birthday:	0.39684099401865147
+original:	Tursch@Condato_GmbH.de	anonym:	 IAN4130@hotmail.com	email:	0.4852967931698235
+original:	277.0	anonym:	 40.0	lastAmountInvoiced:	0.0276937965442976
+
+
+original:	1949-09-29	anonym:	 1972-08-28	birthday:	0.25412035409097117
+original:	Benner@Continental_Teves_AG_&_Co._oHG.de	anonym:	 RICHARD1085@aol.com	email:	0.7950560913663234
+original:	960.0	anonym:	 554.0	lastAmountInvoiced:	0.07911305250943856
+
+
+original:	1984-02-23	anonym:	 1959-08-04	birthday:	0.7504630250563157
+original:	Kolodziejczak@Continental_Automotive_Systems_Electric.de	anonym:	 BEN4437@yahoo.co.uk	email:	0.7871889181913609
+original:	912.0	anonym:	 975.0	lastAmountInvoiced:	0.001982532181801999
+
+
+original:	1952-11-16	anonym:	 1955-10-15	birthday:	0.2957870207566838
+original:	Oehlen@ConVista_Consulting_AG.de	anonym:	 FIONA1267@freeserve.com	email:	0.7389787966499155
+original:	794.0	anonym:	 421.0	lastAmountInvoiced:	0.0672000341536233
+
+
+original:	1994-12-05	anonym:	 1991-02-24	birthday:	0.7921295415224267
+original:	Kemper@ConVista_Consulting_AG.de	anonym:	 JULIA514@gmail.com	email:	0.7003953700369144
+original:	809.0	anonym:	 120.0	lastAmountInvoiced:	0.2112930920791284
+
+
+original:	1998-09-29	anonym:	 1977-04-25	birthday:	0.7357980776596237
+original:	Heimbach@Cooper_Standard_Automotive.de	anonym:	 IAN8937@yahoo.co.uk	email:	0.6883768302538993
+original:	175.0	anonym:	 299.0	lastAmountInvoiced:	0.0076585229163108615
+
+
+original:	1949-04-06	anonym:	 1999-02-25	birthday:	0.7465550608650112
+original:	Findeisen@Coperion_Werner_&_Pfleiderer.de	anonym:	 PETER2478@lycos.com	email:	0.6664637798151369
+original:	839.0	anonym:	 821.0	lastAmountInvoiced:	1.6198687870860873E-4
+
+
+original:	1952-04-26	anonym:	 1974-11-17	birthday:	0.7612645851629543
+original:	Burkhardt@Coperion_Werner_&_Pfleiderer.de	anonym:	 BRIAN387@yahoo.co.uk	email:	0.6991654939842206
+original:	418.0	anonym:	 901.0	lastAmountInvoiced:	0.11009850308075764
+
+
+original:	1969-05-07	anonym:	 1958-02-22	birthday:	0.7968412227964353
+original:	Willig@Critical_Systems.de	anonym:	 ALLISON3476@hotmail.com	email:	0.5963316604496512
+original:	356.0	anonym:	 882.0	lastAmountInvoiced:	0.129195689858718
+
+
+original:	1988-11-30	anonym:	 1962-09-20	birthday:	0.7105259674728465
+original:	Bornheim@Cross_Match_Technologies_GmbH.de	anonym:	 MARK3794@msn.com	email:	0.698487831386182
+original:	8.0	anonym:	 349.0	lastAmountInvoiced:	0.05648262606730958
+
+
+original:	1971-11-16	anonym:	 1977-07-04	birthday:	0.7915548413486216
+original:	Rodrigo@Csecure_AG.de	anonym:	 MARGE2850@yahoo.com	email:	0.4240118912359056
+original:	299.0	anonym:	 65.0	lastAmountInvoiced:	0.027006619494846618
+
+
+original:	1982-07-16	anonym:	 1966-02-05	birthday:	0.7556516155406806
+original:	Krieger@Daimler_Financial_Services_AG.de	anonym:	 DAVID1061@yahoo.co.uk	email:	0.6763596207044945
+original:	691.0	anonym:	 468.0	lastAmountInvoiced:	0.024557924524716168
+
+
+original:	1982-07-13	anonym:	 1986-03-05	birthday:	0.7914570025242277
+original:	Leutnant@Daimler_AG.de	anonym:	 CHRIS2777@yahoo.co.uk	email:	0.2627491322289395
+original:	589.0	anonym:	 216.0	lastAmountInvoiced:	0.0672000341536233
+
+
+original:	1966-10-30	anonym:	 1985-03-29	birthday:	0.48674544675372095
+original:	Heger@Daimler_AG.de	anonym:	 ANGELA2645@freeserve.com	email:	0.66547412079594
+original:	653.0	anonym:	 551.0	lastAmountInvoiced:	0.005188493029236851
+
+
+original:	1972-12-02	anonym:	 1973-12-19	birthday:	0.48360544415469303
+original:	Dombrowski@Daimler_AG.de	anonym:	 JOHN1206@gmail.com	email:	0.7455554753912201
+original:	894.0	anonym:	 699.0	lastAmountInvoiced:	0.018832902422567743
+
+
+original:	1965-11-29	anonym:	 1970-05-28	birthday:	0.48110662682705013
+original:	Hüttel@Daimler_AG.de	anonym:	 JEN3214@hotmail.com	email:	0.26835421771306023
+original:	382.0	anonym:	 607.0	lastAmountInvoiced:	0.024994824701582208
+
+
+original:	1993-03-12	anonym:	 1965-03-24	birthday:	0.4227685065806257
+original:	Burchardt@Daimler_AG.de	anonym:	 JULIA6877@lycos.com	email:	0.6424495968276156
+original:	595.0	anonym:	 294.0	lastAmountInvoiced:	0.044289752251108316
+
+
+original:	1988-10-03	anonym:	 1966-06-11	birthday:	0.7610542985177827
+original:	Boll@Daimler_AG.de	anonym:	 JAMES8338@yahoo.co.uk	email:	0.5069268127989729
+original:	451.0	anonym:	 451.0	lastAmountInvoiced:	0.0
+
+
+original:	1986-06-13	anonym:	 1969-12-28	birthday:	0.7561018399137557
+original:	Jung@Daimler_AG.de	anonym:	 BRIAN3948@hotmail.co.uk	email:	0.7603370351453129
+original:	757.0	anonym:	 462.0	lastAmountInvoiced:	0.042579413741160144
+
+
+original:	1951-05-06	anonym:	 1980-08-25	birthday:	0.7720319868310391
+original:	Huettenberger@Daimler_AG.de	anonym:	 JOHN8845@hotmail.com	email:	0.7276200573810696
+original:	396.0	anonym:	 95.0	lastAmountInvoiced:	0.044289752251108316
+
+
+original:	1954-03-17	anonym:	 1987-07-20	birthday:	0.6425964397161028
+original:	Biber@Daimler_AG.de	anonym:	 FIONA4481@hotmail.co.uk	email:	0.7294467484077226
+original:	806.0	anonym:	 97.0	lastAmountInvoiced:	0.22224249996162304
+
+
+original:	1971-07-25	anonym:	 1985-07-29	birthday:	0.39684099401865147
+original:	Stumböck@Daimler_AG.de	anonym:	 MARK4191@lycos.com	email:	0.6467740952657532
+original:	651.0	anonym:	 542.0	lastAmountInvoiced:	0.005922890117632584
+
+
+original:	1990-06-23	anonym:	 1974-05-23	birthday:	0.22014272784014366
+original:	Bangel@DB_Systel_GmbH.de	anonym:	 JULIA3153@hotmail.co.uk	email:	0.29117946350875595
+original:	109.0	anonym:	 48.0	lastAmountInvoiced:	0.0018587703427170865
+
+
+original:	1966-01-07	anonym:	 1982-11-27	birthday:	0.7556529477443549
+original:	Mairose@DB_Vertrieb_GmbH.de	anonym:	 FIONA2756@yahoo.com	email:	0.7060900368789128
+original:	892.0	anonym:	 799.0	lastAmountInvoiced:	0.004315162814277351
+
+
+original:	1992-07-21	anonym:	 1997-03-16	birthday:	0.776909356526779
+original:	Rappold@DB_Vertrieb_GmbH.de	anonym:	 JEN3456@aol.com	email:	0.6948093295207948
+original:	327.0	anonym:	 158.0	lastAmountInvoiced:	0.014179017308730058
+
+
+original:	1974-11-30	anonym:	 1953-11-13	birthday:	0.4475777476228852
+original:	Herold@Deutsche_Bahn_AG.de	anonym:	 BRIAN3300@hotmail.co.uk	email:	0.596265542163003
+original:	20.0	anonym:	 344.0	lastAmountInvoiced:	0.051134292624028244
+
+
+original:	1976-11-19	anonym:	 1977-11-07	birthday:	0.48360543907803316
+original:	Brunow@Deutsche_Bahn_AG.de	anonym:	 MARGE9706@lycos.com	email:	0.6920752002094901
+original:	422.0	anonym:	 829.0	lastAmountInvoiced:	0.0794873169791862
+
+
+original:	1980-10-05	anonym:	 1994-05-31	birthday:	0.7752848462131317
+original:	Schön@Deutsche_Bank_AG.de	anonym:	 ALLISON2839@hotmail.com	email:	0.43169493274189363
+original:	2.0	anonym:	 327.0	lastAmountInvoiced:	0.05144214959357696
+
+
+original:	1968-12-19	anonym:	 1958-08-08	birthday:	0.8168268666261088
+original:	Pazelt@Deutsche_Rentenversicherung_Bund.de	anonym:	 SALLY4396@yahoo.co.uk	email:	0.7929510410675208
+original:	732.0	anonym:	 947.0	lastAmountInvoiced:	0.022847452072140118
+
+
+original:	1980-08-04	anonym:	 1983-12-05	birthday:	0.49785208645159407
+original:	Herrmann@Deutsche_Rentenversicherung_Bund.de	anonym:	 ALLISON9679@aol.com	email:	0.7830660878130381
+original:	527.0	anonym:	 855.0	lastAmountInvoiced:	0.05237080712377695
+
+
+original:	1991-05-01	anonym:	 1995-01-29	birthday:	0.7915688234001951
+original:	Böttcher@Deutsches_Patent-_und_Markenamt.de	anonym:	 JOHN4383@hotmail.com	email:	0.7354409096270245
+original:	392.0	anonym:	 523.0	lastAmountInvoiced:	0.008543792574259301
+
+
+original:	1997-04-04	anonym:	 1976-09-30	birthday:	0.7809098387384945
+original:	Römer@DFS_Deutsche_Flugsicherung_GmbH.de	anonym:	 JULIA9344@yahoo.com	email:	0.7022559300959561
+original:	110.0	anonym:	 670.0	lastAmountInvoiced:	0.14512498327533052
+
+
+original:	1997-02-25	anonym:	 1976-02-27	birthday:	0.24540086105200745
+original:	Ludwig@DHC_Dr._Herterich_&_Consutants_GmbH.de	anonym:	 JULIA3692@freeserve.com	email:	0.6954922020962565
+original:	569.0	anonym:	 0.0	lastAmountInvoiced:	0.149457161663326
+
+
+original:	1982-11-18	anonym:	 1949-02-12	birthday:	0.7463109787643692
+original:	Troupeau@DHL_Global_Forwarding_UK.de	anonym:	 DAVID8698@yahoo.com	email:	0.7064521522498146
+original:	155.0	anonym:	 887.0	lastAmountInvoiced:	0.23502490405058907
+
+
+original:	1956-05-24	anonym:	 1982-05-26	birthday:	0.2149666325610449
+original:	Schaser@DHL_Hub_Leipzig_GmbH.de	anonym:	 SALLY149@aol.com	email:	0.6648331885761081
+original:	210.0	anonym:	 686.0	lastAmountInvoiced:	0.10710653023690941
+
+
+original:	1956-10-13	anonym:	 1952-11-22	birthday:	0.5894904026061538
+original:	Schramm@Dilax_Intelcom_GmbH.de	anonym:	 RICHARD7480@msn.com	email:	0.6941846024028583
+original:	680.0	anonym:	 463.0	lastAmountInvoiced:	0.023269490805915005
+
+
+original:	1955-12-03	anonym:	 1991-10-06	birthday:	0.596698705020671
+original:	Vorbrodt@DIN_e.V..de	anonym:	 ALLISON5900@hotmail.co.uk	email:	0.7749353500208191
+original:	493.0	anonym:	 165.0	lastAmountInvoiced:	0.05237080712377695
+
+
+original:	1955-04-01	anonym:	 1997-04-18	birthday:	0.42231961441102134
+original:	Neske@discount24_GmbH_&_Co._KG.de	anonym:	 JAMES1110@lycos.com	email:	0.725849282840599
+original:	758.0	anonym:	 959.0	lastAmountInvoiced:	0.019997836826443516
+
+
+original:	1970-09-14	anonym:	 1965-06-26	birthday:	0.7715692621758347
+original:	Lungwitz@DKB_Grundbesitzvermittlung_GmbH.de	anonym:	 JULIA3640@yahoo.co.uk	email:	0.7260154549546477
+original:	206.0	anonym:	 463.0	lastAmountInvoiced:	0.03248514481529774
+
+
+original:	1972-10-10	anonym:	 1974-01-08	birthday:	0.5951287502306477
+original:	Brückner@diconium_digital_solutions_GmbH.de	anonym:	 SALLY2796@yahoo.co.uk	email:	0.7354448966869311
+original:	398.0	anonym:	 256.0	lastAmountInvoiced:	0.010031347008742864
+
+
+original:	1956-07-11	anonym:	 1969-03-07	birthday:	0.7305114037222814
+original:	Elsässer@diconium_digital_solutions_GmbH.de	anonym:	 PETER7645@yahoo.com	email:	0.6325637004973119
+original:	135.0	anonym:	 171.0	lastAmountInvoiced:	6.477900933422598E-4
+
+
+original:	1966-11-08	anonym:	 1968-03-07	birthday:	0.5031400026066561
+original:	Nolte@dSPACE_GmbH.de	anonym:	 ALLISON8269@lycos.com	email:	0.23641266646449993
+original:	731.0	anonym:	 934.0	lastAmountInvoiced:	0.020393677735118132
+
+
+original:	1955-05-08	anonym:	 1975-04-15	birthday:	0.5943995865245867
+original:	Schuengel@Earth_Television_Technology_GmbH.de	anonym:	 JAMES578@msn.com	email:	0.7525608043973044
+original:	677.0	anonym:	 72.0	lastAmountInvoiced:	0.16724225379979607
+
+
+original:	1954-03-23	anonym:	 1964-12-14	birthday:	0.8169254223888953
+original:	Wasserer-Foerg@edcom_Software_&_Consulting_GmbH.de	anonym:	 CHRIS8699@aol.com	email:	0.6426674825793459
+original:	327.0	anonym:	 151.0	lastAmountInvoiced:	0.015368677743293091
+
+
+original:	1953-06-18	anonym:	 1969-05-24	birthday:	0.5693922260389837
+original:	Wodrich@Elan_Computing_(Deutschland)_GmbH.de	anonym:	 ALLISON4119@gmail.com	email:	0.7702123160581378
+original:	117.0	anonym:	 635.0	lastAmountInvoiced:	0.12555160751138061
+
+
+original:	1952-10-15	anonym:	 1984-07-14	birthday:	0.45823321194967304
+original:	Zeiner@Elektroschaltanlagen_Grimma_GmbH.de	anonym:	 DAVID6209@freeserve.com	email:	0.7102624935895665
+original:	977.0	anonym:	 350.0	lastAmountInvoiced:	0.17845166028161819
+
+
+original:	1961-10-16	anonym:	 1955-04-14	birthday:	0.573109196783318
+original:	Mockel@EnBW_Systeme_Infrastruktur_Support.de	anonym:	 ALLISON3923@gmail.com	email:	0.8044344254005886
+original:	69.0	anonym:	 66.0	lastAmountInvoiced:	4.499989875061949E-6
+
+
+original:	1974-10-17	anonym:	 1960-04-28	birthday:	0.7752859933682457
+original:	Fedkte@Engel_&_Völkers.de	anonym:	 BRIAN5436@freeserve.com	email:	0.4269168685339165
+original:	295.0	anonym:	 308.0	lastAmountInvoiced:	8.449642997554463E-5
+
+
+original:	1948-07-05	anonym:	 1961-02-27	birthday:	0.7556377279180889
+original:	Billens@ERGO_Versicherung.de	anonym:	 PAUL5240@gmail.com	email:	0.7429181170299948
+original:	615.0	anonym:	 534.0	lastAmountInvoiced:	0.003275125039001292
+
+
+original:	1993-08-09	anonym:	 1990-03-08	birthday:	0.4979626651098376
+original:	Bültner@Ericsson_Telekommunikation.de	anonym:	 MARGE7132@yahoo.com	email:	0.6242600422898118
+original:	422.0	anonym:	 591.0	lastAmountInvoiced:	0.014179017308730058
+
+
+original:	1995-10-18	anonym:	 1949-07-07	birthday:	0.7463110440546806
+original:	Lifka@Ericsson_Telekommunikation.de	anonym:	 CHRIS7618@yahoo.co.uk	email:	0.704518315274067
+original:	114.0	anonym:	 348.0	lastAmountInvoiced:	0.027006619494846618
+
+
+original:	1985-06-14	anonym:	 1997-04-17	birthday:	0.6275818307578978
+original:	Amberg@Ericsson_Telekommunikation.de	anonym:	 MARGE9080@msn.com	email:	0.6485509958519837
+original:	98.0	anonym:	 157.0	lastAmountInvoiced:	0.0017389862082538565
+
+
+original:	1964-04-28	anonym:	 1977-11-07	birthday:	0.7757349856694874
+original:	Witting@Ericsson_Telekommunikation.de	anonym:	 SALLY8715@yahoo.co.uk	email:	0.6284720439179172
+original:	967.0	anonym:	 12.0	lastAmountInvoiced:	0.3661940855248982
+
+
+original:	1966-07-16	anonym:	 1982-02-28	birthday:	0.7556517004499709
+original:	Fornhoff@Ericsson_Telekommunikation.de	anonym:	 JULIA9141@aol.com	email:	0.6599151434078752
+original:	252.0	anonym:	 848.0	lastAmountInvoiced:	0.16272943076886082
+
+
+original:	1956-06-21	anonym:	 1951-05-15	birthday:	0.5857869365269236
+original:	Alchimov@Ericsson_Telekommunikation.de	anonym:	 CHRIS4777@lycos.com	email:	0.6710291738432835
+original:	65.0	anonym:	 783.0	lastAmountInvoiced:	0.22722086834465227
+
+
+original:	1987-03-18	anonym:	 1982-10-19	birthday:	0.4975011877413846
+original:	Adler@Ericsson_Telekommunikation.de	anonym:	 SALLY4210@aol.com	email:	0.6878422565821699
+original:	320.0	anonym:	 597.0	lastAmountInvoiced:	0.03763790403038392
+
+
+original:	1972-03-31	anonym:	 1981-09-05	birthday:	0.8005442165660596
+original:	Sievers@eSailors_IT_Solutions_GmbH.de	anonym:	 JAMES561@freeserve.com	email:	0.7278576237647782
+original:	282.0	anonym:	 711.0	lastAmountInvoiced:	0.08791354841882049
+
+
+original:	1989-07-06	anonym:	 1958-04-10	birthday:	0.7269202257521682
+original:	Benfeldt@Euler_Hermes_Kreditversicherungs-AG.de	anonym:	 VIJAY7365@msn.com	email:	0.653734737375522
+original:	315.0	anonym:	 553.0	lastAmountInvoiced:	0.027924691847715732
+
+
+original:	1987-06-20	anonym:	 1963-12-30	birthday:	0.7556517004499709
+original:	Hessberger@Faurecia_-_GIS_-_IT_Infrastruc.de	anonym:	 VIJAY4208@hotmail.com	email:	0.6709761088372024
+original:	393.0	anonym:	 884.0	lastAmountInvoiced:	0.11355881424964698
+
+
+original:	1968-02-01	anonym:	 1998-01-16	birthday:	0.5899526549513455
+original:	Bork@Festo_AG_&_Co.KG.de	anonym:	 SALLY3956@yahoo.com	email:	0.6989909519940687
+original:	923.0	anonym:	 686.0	lastAmountInvoiced:	0.0276937965442976
+
+
+original:	1992-05-05	anonym:	 1963-05-18	birthday:	0.4424016521207336
+original:	Gebhardt@FH_Aachen.de	anonym:	 CHRIS1644@yahoo.com	email:	0.40098743488278143
+original:	399.0	anonym:	 908.0	lastAmountInvoiced:	0.121500991514086
+
+
+original:	1960-10-01	anonym:	 1953-02-25	birthday:	0.7757349856771155
+original:	Schlingloff@FhG-FIRST.de	anonym:	 FIONA7264@freeserve.com	email:	0.23342449505441637
+original:	177.0	anonym:	 98.0	lastAmountInvoiced:	0.003115636300248692
+
+
+original:	1993-05-21	anonym:	 1987-02-13	birthday:	0.7714712687088076
+original:	Taphorn@Finanzinformatik_Hannover.de	anonym:	 RICHARD4358@yahoo.com	email:	0.7186818904280821
+original:	253.0	anonym:	 148.0	lastAmountInvoiced:	0.005497334052101177
+
+
+original:	1969-12-08	anonym:	 1985-08-12	birthday:	0.7104293657895164
+original:	Heidemann@Finanzinformatik_Hannover.de	anonym:	 ALLISON9365@hotmail.co.uk	email:	0.7160982900906856
+original:	721.0	anonym:	 632.0	lastAmountInvoiced:	0.003952667563408507
+
+
+original:	1971-07-30	anonym:	 1961-08-04	birthday:	0.6147618909171486
+original:	Fladrich@Fladrich_Consulting.de	anonym:	 BEN9912@msn.com	email:	0.8081232906680891
+original:	136.0	anonym:	 407.0	lastAmountInvoiced:	0.03605447952629903
+
+
+original:	1988-11-23	anonym:	 1960-11-19	birthday:	0.37719387572265517
+original:	von Stackelberg@Fortify_ASC.de	anonym:	 PAUL2410@hotmail.co.uk	email:	0.7549049741475589
+original:	67.0	anonym:	 605.0	lastAmountInvoiced:	0.1347371972624848
+
+
+original:	1981-09-09	anonym:	 1986-05-13	birthday:	0.7464432399890438
+original:	Bustani@Four.In.One_Network.de	anonym:	 JULIA8395@hotmail.co.uk	email:	0.7200275311672792
+original:	586.0	anonym:	 652.0	lastAmountInvoiced:	0.002175629879020091
+
+
+original:	1980-03-02	anonym:	 1987-01-25	birthday:	0.7465549055887498
+original:	Meyer@Fox_Mobile_Group.de	anonym:	 VIJAY2827@yahoo.co.uk	email:	0.6805587368730077
+original:	503.0	anonym:	 483.0	lastAmountInvoiced:	1.9998000133325533E-4
+
+
+original:	1993-08-18	anonym:	 1986-03-22	birthday:	0.730621982380525
+original:	Grundmann@Fox_Mobile_Group.de	anonym:	 BRIAN6024@hotmail.com	email:	0.6830905523168265
+original:	454.0	anonym:	 189.0	lastAmountInvoiced:	0.03450320824151987
+
+
+original:	1967-01-27	anonym:	 1954-06-16	birthday:	0.7757336534734457
+original:	Nicklisch@Fox_Mobile_Group.de	anonym:	 MARK1926@yahoo.co.uk	email:	0.7011314177330333
+original:	519.0	anonym:	 488.0	lastAmountInvoiced:	4.803845783624139E-4
+
+
+original:	1957-08-26	anonym:	 1998-12-27	birthday:	0.481008633360023
+original:	Shi@FP_InovoLabs_GmbH.de	anonym:	 JOHN9297@yahoo.co.uk	email:	0.6449167853426914
+original:	313.0	anonym:	 832.0	lastAmountInvoiced:	0.12600489147886218
+
+
+original:	1979-09-10	anonym:	 1976-01-16	birthday:	0.7884265426763418
+original:	Bleumer@Francotyp-Postalia_GmbH.de	anonym:	 JEN5280@yahoo.com	email:	0.6296757890104754
+original:	80.0	anonym:	 899.0	lastAmountInvoiced:	0.2849340480124509
+
+
+original:	1974-04-21	anonym:	 1961-01-17	birthday:	0.7269202257521682
+original:	Großmann@Fraunhofer_FOKUS.de	anonym:	 ALLISON3023@hotmail.com	email:	0.7660484440626882
+original:	292.0	anonym:	 983.0	lastAmountInvoiced:	0.21238075695068537
+
+
+original:	1979-01-26	anonym:	 1990-04-23	birthday:	0.6437184821693281
+original:	Burghardt@Fraunhofer_Institut_First.de	anonym:	 MARGE6939@msn.com	email:	0.5799547733429464
+original:	559.0	anonym:	 289.0	lastAmountInvoiced:	0.035793696993763446
+
+
+original:	1988-07-17	anonym:	 1988-03-31	birthday:	0.6665548457830667
+original:	Fischer@Fresenius_Netcare_GmbH.de	anonym:	 RICHARD5938@gmail.com	email:	0.6946519958361678
+original:	598.0	anonym:	 368.0	lastAmountInvoiced:	0.026103262544942885
+
+
+original:	1993-12-26	anonym:	 1997-05-16	birthday:	0.7916794020508061
+original:	Freund@FREUND-IT.de	anonym:	 DAVID3649@gmail.com	email:	0.24668323026777622
+original:	954.0	anonym:	 515.0	lastAmountInvoiced:	0.09186342618407439
+
+
+original:	1977-12-15	anonym:	 1975-04-17	birthday:	0.5951287502306435
+original:	Binderbauer@G_&_H_Bankensoftware_AG.de	anonym:	 PETER4115@yahoo.com	email:	0.7815452700720236
+original:	577.0	anonym:	 961.0	lastAmountInvoiced:	0.0710756731014498
+
+
+original:	1968-08-22	anonym:	 1988-05-14	birthday:	0.7934908170794773
+original:	Bleil@G_&_H_Bankensoftware_AG.de	anonym:	 VIJAY681@hotmail.com	email:	0.732144686200105
+original:	811.0	anonym:	 858.0	lastAmountInvoiced:	0.0011038902643799586
+
+
+original:	1977-02-04	anonym:	 1975-01-06	birthday:	0.3929518636597699
+original:	Hertlein@G_&_H_Bankensoftware_AG.de	anonym:	 MARGE4480@yahoo.com	email:	0.5868383415017272
+original:	662.0	anonym:	 216.0	lastAmountInvoiced:	0.09467202715512069
+
+
+original:	1993-05-25	anonym:	 1992-12-22	birthday:	0.7087212883609441
+original:	Franz@G._Muth_Partners_GmbH.de	anonym:	 JULIA7106@yahoo.com	email:	0.6942408933250482
+original:	411.0	anonym:	 753.0	lastAmountInvoiced:	0.05680478223921037
+
+
+original:	1962-11-23	anonym:	 1981-04-15	birthday:	0.7807992600726186
+original:	Günther@GABO_mbH_&_Co._KG.de	anonym:	 CHRIS1479@gmail.com	email:	0.7130324655240458
+original:	47.0	anonym:	 761.0	lastAmountInvoiced:	0.22500445652487433
+
+
+original:	1971-09-06	anonym:	 1977-06-25	birthday:	0.7879636684551684
+original:	Heine@GAI_NetConsult_GmbH.de	anonym:	 ALLISON6739@lycos.com	email:	0.6214415832494747
+original:	638.0	anonym:	 42.0	lastAmountInvoiced:	0.16272943076886082
+
+
+original:	1966-06-03	anonym:	 1997-10-21	birthday:	0.7756231648011523
+original:	Netzband@GISA_GmbH.de	anonym:	 ALLISON3@hotmail.com	email:	0.3007144281692816
+original:	6.0	anonym:	 946.0	lastAmountInvoiced:	0.35712180176152797
+
+
+original:	1980-07-11	anonym:	 1983-06-21	birthday:	0.5899514127338249
+original:	Kohler@Google_Enterprise_EMEA.de	anonym:	 SALLY6579@freeserve.com	email:	0.719520307711021
+original:	54.0	anonym:	 934.0	lastAmountInvoiced:	0.32104470971143206
+
+
+original:	1977-03-08	anonym:	 1989-08-08	birthday:	0.44757650540516125
+original:	Cichonczyk@ewocon_Advisory_GmbH.de	anonym:	 BEN3382@hotmail.com	email:	0.7258136374220681
+original:	797.0	anonym:	 157.0	lastAmountInvoiced:	0.18518973783127057
+
+
+original:	1968-01-15	anonym:	 1952-03-31	birthday:	0.7301603503770672
+original:	Mollin@ewocon_Advisory_GmbH.de	anonym:	 RICHARD2194@gmail.com	email:	0.7353313263354901
+original:	361.0	anonym:	 607.0	lastAmountInvoiced:	0.02980480910355654
+
+
+original:	1966-05-02	anonym:	 1960-07-31	birthday:	0.7465549062223782
+original:	Hasse@GS_Software_AG.de	anonym:	 VIJAY9655@hotmail.co.uk	email:	0.13291585996490185
+original:	992.0	anonym:	 266.0	lastAmountInvoiced:	0.2316715745956771
+
+
+original:	1970-09-27	anonym:	 1958-10-24	birthday:	0.4452445944445316
+original:	Nümann@H&D_International_Group.de	anonym:	 MARGE4143@yahoo.com	email:	0.7708476836221361
+original:	664.0	anonym:	 27.0	lastAmountInvoiced:	0.18362747299261784
+
+
+original:	1960-11-10	anonym:	 1959-01-09	birthday:	0.4811064766264946
+original:	Tabert@H&T_Greenline_GmbH.de	anonym:	 VIJAY7985@hotmail.com	email:	0.6861181746056623
+original:	268.0	anonym:	 978.0	lastAmountInvoiced:	0.22279412319641756
+
+
+original:	1956-06-06	anonym:	 1999-05-02	birthday:	0.5031882048155074
+original:	Panckow@Hamburger_Pensionsverwaltung_eG.de	anonym:	 CHRIS570@lycos.com	email:	0.7555658997370953
+original:	512.0	anonym:	 737.0	lastAmountInvoiced:	0.024994824701582208
+
+
+original:	1950-03-14	anonym:	 1950-02-08	birthday:	0.4607867812497081
+original:	Böhlen@Haufe-Lexware_Real_Estate_AG.de	anonym:	 RICHARD6092@hotmail.co.uk	email:	0.7988361040351138
+original:	690.0	anonym:	 737.0	lastAmountInvoiced:	0.0011038902643799586
+
+
+original:	1954-08-26	anonym:	 1980-06-23	birthday:	0.5971476022669352
+original:	Meurer@Haufe-Lexware_Real_Estate_AG.de	anonym:	 DAVID1025@yahoo.co.uk	email:	0.7711161084934754
+original:	608.0	anonym:	 638.0	lastAmountInvoiced:	4.498987651857522E-4
+
+
+original:	1962-06-17	anonym:	 1970-12-24	birthday:	0.7801819121734977
+original:	Alsbih@Haufe-Lexware_GmbH_&_Co._KG.de	anonym:	 JULIA3478@gmail.com	email:	0.7284435478418799
+original:	58.0	anonym:	 166.0	lastAmountInvoiced:	0.005815026899736564
+
+
+original:	1951-09-01	anonym:	 1955-10-11	birthday:	0.5895025154875607
+original:	Paulsen@Haufe-Lexware_GmbH_&_Co._KG.de	anonym:	 ANGELA1436@yahoo.com	email:	0.6888695459355096
+original:	209.0	anonym:	 447.0	lastAmountInvoiced:	0.027924691847715732
+
+
+original:	1957-10-31	anonym:	 1990-06-27	birthday:	0.7047903956556115
+original:	Gebhardt@Haufe-Lexware_GmbH_&_Co._KG.de	anonym:	 DAVID6278@hotmail.com	email:	0.7171266725765153
+original:	36.0	anonym:	 134.0	lastAmountInvoiced:	0.004790488830915596
+
+
+original:	1977-06-21	anonym:	 1963-08-06	birthday:	0.7301743273517814
+original:	Spiegel@Haufe-Lexware_GmbH_&_Co._KG.de	anonym:	 CHRIS9360@hotmail.com	email:	0.7196773518147694
+original:	819.0	anonym:	 350.0	lastAmountInvoiced:	0.10414839576751189
+
+
+original:	1981-07-15	anonym:	 1960-12-29	birthday:	0.7809098387308621
+original:	Krebs@Haufe-Lexware_GmbH_&_Co._KG.de	anonym:	 SALLY7409@lycos.com	email:	0.715157515136944
+original:	546.0	anonym:	 136.0	lastAmountInvoiced:	0.08061471431841016
+
+
+original:	1996-04-20	anonym:	 1988-03-20	birthday:	0.24540086105200745
+original:	Lobreyer@Haufe-Lexware_GmbH_&_Co._KG.de	anonym:	 JOHN3475@hotmail.co.uk	email:	0.7124616933522523
+original:	33.0	anonym:	 434.0	lastAmountInvoiced:	0.07725328768592832
+
+
+original:	1994-12-26	anonym:	 1956-10-03	birthday:	0.7105411866654839
+original:	Bock@Haufe-Lexware_GmbH_&_Co._KG.de	anonym:	 RICHARD1270@msn.com	email:	0.7343257764706126
+original:	124.0	anonym:	 632.0	lastAmountInvoiced:	0.12105416117128442
+
+
+original:	1956-04-02	anonym:	 1966-07-05	birthday:	0.7050182895224957
+original:	Kienzler@Haufe-Lexware_GmbH_&_Co._KG.de	anonym:	 ANGELA2259@msn.com	email:	0.6653155353424335
+original:	492.0	anonym:	 524.0	lastAmountInvoiced:	5.118689503668117E-4
+
+
+original:	1976-02-26	anonym:	 1988-09-30	birthday:	0.7357993198697153
+original:	Riesterer@Haufe-Lexware_GmbH_&_Co._KG.de	anonym:	 JEN1236@aol.com	email:	0.5497727013607231
+original:	17.0	anonym:	 179.0	lastAmountInvoiced:	0.013036281898603508
+
+
+original:	1985-12-18	anonym:	 1987-06-10	birthday:	0.7971938108488982
+original:	Rymkuß@Haufe-Lexware_GmbH_&_Co._KG.de	anonym:	 ALLISON1010@hotmail.com	email:	0.7443501894907526
+original:	207.0	anonym:	 456.0	lastAmountInvoiced:	0.030524911661639398
+
+
+original:	1994-09-03	anonym:	 1995-05-23	birthday:	0.8168269566120588
+original:	Banach@HDI-Gerling_Sach_Serviceholding_AG.de	anonym:	 BRIAN468@aol.com	email:	0.7515019906332735
+original:	99.0	anonym:	 923.0	lastAmountInvoiced:	0.287865157523052
+
+
+original:	1962-05-28	anonym:	 1984-09-13	birthday:	0.7611661193935468
+original:	Wille@HDI-Gerling_Sach_Serviceholding_AG.de	anonym:	 IAN7423@yahoo.com	email:	0.6792752904329769
+original:	521.0	anonym:	 93.0	lastAmountInvoiced:	0.08752263562723372
+
+
+original:	1987-05-19	anonym:	 1971-02-06	birthday:	0.7715691123868087
+original:	Volkmer@Heidelberger_Lebensversicherung_AG.de	anonym:	 ANGELA4273@yahoo.com	email:	0.7924280704712385
+original:	552.0	anonym:	 948.0	lastAmountInvoiced:	0.07541288196632046
+
+
+original:	1977-01-15	anonym:	 1969-09-01	birthday:	0.7809110809485819
+original:	Panzer@Heidelberger_Lebensversicherung_AG.de	anonym:	 VIJAY8496@freeserve.com	email:	0.6862264329564447
+original:	856.0	anonym:	 281.0	lastAmountInvoiced:	0.15237122129786418
+
+
+original:	1953-05-18	anonym:	 1974-02-26	birthday:	0.7770962612341704
+original:	Philipp@Heidelberger_Lebensversicherung_AG.de	anonym:	 MARK3438@gmail.com	email:	0.7332238759290804
+original:	633.0	anonym:	 75.0	lastAmountInvoiced:	0.14416869854307401
+
+
+original:	1959-07-19	anonym:	 1962-02-11	birthday:	0.7751590477286222
+original:	Brüwer@Hellmann_Worldwide_Logistics.de	anonym:	 MARGE5871@aol.com	email:	0.7325730294812013
+original:	52.0	anonym:	 111.0	lastAmountInvoiced:	0.0017389862082538565
+
+
+original:	1981-05-15	anonym:	 1971-07-11	birthday:	0.7267152553302846
+original:	Hinrichs@Hellmann_Worldwide_Logistics.de	anonym:	 JAMES5491@yahoo.co.uk	email:	0.7445451486083062
+original:	731.0	anonym:	 856.0	lastAmountInvoiced:	0.007782061739756485
+
+
+original:	1973-07-19	anonym:	 1953-12-12	birthday:	0.7965752308777406
+original:	Ortner@Hewlett-Packard_Ges.m.b.H..de	anonym:	 DAVID379@msn.com	email:	0.6673198614390103
+original:	337.0	anonym:	 938.0	lastAmountInvoiced:	0.1652312177814974
+
+
+original:	1973-10-10	anonym:	 1964-08-26	birthday:	0.7554324605638444
+original:	Korpitsch@Hewlett-Packard_Ltd..de	anonym:	 ANGELA7226@gmail.com	email:	0.736619060821263
+original:	276.0	anonym:	 940.0	lastAmountInvoiced:	0.1978406499366674
+
+
+original:	1981-12-16	anonym:	 1998-07-09	birthday:	0.7745417048985287
+original:	Eitel@Hewlett-Packard_Ltd..de	anonym:	 MARK4459@lycos.com	email:	0.6967930628740229
+original:	636.0	anonym:	 589.0	lastAmountInvoiced:	0.0011038902643799586
+
+
+original:	1949-08-03	anonym:	 1969-06-10	birthday:	0.7514647120165937
+original:	Püst@HHLA_Hamburger_Hafen_und_Logistik_AG.de	anonym:	 BEN6446@yahoo.com	email:	0.7707014358811144
+original:	444.0	anonym:	 544.0	lastAmountInvoiced:	0.00498752080731768
+
+
+original:	1988-05-17	anonym:	 1991-02-04	birthday:	0.7715691117531801
+original:	Kazakova-Frehse@HHLA_Hamburger_Hafen_und_Logistik_AG.de	anonym:	 JOHN3962@msn.com	email:	0.7051288963564504
+original:	773.0	anonym:	 197.0	lastAmountInvoiced:	0.1528588913194988
+
+
+original:	1993-10-16	anonym:	 1972-12-15	birthday:	0.4416336856824825
+original:	Meyer@HHLA_Hamburger_Hafen_und_Logistik_AG.de	anonym:	 FIONA4294@msn.com	email:	0.766843918028926
+original:	755.0	anonym:	 860.0	lastAmountInvoiced:	0.005497334052101177
+
+
+original:	1992-08-13	anonym:	 1994-06-25	birthday:	0.7521938706459949
+original:	Haug@HOTEL_RESERVATION_SERVICE.de	anonym:	 JULIA1983@hotmail.com	email:	0.7917021461070053
+original:	542.0	anonym:	 978.0	lastAmountInvoiced:	0.09067071438504215
+
+
+original:	1992-12-12	anonym:	 1953-09-07	birthday:	0.756937445043639
+original:	Behrschmidt@HOTEL_RESERVATION_SERVICE.de	anonym:	 RICHARD1470@gmail.com	email:	0.7446300793089928
+original:	618.0	anonym:	 157.0	lastAmountInvoiced:	0.10080962152995876
+
+
+original:	1979-05-19	anonym:	 1988-01-28	birthday:	0.800419045667621
+original:	Haelsig@HOTEL_RESERVATION_SERVICE.de	anonym:	 RICHARD900@lycos.com	email:	0.7666549079082574
+original:	578.0	anonym:	 689.0	lastAmountInvoiced:	0.006141563026904717
+
+
+original:	1961-11-30	anonym:	 1992-11-14	birthday:	0.4424016523437822
+original:	Krüger@Hypoport_AG.de	anonym:	 SALLY2688@gmail.com	email:	0.47309413304307707
+original:	514.0	anonym:	 959.0	lastAmountInvoiced:	0.09426861368954098
+
+
+original:	1973-03-03	anonym:	 1976-03-21	birthday:	0.45879620818909345
+original:	Mosch@UniCredit.de	anonym:	 IAN7742@msn.com	email:	0.5753496493354364
+original:	754.0	anonym:	 778.0	lastAmountInvoiced:	2.8795853198104737E-4
+
+
+original:	1967-05-02	anonym:	 1977-09-22	birthday:	0.8168269566120588
+original:	Rueffler@ib-bank-systems_GmbH.de	anonym:	 ANGELA5499@yahoo.co.uk	email:	0.7562419244693093
+original:	785.0	anonym:	 870.0	lastAmountInvoiced:	0.0036059827720655857
+
+
+original:	1959-04-26	anonym:	 1980-01-28	birthday:	0.5445829894388016
+original:	Thorenz@IDC_Central_Europe_GmbH.de	anonym:	 BEN1689@hotmail.co.uk	email:	0.7076657783664
+original:	574.0	anonym:	 254.0	lastAmountInvoiced:	0.04991136619737313
+
+
+original:	1978-09-14	anonym:	 1955-06-14	birthday:	0.41906551281120485
+original:	Turk@Immobilien_Scout_GmbH.de	anonym:	 JEN8705@freeserve.com	email:	0.6838921845868349
+original:	647.0	anonym:	 439.0	lastAmountInvoiced:	0.021399706295562315
+
+
+original:	1996-03-07	anonym:	 1988-08-17	birthday:	0.7809085965207706
+original:	Saller@Infineon_Technologies_AG.de	anonym:	 MARK3636@freeserve.com	email:	0.6753634739583025
+original:	213.0	anonym:	 650.0	lastAmountInvoiced:	0.09106755000253874
+
+
+original:	1993-07-08	anonym:	 1978-11-09	birthday:	0.4613616703412417
+original:	Cornu@Immobilien_Scout_GmbH.de	anonym:	 RICHARD8818@hotmail.com	email:	0.7311144862425244
+original:	558.0	anonym:	 988.0	lastAmountInvoiced:	0.08830520543540954
+
+
+original:	1986-02-22	anonym:	 1949-08-12	birthday:	0.7504756051708722
+original:	Koch@Immobilien_Scout_GmbH.de	anonym:	 JOHN2236@freeserve.com	email:	0.7149459858102247
+original:	148.0	anonym:	 146.0	lastAmountInvoiced:	1.9999979999907325E-6
+
+
+original:	1976-12-16	anonym:	 1957-08-16	birthday:	0.4474659267469177
+original:	Jähn@Immobilien_Scout_GmbH.de	anonym:	 DAVID7614@msn.com	email:	0.7257176116260955
+original:	246.0	anonym:	 198.0	lastAmountInvoiced:	0.0011513367027305987
+
+
+original:	1950-01-09	anonym:	 1990-02-24	birthday:	0.5895037577050813
+original:	Wasik@Immobilien_Scout_GmbH.de	anonym:	 ALLISON1503@freeserve.com	email:	0.7043500416023919
+original:	745.0	anonym:	 905.0	lastAmountInvoiced:	0.012718428409709492
+
+
+original:	1982-12-17	anonym:	 1976-09-06	birthday:	0.7715829995988249
+original:	Weiss@Immobilien_Scout_GmbH.de	anonym:	 JEN165@aol.com	email:	0.6847861445830679
+original:	230.0	anonym:	 241.0	lastAmountInvoiced:	6.0498169911937794E-5
+
+
+original:	1984-09-20	anonym:	 1990-07-06	birthday:	0.7301743273443524
+original:	Paulutz@Informations_Technology_Engineering.de	anonym:	 SALLY9110@aol.com	email:	0.7241136904431626
+original:	394.0	anonym:	 611.0	lastAmountInvoiced:	0.023269490805915005
+
+
+original:	1976-02-14	anonym:	 1980-12-25	birthday:	0.7752720214699922
+original:	Amberg@ING-DiBa_AG.de	anonym:	 BEN4065@gmail.com	email:	0.6170267646425951
+original:	1.0	anonym:	 440.0	lastAmountInvoiced:	0.09186342618407439
+
+
+original:	1982-10-07	anonym:	 1966-12-29	birthday:	0.7105411866654839
+original:	Markovic@ING-DiBa_AG.de	anonym:	 DAVID5700@yahoo.com	email:	0.6610791805527764
+original:	508.0	anonym:	 600.0	lastAmountInvoiced:	0.004223057707042122
+
+
+original:	1979-09-01	anonym:	 1967-06-10	birthday:	0.7771947270110068
+original:	Lingenfelder@ING-DiBa_AG.de	anonym:	 MARGE7630@freeserve.com	email:	0.6487587047420428
+original:	445.0	anonym:	 963.0	lastAmountInvoiced:	0.12555160751138061
+
+
+original:	1976-06-29	anonym:	 1975-02-28	birthday:	0.5226613224171937
+original:	Edler@InMediasP_GmbH.de	anonym:	 JULIA1993@msn.com	email:	0.6837926197761598
+original:	74.0	anonym:	 43.0	lastAmountInvoiced:	4.803845783624139E-4
+
+
+original:	1961-06-05	anonym:	 1991-05-26	birthday:	0.5899526549515489
+original:	Koch@InMediasP_GmbH.de	anonym:	 SALLY8738@yahoo.com	email:	0.5648891979420131
+original:	378.0	anonym:	 542.0	lastAmountInvoiced:	0.013357979631125061
+
+
+original:	1978-10-13	anonym:	 1950-04-10	birthday:	0.6474214759387495
+original:	Baumann@ins_Consulting_GmbH.de	anonym:	 ANGELA4639@yahoo.com	email:	0.7058512400025615
+original:	278.0	anonym:	 793.0	lastAmountInvoiced:	0.12419559943126834
+
+
+original:	1948-09-20	anonym:	 1996-06-14	birthday:	0.7482331277199128
+original:	Beushausen@InterComponentWare_AG.de	anonym:	 IAN563@hotmail.com	email:	0.6854541480167544
+original:	920.0	anonym:	 501.0	lastAmountInvoiced:	0.08403809170182541
+
+
+original:	1958-06-12	anonym:	 1982-02-24	birthday:	0.7503510495377151
+original:	Barkowski@internetcrew.de	anonym:	 JOHN1256@hotmail.com	email:	0.7716344102910575
+original:	713.0	anonym:	 12.0	lastAmountInvoiced:	0.21784355429534663
+
+
+original:	1984-08-13	anonym:	 1998-01-19	birthday:	0.7715830895771424
+original:	Wrba@Intland_Software.de	anonym:	 JULIA7060@freeserve.com	email:	0.3446139242034534
+original:	868.0	anonym:	 264.0	lastAmountInvoiced:	0.16673869955828258
+
+
+original:	1981-03-21	anonym:	 1998-07-29	birthday:	0.7750484690703788
+original:	Heller@ipcas_GmbH.de	anonym:	 RICHARD9131@msn.com	email:	0.28731373293382917
+original:	227.0	anonym:	 555.0	lastAmountInvoiced:	0.05237080712377695
+
+
+original:	1992-05-30	anonym:	 1962-01-31	birthday:	0.49785208645159407
+original:	Marschner@ISD_-_Industrie_Service_für.de	anonym:	 IAN761@lycos.com	email:	0.8117043810098779
+original:	326.0	anonym:	 814.0	lastAmountInvoiced:	0.11225611909856215
+
+
+original:	1972-05-04	anonym:	 1948-12-24	birthday:	0.7504628754827102
+original:	Schmidt@ista_Deutschland_GmbH.de	anonym:	 JOHN3902@gmail.com	email:	0.6960896096327703
+original:	268.0	anonym:	 802.0	lastAmountInvoiced:	0.1328800836990639
+
+
+original:	1989-06-25	anonym:	 1953-04-08	birthday:	0.7053511144114717
+original:	Glöckner@IT_Management_Glöckner.de	anonym:	 JOHN96@lycos.com	email:	0.7356624789847109
+original:	297.0	anonym:	 258.0	lastAmountInvoiced:	7.60210893168245E-4
+
+
+original:	1954-02-09	anonym:	 1981-09-18	birthday:	0.7509123946047568
+original:	Simon@IVV_GmbH.de	anonym:	 ALLISON6568@freeserve.com	email:	0.6002653355525291
+original:	566.0	anonym:	 879.0	lastAmountInvoiced:	0.0478041113796035
+
+
+original:	1951-07-16	anonym:	 1992-05-16	birthday:	0.39684099401865147
+original:	Hübener@Junghans_Wollversand_GmbH_&_Co._KG.de	anonym:	 PETER2629@aol.com	email:	0.6108025604920921
+original:	501.0	anonym:	 308.0	lastAmountInvoiced:	0.018452135724745133
+
+
+original:	1990-01-03	anonym:	 1957-11-13	birthday:	0.7500127353927261
+original:	Wengenmayr@Kabel_Deutschland_GmbH.de	anonym:	 CHRIS5911@hotmail.com	email:	0.6853405557029622
+original:	154.0	anonym:	 747.0	lastAmountInvoiced:	0.16123482629127306
+
+
+original:	1948-04-25	anonym:	 1981-04-17	birthday:	0.41656882340114915
+original:	Grunwald@Karl_Keppler_Maschinenbau_GmbH.de	anonym:	 IAN9118@yahoo.co.uk	email:	0.8107964640590228
+original:	56.0	anonym:	 30.0	lastAmountInvoiced:	3.3794288443522724E-4
+
+
+original:	1956-10-20	anonym:	 1999-03-29	birthday:	0.7504634973584926
+original:	Wendtlandt@KION_Information_Management_Services.de	anonym:	 SALLY9975@yahoo.com	email:	0.6617629790654946
+original:	150.0	anonym:	 856.0	lastAmountInvoiced:	0.22058995652646418
+
+
+original:	1949-05-17	anonym:	 1954-02-17	birthday:	0.4382359339191611
+original:	Steinbruegge@KION_Information_Management_Services.de	anonym:	 ANGELA6744@yahoo.com	email:	0.5777333736983957
+original:	704.0	anonym:	 374.0	lastAmountInvoiced:	0.052994142033014224
+
+
+original:	1958-08-01	anonym:	 1949-05-21	birthday:	0.7968412227966387
+original:	den Haan@KLM.de	anonym:	 ALLISON1019@hotmail.co.uk	email:	0.7962039720679661
+original:	490.0	anonym:	 637.0	lastAmountInvoiced:	0.01074634103783334
+
+
+original:	1972-01-04	anonym:	 1955-06-17	birthday:	0.756100602549842
+original:	Schwarz@Kreditanstalt_für_Wiederaufbau.de	anonym:	 ANGELA4480@yahoo.co.uk	email:	0.7980018310783095
+original:	777.0	anonym:	 786.0	lastAmountInvoiced:	4.049917988602214E-5
+
+
+original:	1962-12-13	anonym:	 1956-09-21	birthday:	0.7714712687088076
+original:	Heßler@Kreditwerk_Schwäbisch_Hall_AG.de	anonym:	 FIONA1589@msn.com	email:	0.7415464182215681
+original:	648.0	anonym:	 795.0	lastAmountInvoiced:	0.01074634103783334
+
+
+original:	1959-12-23	anonym:	 1998-03-23	birthday:	0.44195275509752235
+original:	Weiner@Kreditwerk_Schwäbisch_Hall_AG.de	anonym:	 CHRIS9627@gmail.com	email:	0.7304178345759004
+original:	8.0	anonym:	 595.0	lastAmountInvoiced:	0.1582603358344954
+
+
+original:	1991-02-23	anonym:	 1973-08-22	birthday:	0.4671123009981926
+original:	Rattmann@Kühne_+_Nagel_(AG_&_Co.)_KG.de	anonym:	 CHRIS1299@hotmail.com	email:	0.7624174876076891
+original:	397.0	anonym:	 661.0	lastAmountInvoiced:	0.0342478005639234
+
+
+original:	1974-01-16	anonym:	 1980-04-17	birthday:	0.47741745538990976
+original:	Gresch@Kühne_+_Nagel_(AG_&_Co.)_KG.de	anonym:	 JOHN9065@aol.com	email:	0.729349024455054
+original:	668.0	anonym:	 121.0	lastAmountInvoiced:	0.13895154624531225
+
+
+original:	1994-12-04	anonym:	 1977-10-21	birthday:	0.710990083911748
+original:	Sachse@Kühne_+_Nagel_(AG_&_Co.)_KG.de	anonym:	 JEN1285@hotmail.com	email:	0.7479174904314606
+original:	26.0	anonym:	 995.0	lastAmountInvoiced:	0.3746729586864357
+
+
+original:	1988-07-10	anonym:	 1969-01-17	birthday:	0.7801819121734977
+original:	Fröhling@Kühne_+_Nagel_(AG_&_Co.)_KG.de	anonym:	 PETER9322@hotmail.co.uk	email:	0.7425380327701335
+original:	244.0	anonym:	 571.0	lastAmountInvoiced:	0.052060407737984926
+
+
+original:	1991-07-07	anonym:	 1952-12-05	birthday:	0.5731079596422538
+original:	Finger@LABO_Berlin.de	anonym:	 DAVID5556@yahoo.com	email:	0.4218582073005838
+original:	549.0	anonym:	 578.0	lastAmountInvoiced:	4.204116022658022E-4
+
+
+original:	1954-04-18	anonym:	 1992-11-10	birthday:	0.7555411268607548
+original:	Zurth@LABO_Berlin.de	anonym:	 PAUL7597@lycos.com	email:	0.40320061648380934
+original:	82.0	anonym:	 936.0	lastAmountInvoiced:	0.3055658932647838
+
+
+original:	1977-03-27	anonym:	 1983-02-17	birthday:	0.5731079596422538
+original:	Bernd@LABO_Berlin.de	anonym:	 JAMES4600@lycos.com	email:	0.3344568158268469
+original:	704.0	anonym:	 823.0	lastAmountInvoiced:	0.007055492316983991
+
+
+original:	1949-06-16	anonym:	 1960-07-31	birthday:	0.5534620835637777
+original:	Kastl@Landesamt_für_Steuern_Bayern.de	anonym:	 ANGELA5782@aol.com	email:	0.7970074667435636
+original:	40.0	anonym:	 698.0	lastAmountInvoiced:	0.19465296896123518
+
+
+original:	1993-07-08	anonym:	 1970-03-11	birthday:	0.6477725349952016
+original:	Gaeßler@Landesbank_Baden-Württemberg.de	anonym:	 RICHARD5850@msn.com	email:	0.6718362936586633
+original:	920.0	anonym:	 552.0	lastAmountInvoiced:	0.06547042065702602
+
+
+original:	1952-03-29	anonym:	 1961-02-04	birthday:	0.5983673350718416
+original:	Jahn@Landesbank_Berlin.de	anonym:	 PAUL2313@freeserve.com	email:	0.5028773130163477
+original:	86.0	anonym:	 159.0	lastAmountInvoiced:	0.002660953370572372
+
+
+original:	1948-03-10	anonym:	 1984-03-08	birthday:	0.21451773531478072
+original:	Beermann@Landwirtschaftliche_Rentenbank.de	anonym:	 PETER1569@yahoo.co.uk	email:	0.6443418460827643
+original:	511.0	anonym:	 575.0	lastAmountInvoiced:	0.0020459042789230386
+
+
+original:	1987-03-25	anonym:	 1998-04-21	birthday:	0.5532555739929708
+original:	Schulz@Lighthouse_Technologies.de	anonym:	 BRIAN8357@aol.com	email:	0.7532338790812151
+original:	76.0	anonym:	 982.0	lastAmountInvoiced:	0.33662709769850185
+
+
+original:	1988-02-18	anonym:	 1964-01-15	birthday:	0.445258572054027
+original:	Wirnharter@Linde_AG.de	anonym:	 JULIA5092@hotmail.com	email:	0.3356027396744075
+original:	234.0	anonym:	 79.0	lastAmountInvoiced:	0.011940637957287503
+
+
+original:	1997-08-07	anonym:	 1991-05-21	birthday:	0.787963668447536
+original:	Spring@Loyal_Team_-_Für_verlässliche_Software..de	anonym:	 VIJAY64@yahoo.com	email:	0.6301164976440214
+original:	756.0	anonym:	 912.0	lastAmountInvoiced:	0.012094269242943101
+
+
+original:	1991-01-09	anonym:	 1986-12-07	birthday:	0.5730953795276974
+original:	Breuer@LUNAR_GmbH_-_GB_EITEG.de	anonym:	 BRIAN9084@lycos.com	email:	0.6847188764158216
+original:	417.0	anonym:	 717.0	lastAmountInvoiced:	0.04400251816690004
+
+
+original:	1956-01-13	anonym:	 1969-11-27	birthday:	0.7757349856694874
+original:	Hansen@LUNAR_GmbH_-_GB_EITEG.de	anonym:	 JAMES4357@hotmail.co.uk	email:	0.7593005780832192
+original:	560.0	anonym:	 535.0	lastAmountInvoiced:	3.1245117696088176E-4
+
+
+original:	1978-07-03	anonym:	 1993-02-26	birthday:	0.7556378831943503
+original:	Gudd@Marquard_&_Bahls_AG.de	anonym:	 BRIAN8388@gmail.com	email:	0.7493123063316802
+original:	105.0	anonym:	 350.0	lastAmountInvoiced:	0.029566596944845425
+
+
+original:	1974-12-22	anonym:	 1980-02-28	birthday:	0.7715830895847748
+original:	Frikin@Marquard_&_Bahls_AG.de	anonym:	 BEN2476@gmail.com	email:	0.6970086474601078
+original:	815.0	anonym:	 429.0	lastAmountInvoiced:	0.07179066952421209
+
+
+original:	1987-12-08	anonym:	 1954-03-04	birthday:	0.7058139886326492
+original:	Büssow@Matrix42_AG.de	anonym:	 SALLY7260@msn.com	email:	0.6883982003482874
+original:	93.0	anonym:	 928.0	lastAmountInvoiced:	0.29433347692563117
+
+
+original:	1967-09-17	anonym:	 1972-05-29	birthday:	0.7751604401459478
+original:	Wilcken@MCM_Klosterfrau_Vertriebsges._mbH.de	anonym:	 BEN6891@aol.com	email:	0.686322360691884
+original:	209.0	anonym:	 53.0	lastAmountInvoiced:	0.012094269242943101
+
+
+original:	1995-05-14	anonym:	 1996-12-23	birthday:	0.8169254223812629
+original:	Steppich@MCS_Labordatensysteme_GmbH_&_Co._KG.de	anonym:	 RICHARD7949@gmail.com	email:	0.6836184759068049
+original:	822.0	anonym:	 682.0	lastAmountInvoiced:	0.009752136481765317
+
+
+original:	1966-12-13	anonym:	 1966-02-24	birthday:	0.6666665766807166
+original:	Kölle@Medien-_und_Datentechnik.de	anonym:	 SALLY6036@freeserve.com	email:	0.759057905184723
+original:	334.0	anonym:	 824.0	lastAmountInvoiced:	0.11312390819604623
+
+
+original:	1960-04-02	anonym:	 1948-09-16	birthday:	0.7556377279095029
+original:	Hönicke@Mentaltec®_Ltd..de	anonym:	 BRIAN2763@lycos.com	email:	0.6570707491321264
+original:	349.0	anonym:	 366.0	lastAmountInvoiced:	1.4448956037782512E-4
+
+
+original:	1979-12-01	anonym:	 1959-10-26	birthday:	0.7521938757226546
+original:	Kirchner@Merck_KGaA.de	anonym:	 VIJAY710@aol.com	email:	0.6324233152559048
+original:	221.0	anonym:	 400.0	lastAmountInvoiced:	0.015892854347987706
+
+
+original:	1965-08-18	anonym:	 1985-11-10	birthday:	0.7934908170794773
+original:	Roth@Merck_KGaA.de	anonym:	 MARGE6212@gmail.com	email:	0.24496656534149497
+original:	137.0	anonym:	 701.0	lastAmountInvoiced:	0.14704458387346286
+
+
+original:	1980-12-09	anonym:	 1986-10-06	birthday:	0.6383374171029282
+original:	Zeller@Messe_München_GmbH.de	anonym:	 FIONA3295@gmail.com	email:	0.6845519892196843
+original:	674.0	anonym:	 430.0	lastAmountInvoiced:	0.029329296969058616
+
+
+original:	1990-09-04	anonym:	 1948-05-08	birthday:	0.7047765733223775
+original:	Morgenstern@Metro_AG.de	anonym:	 BRIAN4148@hotmail.co.uk	email:	0.18937243342387752
+original:	600.0	anonym:	 828.0	lastAmountInvoiced:	0.025657115679355025
+
+
+original:	1989-07-28	anonym:	 1987-05-27	birthday:	0.4580282415277895
+original:	Wintergrün@Metro_AG.de	anonym:	 PAUL5748@aol.com	email:	0.5441152385814053
+original:	207.0	anonym:	 672.0	lastAmountInvoiced:	0.10247338099407688
+
+
+original:	1960-02-14	anonym:	 1989-06-18	birthday:	0.7104153881800205
+original:	Hamacher@Metro_AG.de	anonym:	 MARK2559@gmail.com	email:	0.42776033091876364
+original:	435.0	anonym:	 421.0	lastAmountInvoiced:	9.799519815689717E-5
+
+
+original:	1983-12-18	anonym:	 1962-08-23	birthday:	0.7661536155391153
+original:	Gianonatti@Metro_AG.de	anonym:	 SALLY9007@yahoo.com	email:	0.601831960822854
+original:	952.0	anonym:	 521.0	lastAmountInvoiced:	0.08869760557427941
+
+
+original:	1965-06-07	anonym:	 1966-04-02	birthday:	0.7571813718680196
+original:	Houben@Metro_AG.de	anonym:	 IAN5803@hotmail.co.uk	email:	0.4832946909097887
+original:	887.0	anonym:	 670.0	lastAmountInvoiced:	0.023269490805915005
+
+
+original:	1952-02-22	anonym:	 1950-03-14	birthday:	0.5950169293546802
+original:	Hagen Drechsler@MGI_METRO_Group_Information.de	anonym:	 RICHARD4414@hotmail.com	email:	0.7103399129472591
+original:	915.0	anonym:	 246.0	lastAmountInvoiced:	0.20050939670163037
+
+
+original:	1953-10-16	anonym:	 1999-12-07	birthday:	0.7048888620660766
+original:	Hilse@MGID_mbH.de	anonym:	 ALLISON710@hotmail.com	email:	0.759850498131759
+original:	67.0	anonym:	 387.0	lastAmountInvoiced:	0.04991136619737313
+
+
+original:	1949-01-22	anonym:	 1978-12-15	birthday:	0.7750058219710589
+original:	Burg@MGS_METRO_Group_Solutions.de	anonym:	 JOHN6133@yahoo.co.uk	email:	0.7187516725882452
+original:	681.0	anonym:	 247.0	lastAmountInvoiced:	0.08987925367106797
+
+
+original:	1988-06-30	anonym:	 1962-02-10	birthday:	0.7555271498934739
+original:	Schiffer@Michael_Bailey_Associates_GMBH.de	anonym:	 VIJAY1564@aol.com	email:	0.7188860992018046
+original:	731.0	anonym:	 289.0	lastAmountInvoiced:	0.09306273604784387
+
+
+original:	1994-10-10	anonym:	 1956-09-28	birthday:	0.5534760611734769
+original:	Müller@microTOOL_GmbH.de	anonym:	 IAN6533@gmail.com	email:	0.6988673914923368
+original:	310.0	anonym:	 196.0	lastAmountInvoiced:	0.006476933652406647
+
+
+original:	1960-02-18	anonym:	 1965-10-26	birthday:	0.7915550010679104
+original:	Seidler@microTOOL_GmbH.de	anonym:	 ANGELA3933@hotmail.co.uk	email:	0.3044166487757397
+original:	943.0	anonym:	 831.0	lastAmountInvoiced:	0.0062523720649085845
+
+
+original:	1977-07-14	anonym:	 1951-05-05	birthday:	0.7105138545914395
+original:	Leuschel@MID_GmbH.de	anonym:	 DAVID9798@msn.com	email:	0.5306691363431073
+original:	876.0	anonym:	 770.0	lastAmountInvoiced:	0.005602248549021693
+
+
+original:	1997-06-08	anonym:	 1959-03-15	birthday:	0.7512207851922131
+original:	Förster@msg_systems_ag.de	anonym:	 DAVID3903@yahoo.com	email:	0.6836168212653095
+original:	304.0	anonym:	 611.0	lastAmountInvoiced:	0.04603137889663911
+
+
+original:	1982-10-01	anonym:	 1969-11-20	birthday:	0.5534620835649351
+original:	Kobras@Nash_Technologies_GmbH.de	anonym:	 JULIA7953@yahoo.co.uk	email:	0.6958101925997773
+original:	400.0	anonym:	 865.0	lastAmountInvoiced:	0.10247338099407688
+
+
+original:	1962-09-13	anonym:	 1977-07-11	birthday:	0.5279836184488266
+original:	Arnold@Nash_Technologies_GmbH.de	anonym:	 RICHARD3556@lycos.com	email:	0.6971614987869011
+original:	454.0	anonym:	 527.0	lastAmountInvoiced:	0.002660953370572372
+
+
+original:	1988-12-18	anonym:	 1984-08-09	birthday:	0.791555468301064
+original:	Bernhardt@nc_software_AG.de	anonym:	 FIONA3611@gmail.com	email:	0.717273300768515
+original:	545.0	anonym:	 732.0	lastAmountInvoiced:	0.017332533107232373
+
+
+original:	1951-12-07	anonym:	 1959-12-28	birthday:	0.45833333333333387
+original:	Track@ncc_solutions_GmbH.de	anonym:	 JAMES9977@yahoo.com	email:	0.7095356445950363
+original:	417.0	anonym:	 944.0	lastAmountInvoiced:	0.12965404765472943
+
+
+original:	1984-10-07	anonym:	 1974-04-13	birthday:	0.8132357735652858
+original:	Barthel@Nemetschek_CREM_Solutions.de	anonym:	 PETER8399@yahoo.co.uk	email:	0.7284188664059822
+original:	492.0	anonym:	 319.0	lastAmountInvoiced:	0.014853088302330453
+
+
+original:	1968-04-14	anonym:	 1967-05-11	birthday:	0.5065444017976987
+original:	Pak@Nemetschek_CREM_Solutions.de	anonym:	 JULIA7824@gmail.com	email:	0.7955436440882996
+original:	507.0	anonym:	 11.0	lastAmountInvoiced:	0.1157434115201833
+
+
+original:	1991-06-15	anonym:	 1974-08-21	birthday:	0.7072870850656673
+original:	Tutass@NETRADA_Management_GmbH.de	anonym:	 ALLISON7807@yahoo.com	email:	0.6992227765707894
+original:	695.0	anonym:	 298.0	lastAmountInvoiced:	0.07577940809001493
+
+
+original:	1980-03-27	anonym:	 1957-06-13	birthday:	0.7467598760030011
+original:	Steinbach@Citrix_Online_Germany_GmbH.de	anonym:	 JEN7447@yahoo.co.uk	email:	0.7455290762364701
+original:	719.0	anonym:	 159.0	lastAmountInvoiced:	0.14512498327533052
+
+
+original:	1988-10-31	anonym:	 1983-02-09	birthday:	0.7916668219438779
+original:	Werner@No_Limit_IT_-_Services_Kiel_GbR.de	anonym:	 MARK7233@yahoo.co.uk	email:	0.7303317409679515
+original:	316.0	anonym:	 882.0	lastAmountInvoiced:	0.14800787912936364
+
+
+original:	1982-05-17	anonym:	 1975-03-09	birthday:	0.7305114037222814
+original:	Wagner@Telefonica_Global_Service_GmbH.de	anonym:	 JAMES8187@msn.com	email:	0.7156205572233793
+original:	659.0	anonym:	 613.0	lastAmountInvoiced:	0.0010574405153289668
+
+
+original:	1960-11-01	anonym:	 1978-08-03	birthday:	0.5693922254044017
+original:	Wocheslander-Burgmair@Telefonica_Global_Service_GmbH.de	anonym:	 JEN9230@yahoo.com	email:	0.7192162939727509
+original:	212.0	anonym:	 578.0	lastAmountInvoiced:	0.06478422414247509
+
+
+original:	1993-03-06	anonym:	 1964-04-07	birthday:	0.27939246491137687
+original:	Heynck@OBI_Smart_Technologies_GmbH.de	anonym:	 JULIA8731@hotmail.com	email:	0.64618985379625
+original:	786.0	anonym:	 543.0	lastAmountInvoiced:	0.029092909873909667
+
+
+original:	1998-05-03	anonym:	 1985-12-06	birthday:	0.6675174965500376
+original:	Schütz@Osram_Opto_Semiconductors_GmbH.de	anonym:	 PAUL3281@freeserve.com	email:	0.6960517219030614
+original:	906.0	anonym:	 135.0	lastAmountInvoiced:	0.25711981078062074
+
+
+original:	1997-06-09	anonym:	 1977-03-27	birthday:	0.7936026379554448
+original:	Greiner@Otto_(GmbH_&_Co_KG).de	anonym:	 RICHARD3663@msn.com	email:	0.7732383138869785
+original:	343.0	anonym:	 411.0	lastAmountInvoiced:	0.0023093293865492637
+
+
+original:	1971-10-21	anonym:	 1980-07-09	birthday:	0.7968412177199787
+original:	Noedler@Otto_(GmbH_&_Co_KG).de	anonym:	 BEN8807@freeserve.com	email:	0.7360374310628957
+original:	434.0	anonym:	 29.0	lastAmountInvoiced:	0.07873955713116099
+
+
+original:	1974-05-16	anonym:	 1987-07-31	birthday:	0.7306232245980455
+original:	Malessa@Otto_(GmbH_&_Co_KG).de	anonym:	 CHRIS9795@msn.com	email:	0.7156472432547858
+original:	640.0	anonym:	 896.0	lastAmountInvoiced:	0.03223694542473188
+
+
+original:	1985-05-28	anonym:	 1988-03-28	birthday:	0.41368444711022256
+original:	Berning@Otto_(GmbH_&_Co_KG).de	anonym:	 VIJAY5721@gmail.com	email:	0.7462638374392422
+original:	244.0	anonym:	 918.0	lastAmountInvoiced:	0.20318918518988582
+
+
+original:	1984-03-21	anonym:	 1959-04-24	birthday:	0.4400686544426479
+original:	Heuer@P3_communications_GmbH.de	anonym:	 JOHN7531@yahoo.co.uk	email:	0.7271796435670146
+original:	40.0	anonym:	 896.0	lastAmountInvoiced:	0.3067523608683874
+
+
+original:	1980-06-14	anonym:	 1987-09-14	birthday:	0.4546303344882066
+original:	El-Tahwagi@P3_communications_GmbH.de	anonym:	 CHRIS1506@gmail.com	email:	0.6745063505481457
+original:	236.0	anonym:	 35.0	lastAmountInvoiced:	0.019997836826443516
+
+
+original:	1961-11-10	anonym:	 1973-03-18	birthday:	0.7807992600802468
+original:	Schmidt@P3_communications_GmbH.de	anonym:	 JAMES8247@msn.com	email:	0.7010915678098619
+original:	497.0	anonym:	 361.0	lastAmountInvoiced:	0.009205368767097544
+
+
+original:	1991-04-13	anonym:	 1965-08-17	birthday:	0.7052532705104176
+original:	Dienes@parcIT_GmbH.de	anonym:	 RICHARD8887@lycos.com	email:	0.2167727231090683
+original:	980.0	anonym:	 505.0	lastAmountInvoiced:	0.10668185843431743
+
+
+original:	1995-11-06	anonym:	 1998-04-22	birthday:	0.7921295415147901
+original:	Schmidt@parcIT_GmbH.de	anonym:	 MARK7965@hotmail.co.uk	email:	0.16266210176645501
+original:	941.0	anonym:	 579.0	lastAmountInvoiced:	0.06342155819274553
+
+
+original:	1985-11-20	anonym:	 1988-02-14	birthday:	0.7884265426763459
+original:	Herhold@Parexel_GmbH.de	anonym:	 ALLISON908@lycos.com	email:	0.5822302335036289
+original:	187.0	anonym:	 476.0	lastAmountInvoiced:	0.04090054261236753
+
+
+original:	1960-02-26	anonym:	 1986-12-28	birthday:	0.5534620841985635
+original:	Herdt@PASS_Consulting_Group.de	anonym:	 PAUL2438@aol.com	email:	0.6849300111288379
+original:	294.0	anonym:	 613.0	lastAmountInvoiced:	0.04960776438106562
+
+
+original:	1971-05-21	anonym:	 1998-01-25	birthday:	0.7104153881809746
+original:	Zeilinger@Apollo_-_Optik_Holding_GmbH_&_Co._KG.de	anonym:	 BEN4858@lycos.com	email:	0.675724211659162
+original:	511.0	anonym:	 936.0	lastAmountInvoiced:	0.08635437360327103
+
+
+original:	1998-05-26	anonym:	 1970-08-22	birthday:	0.7068242102099077
+original:	Kiesewetter@PHOENIX_TESTLAB_GmbH.de	anonym:	 PETER5362@hotmail.co.uk	email:	0.7748058899480738
+original:	928.0	anonym:	 412.0	lastAmountInvoiced:	0.12464696025151478
+
+
+original:	1977-12-27	anonym:	 1964-09-11	birthday:	0.7720319868310348
+original:	Fischer@Plath_GmbH.de	anonym:	 ANGELA3688@hotmail.co.uk	email:	0.44822589076968233
+original:	964.0	anonym:	 776.0	lastAmountInvoiced:	0.017516765984902705
+
+
+original:	1996-06-08	anonym:	 1990-05-13	birthday:	0.5748441361892356
+original:	Ruder@Polarion_Software_GmbH.de	anonym:	 JULIA8676@yahoo.com	email:	0.642750929289754
+original:	9.0	anonym:	 990.0	lastAmountInvoiced:	0.38194665099534164
+
+
+original:	1964-05-19	anonym:	 1951-05-05	birthday:	0.442401652336154
+original:	Ziemann@Porsche_AG.de	anonym:	 MARGE9055@freeserve.com	email:	0.39149715831860155
+original:	411.0	anonym:	 766.0	lastAmountInvoiced:	0.06106826303093327
+
+
+original:	1958-09-19	anonym:	 1959-04-07	birthday:	0.8169375301936425
+original:	Vetter@Porsche_AG.de	anonym:	 MARGE4408@gmail.com	email:	0.321665450473229
+original:	158.0	anonym:	 228.0	lastAmountInvoiced:	0.002447001199520349
+
+
+original:	1997-12-12	anonym:	 1992-01-11	birthday:	0.49750118774901697
+original:	Töwe@PPI_AG_Informationstechnologie.de	anonym:	 VIJAY3241@gmail.com	email:	0.6753883595143242
+original:	736.0	anonym:	 722.0	lastAmountInvoiced:	9.799519815689717E-5
+
+
+original:	1983-11-13	anonym:	 1993-01-14	birthday:	0.5227731432931613
+original:	Sniadach@ppi_Media_GmbH.de	anonym:	 FIONA3182@yahoo.com	email:	0.719569429048172
+original:	340.0	anonym:	 235.0	lastAmountInvoiced:	0.005497334052101177
+
+
+original:	1967-08-07	anonym:	 1991-06-03	birthday:	0.6602393533326008
+original:	Herzfeld@Procter_&_Gamble_Service_GmbH.de	anonym:	 MARK7301@yahoo.com	email:	0.5977025682509381
+original:	832.0	anonym:	 8.0	lastAmountInvoiced:	0.287865157523052
+
+
+original:	1966-09-16	anonym:	 1978-04-24	birthday:	0.780798017862527
+original:	Leber@Procter_&_Gamble_Service_GmbH.de	anonym:	 RICHARD1367@aol.com	email:	0.6976831591991527
+original:	981.0	anonym:	 387.0	lastAmountInvoiced:	0.16173248572682364
+
+
+original:	1974-07-21	anonym:	 1975-08-24	birthday:	0.5065444017976987
+original:	Frenzel@PROLOGA_GmbH.de	anonym:	 PAUL9231@yahoo.co.uk	email:	0.4067576537444866
+original:	692.0	anonym:	 136.0	lastAmountInvoiced:	0.14321477123439175
+
+
+original:	1948-12-22	anonym:	 1952-12-01	birthday:	0.4419387781226089
+original:	Roof@PSIPENTA_Software_Systems_GmbH.de	anonym:	 CHRIS8562@lycos.com	email:	0.6940055768516447
+original:	763.0	anonym:	 364.0	lastAmountInvoiced:	0.07651479495837221
+
+
+original:	1998-02-08	anonym:	 1987-03-15	birthday:	0.5976381713657807
+original:	Andre@PTV_Planung_Transport_Verkehr_AG.de	anonym:	 BEN312@gmail.com	email:	0.5913919625647234
+original:	580.0	anonym:	 542.0	lastAmountInvoiced:	7.217394207165162E-4
+
+
+original:	1976-07-06	anonym:	 1994-10-09	birthday:	0.6493574523041871
+original:	Hagemeyer@Pumacy_Technologies_AG.de	anonym:	 BRIAN5652@lycos.com	email:	0.7116674598175463
+original:	685.0	anonym:	 936.0	lastAmountInvoiced:	0.031009528041617385
+
+
+original:	1980-03-25	anonym:	 1953-03-10	birthday:	0.41759241637798344
+original:	Fieber@qme_Software_GmbH.de	anonym:	 PAUL4205@gmail.com	email:	0.676487557678289
+original:	495.0	anonym:	 399.0	lastAmountInvoiced:	0.004597399456685025
+
+
+original:	1984-04-12	anonym:	 1959-02-13	birthday:	0.41118563485923953
+original:	Pinell@Rechenzentrum_der_Finanzverwaltung_NRW.de	anonym:	 MARK8556@msn.com	email:	0.7211526530795725
+original:	757.0	anonym:	 850.0	lastAmountInvoiced:	0.004315162814277351
+
+
+original:	1963-03-17	anonym:	 1950-11-20	birthday:	0.6675174965576657
+original:	Bründer@RIB_Information_Technologies_AG.de	anonym:	 BRIAN3545@msn.com	email:	0.6413120009832537
+original:	462.0	anonym:	 571.0	lastAmountInvoiced:	0.005922890117632584
+
+
+original:	1955-06-11	anonym:	 1998-10-26	birthday:	0.7503650315890852
+original:	Wenzel@RightNow_Technologies.de	anonym:	 MARGE8080@hotmail.co.uk	email:	0.6895435009638109
+original:	653.0	anonym:	 915.0	lastAmountInvoiced:	0.033739681283364575
+
+
+original:	1964-10-14	anonym:	 1992-11-22	birthday:	0.5538131375437736
+original:	Robbin@Robbin_&_Wallusch_GmbH.de	anonym:	 DAVID48@aol.com	email:	0.6243338651787751
+original:	134.0	anonym:	 356.0	lastAmountInvoiced:	0.024340864515892457
+
+
+original:	1993-02-21	anonym:	 1986-07-30	birthday:	0.7757203883602649
+original:	Weiss@Roche_Diagnostics_GmbH.de	anonym:	 PETER1924@yahoo.co.uk	email:	0.7217916504769838
+original:	345.0	anonym:	 498.0	lastAmountInvoiced:	0.011636268803334682
+
+
+original:	1952-07-02	anonym:	 1962-02-06	birthday:	0.7718257741914315
+original:	Eickel@ROHDE_&_SCHWARZ_GmbH_&_Co._KG.de	anonym:	 ALLISON4387@aol.com	email:	0.750508664630497
+original:	839.0	anonym:	 251.0	lastAmountInvoiced:	0.15875471264978336
+
+
+original:	1954-04-26	anonym:	 1969-06-02	birthday:	0.7301605050197043
+original:	Wernsdorf@ROHDE_&_SCHWARZ_SIT_GmbH.de	anonym:	 MARGE2042@aol.com	email:	0.6412369225698189
+original:	30.0	anonym:	 896.0	lastAmountInvoiced:	0.31269560067856916
+
+
+original:	1964-07-23	anonym:	 1964-04-26	birthday:	0.554746178701136
+original:	Kopp@RWE_Supply_&_Trading_GmbH.de	anonym:	 RICHARD8772@msn.com	email:	0.668504429605341
+original:	304.0	anonym:	 340.0	lastAmountInvoiced:	6.477900933422598E-4
+
+
+original:	1978-11-22	anonym:	 1956-09-01	birthday:	0.7161661791908468
+original:	Hofmeier@SAG_Deutschland_GmbH.de	anonym:	 DAVID8978@msn.com	email:	0.6752328237173818
+original:	859.0	anonym:	 272.0	lastAmountInvoiced:	0.1582603358344954
+
+
+original:	1998-03-03	anonym:	 1978-04-17	birthday:	0.5951287502230153
+original:	Jank@Samhammer_AG.de	anonym:	 ALLISON988@freeserve.com	email:	0.6174109509858748
+original:	248.0	anonym:	 783.0	lastAmountInvoiced:	0.13334343545253935
+
+
+original:	1977-09-09	anonym:	 1997-07-22	birthday:	0.7521938754996018
+original:	Bergen@Sanofi~Aventis_Deutschland_GmbH.de	anonym:	 BEN1171@yahoo.co.uk	email:	0.5925790236311484
+original:	929.0	anonym:	 344.0	lastAmountInvoiced:	0.15727323862211529
+
+
+original:	1974-08-04	anonym:	 1954-11-17	birthday:	0.793602637732392
+original:	Anton@Sanofi~Aventis_Deutschland_GmbH.de	anonym:	 MARK3354@yahoo.co.uk	email:	0.723400653398262
+original:	709.0	anonym:	 227.0	lastAmountInvoiced:	0.10966902200451667
+
+
+original:	1956-05-26	anonym:	 1962-02-16	birthday:	0.7715818473670509
+original:	Adlon@SAP_AG.de	anonym:	 JOHN8316@freeserve.com	email:	0.6081005721195059
+original:	764.0	anonym:	 176.0	lastAmountInvoiced:	0.15875471264978336
+
+
+original:	1997-01-27	anonym:	 1989-10-11	birthday:	0.7809110809562143
+original:	Helfen@SAP_AG.de	anonym:	 JULIA8735@yahoo.com	email:	0.5887175259423509
+original:	380.0	anonym:	 789.0	lastAmountInvoiced:	0.08023814894742598
+
+
+original:	1961-12-05	anonym:	 1964-12-24	birthday:	0.45879620818909345
+original:	Schwittay@SAP_AG.de	anonym:	 FIONA688@lycos.com	email:	0.2727165562906063
+original:	231.0	anonym:	 61.0	lastAmountInvoiced:	0.014346099804654733
+
+
+original:	1987-05-25	anonym:	 1996-11-06	birthday:	0.8005442165660596
+original:	Scheer@SAP_UK.de	anonym:	 MARK2110@yahoo.co.uk	email:	0.7256416075141161
+original:	578.0	anonym:	 643.0	lastAmountInvoiced:	0.002110270242272394
+
+
+original:	1994-05-13	anonym:	 1979-09-27	birthday:	0.7555273045284744
+original:	Vogel@Sartorius_Mechatronics_AG.de	anonym:	 ALLISON1450@yahoo.co.uk	email:	0.7524339543414345
+original:	747.0	anonym:	 516.0	lastAmountInvoiced:	0.026327719873225353
+
+
+original:	1988-12-31	anonym:	 1948-08-31	birthday:	0.45823549006686176
+original:	Gowasch@Schering_GmbH_und_Co._Produktions_KG.de	anonym:	 FIONA5992@lycos.com	email:	0.7384542951528674
+original:	848.0	anonym:	 488.0	lastAmountInvoiced:	0.06274510438732228
+
+
+original:	1956-09-01	anonym:	 1984-08-29	birthday:	0.5539249584197411
+original:	Bielefeld@Schindler_Aufzüge_und_Fahrtreppen_GmbH.de	anonym:	 MARK8598@freeserve.com	email:	0.7484108228639886
+original:	933.0	anonym:	 474.0	lastAmountInvoiced:	0.09998198572767314
+
+
+original:	1976-06-15	anonym:	 1960-06-04	birthday:	0.44193868813665876
+original:	Lippert@Schmitt_Stumpf_Frühauf_und_Partner.de	anonym:	 PETER1233@hotmail.com	email:	0.7191968638971675
+original:	612.0	anonym:	 193.0	lastAmountInvoiced:	0.08403809170182541
+
+
+original:	1977-11-14	anonym:	 1973-07-10	birthday:	0.7464570623213241
+original:	von Komorowski@Schüco_International_KG.de	anonym:	 JULIA5671@yahoo.co.uk	email:	0.7578096827730627
+original:	942.0	anonym:	 21.0	lastAmountInvoiced:	0.34565497141790313
+
+
+original:	1965-11-17	anonym:	 1959-12-04	birthday:	0.5731092016369249
+original:	Hirche@SCREEN_-_TRAINING_-_BERATUNG.de	anonym:	 SALLY4785@freeserve.com	email:	0.7911028000558533
+original:	975.0	anonym:	 495.0	lastAmountInvoiced:	0.1088121114958156
+
+
+original:	1976-09-19	anonym:	 1957-10-13	birthday:	0.5750311955392601
+original:	Wachter@SEW-EURODRIVE_GmbH_&_Co_KG.de	anonym:	 DAVID1717@freeserve.com	email:	0.7097877316376909
+original:	453.0	anonym:	 607.0	lastAmountInvoiced:	0.011787970992632513
+
+
+original:	1962-09-09	anonym:	 1978-10-13	birthday:	0.5279834638061935
+original:	Baumann@SEW-EURODRIVE_GmbH_&_Co_KG.de	anonym:	 FIONA1205@lycos.com	email:	0.6662235819932144
+original:	310.0	anonym:	 676.0	lastAmountInvoiced:	0.06478422414247509
+
+
+original:	1952-05-12	anonym:	 1953-04-05	birthday:	0.6140327272110876
+original:	Wolff@SEW-EURODRIVE_GmbH_&_Co_KG.de	anonym:	 BRIAN1887@aol.com	email:	0.7299686960423228
+original:	625.0	anonym:	 279.0	lastAmountInvoiced:	0.058101726356662886
+
+
+original:	1990-04-24	anonym:	 1980-09-03	birthday:	0.8169375352703024
+original:	Goetz@Siemens_AG.de	anonym:	 BRIAN440@freeserve.com	email:	0.5675139523320323
+original:	141.0	anonym:	 499.0	lastAmountInvoiced:	0.06207191372574539
+
+
+original:	1985-09-09	anonym:	 1974-06-13	birthday:	0.7517294617177678
+original:	Zimmermann@Siemens_AG.de	anonym:	 JAMES2730@msn.com	email:	0.737565513850047
+original:	650.0	anonym:	 940.0	lastAmountInvoiced:	0.041178161717976836
+
+
+original:	1990-10-05	anonym:	 1952-06-11	birthday:	0.7518381280223067
+original:	Landowsky@softventure_IT_Solutions_GbR.de	anonym:	 JAMES5286@hotmail.com	email:	0.6881532560797305
+original:	302.0	anonym:	 404.0	lastAmountInvoiced:	0.005188493029236851
+
+
+original:	1958-07-01	anonym:	 1958-06-16	birthday:	0.46448978009558545
+original:	Karamelski@Software_AG.de	anonym:	 JEN3248@lycos.com	email:	0.7320731803063689
+original:	577.0	anonym:	 101.0	lastAmountInvoiced:	0.10710653023690941
+
+
+original:	1997-01-13	anonym:	 1952-09-08	birthday:	0.7353684883455713
+original:	Hildebrandt@Software_AG.de	anonym:	 JAMES2358@lycos.com	email:	0.6711356017375393
+original:	498.0	anonym:	 444.0	lastAmountInvoiced:	0.0014569376343723794
+
+
+original:	1971-01-27	anonym:	 1973-12-14	birthday:	0.7973056365784728
+original:	Stelzer@Software_AG.de	anonym:	 VIJAY9682@gmail.com	email:	0.580697083808631
+original:	195.0	anonym:	 955.0	lastAmountInvoiced:	0.25083797717500733
+
+
+original:	1980-06-05	anonym:	 1950-03-31	birthday:	0.7884265426763459
+original:	Heller@Software_Process_Consulting.de	anonym:	 ALLISON9500@hotmail.co.uk	email:	0.7496344937551793
+original:	518.0	anonym:	 667.0	lastAmountInvoiced:	0.011039116787937564
+
+
+original:	1964-04-07	anonym:	 1968-12-22	birthday:	0.7916806442759551
+original:	Birk@Software.Process.Management.de	anonym:	 DAVID534@freeserve.com	email:	0.6862797520220956
+original:	398.0	anonym:	 110.0	lastAmountInvoiced:	0.04062380250106967
+
+
+original:	1956-04-26	anonym:	 1990-10-16	birthday:	0.7500127309496945
+original:	Bleil@Sony_Europe_GmbH.de	anonym:	 JOHN3751@yahoo.co.uk	email:	0.671374837384114
+original:	389.0	anonym:	 484.0	lastAmountInvoiced:	0.004502333969028438
+
+
+original:	1968-03-06	anonym:	 1959-01-25	birthday:	0.7554324605638486
+original:	Ginz@STADA_Arzneimittel_AG.de	anonym:	 MARGE7354@lycos.com	email:	0.7094096908668734
+original:	762.0	anonym:	 271.0	lastAmountInvoiced:	0.11355881424964698
+
+
+original:	1970-07-15	anonym:	 1990-06-12	birthday:	0.4869112611111978
+original:	Rosenberg@Star_Alliance_Services_GmbH.de	anonym:	 JOHN5873@lycos.com	email:	0.7341267191823817
+original:	359.0	anonym:	 483.0	lastAmountInvoiced:	0.0076585229163108615
+
+
+original:	1981-04-26	anonym:	 1980-02-21	birthday:	0.7571813718680196
+original:	Götz@Steuerbevollmächtigter.de	anonym:	 CHRIS3455@yahoo.co.uk	email:	0.7137030340682748
+original:	571.0	anonym:	 825.0	lastAmountInvoiced:	0.03174326038791475
+
+
+original:	1969-06-15	anonym:	 1961-11-01	birthday:	0.7916654244413106
+original:	Büchner@STQS_-_Softwaretest_und.de	anonym:	 DAVID3067@yahoo.com	email:	0.7134493381168177
+original:	128.0	anonym:	 138.0	lastAmountInvoiced:	4.999875002087428E-5
+
+
+original:	1954-12-08	anonym:	 1976-10-28	birthday:	0.7161661791908468
+original:	Zechmeister@STRATEC_Biomedical_Systems_AG.de	anonym:	 CHRIS9282@msn.com	email:	0.7118241104236899
+original:	274.0	anonym:	 193.0	lastAmountInvoiced:	0.003275125039001292
+
+
+original:	1996-07-04	anonym:	 1972-02-01	birthday:	0.6474342164071808
+original:	Stangenberg@Stryker_Leibinger_GmbH_&_Co._KG.de	anonym:	 FIONA8382@hotmail.co.uk	email:	0.8182082430701686
+original:	803.0	anonym:	 349.0	lastAmountInvoiced:	0.09792534836559719
+
+
+original:	1969-12-13	anonym:	 1950-08-28	birthday:	0.7751602899451888
+original:	Aschenbrenner-Scheibe@Stryker_Leibinger_GmbH_&_Co._KG.de	anonym:	 JULIA7818@gmail.com	email:	0.7091728151554009
+original:	732.0	anonym:	 304.0	lastAmountInvoiced:	0.08752263562723372
+
+
+original:	1959-02-26	anonym:	 1991-12-25	birthday:	0.45584834341463126
+original:	Max@studiVZ_Ltd..de	anonym:	 CHRIS3244@hotmail.com	email:	0.2690282304088001
+original:	511.0	anonym:	 663.0	lastAmountInvoiced:	0.011485531840925933
+
+
+original:	1974-05-17	anonym:	 1983-10-14	birthday:	0.6923254903055455
+original:	Fassel@Systemtechnik_GmbH_&_Co._KG.de	anonym:	 PETER8753@hotmail.co.uk	email:	0.7033873475562447
+original:	412.0	anonym:	 65.0	lastAmountInvoiced:	0.058428037571797486
+
+
+original:	1958-10-28	anonym:	 1972-11-25	birthday:	0.44524459507911357
+original:	Battiato@Systemtechnik_GmbH_&_Co._KG.de	anonym:	 CHRIS6556@yahoo.com	email:	0.7054999756777411
+original:	906.0	anonym:	 956.0	lastAmountInvoiced:	0.0012492190754190835
+
+
+original:	1967-08-26	anonym:	 1995-06-15	birthday:	0.7109899939257979
+original:	Görig@tapcon_GmbH.de	anonym:	 FIONA8623@hotmail.co.uk	email:	0.38297581336704206
+original:	653.0	anonym:	 455.0	lastAmountInvoiced:	0.0194111299772729
+
+
+original:	1990-07-26	anonym:	 1982-10-27	birthday:	0.4830424479152727
+original:	Schäfer@Tech_Data_GmbH_&_Co._OHG.de	anonym:	 JEN5773@gmail.com	email:	0.6743978161622762
+original:	205.0	anonym:	 40.0	lastAmountInvoiced:	0.013520268894817833
+
+
+original:	1998-06-26	anonym:	 1985-01-21	birthday:	0.7610880989182599
+original:	Matthaei@TecDoc_Informations_System_GmbH.de	anonym:	 JEN5903@hotmail.co.uk	email:	0.7875059722977824
+original:	681.0	anonym:	 343.0	lastAmountInvoiced:	0.055521164080556185
+
+
+original:	1975-01-13	anonym:	 1958-06-30	birthday:	0.7561006027728948
+original:	Wollschläger@TecDoc_Informations_System_GmbH.de	anonym:	 SALLY7081@gmail.com	email:	0.6856915190192384
+original:	434.0	anonym:	 241.0	lastAmountInvoiced:	0.018452135724745133
+
+Table: 0.15155603418512478

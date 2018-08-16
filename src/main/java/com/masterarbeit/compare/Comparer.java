@@ -14,6 +14,8 @@ public class Comparer implements ComparerInterface {
     private final DateComp dateComp;
     private final StringComp stringComp;
     private final BoolComp boolComp;
+   
+    
 
     Comparer(IntegerComp intComp, DoubleComp doubleComp, DateComp dateComp, StringComp stringComp, BoolComp boolComp, InsuranceNumberComp insuranceNumberComp){
 
@@ -45,7 +47,9 @@ public class Comparer implements ComparerInterface {
             return this.dateComp.compare(a,b,Sigma.Monate);
         }
         if (a.getClass() == String.class){
+        	
             return this.stringComp.compare(a,b,Sigma.Str);
+        	
         }
         if (a.getClass() == Boolean.class){
   //          System.out.println("Boolean");

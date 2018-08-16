@@ -15,13 +15,15 @@ public class StringComp implements ComparerInterface {
 
     private final IntegerComp integerComp;
     private final InsuranceNumberComp insuranceNumberComp;
+//    private boolean Leven = true;
+ //   private boolean Hein  = false;   // parameter to decide which string compare function will be implemented
 
     public StringComp(IntegerComp integerComp, InsuranceNumberComp insuranceNumberComp) {
 
         this.integerComp = integerComp;
         this.insuranceNumberComp = insuranceNumberComp;
     }
-    /*
+    
     // Levenshtein Distance Implementation
     public int calculate(String x, String y) {
         int[][] dp = new int[x.length() + 1][y.length() + 1];
@@ -59,16 +61,8 @@ public class StringComp implements ComparerInterface {
     		return 1;
     	
     }
-    public double compare(Object a, Object b, double sig) throws ParseException {
-    	String _a= (String)a;
-    	String _b=(String)b;
-    	double nenner= Math.max (_a.length(), _b.length());
-    	
-    	
-		return calculate(_a,_b)/nenner;
-    	
-    }
-    */
+   
+    
 // naive string distance
    private Long StringToLong(String x) {
     	if(x.length()>0)
@@ -285,13 +279,22 @@ public class StringComp implements ComparerInterface {
         return (sum * (1.0/transpositions.length));
     }
 
-    @Override
+    	@Override
     public double compare(Object a, Object b, double sig) throws ParseException {
 
 
         String _a = (String) a;
         String _b = (String) b;
-
+        
+        if (StringCompType.Leven==true)
+        {
+	    double nenner= Math.max (_a.length(), _b.length());
+    	
+    	
+		return calculate(_a,_b)/nenner;
+        }
+        else
+        {	
         if (_a.matches("\\d+") && _b.matches("\\D+")) {
     //        System.out.println("Error: different typ of inputs");
             return 0.0;
@@ -334,6 +337,9 @@ public class StringComp implements ComparerInterface {
     //    System.out.println("Compare: " + result);
         
         return result;
+        
+    	
+        }
     }
     
 }
