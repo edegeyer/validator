@@ -149,6 +149,12 @@ public class ViewController {
         return "showSelectedTables";
     }
 
+    @ModelAttribute("alltypes")
+    public String[] getalltypes() {
+        return new String[] {
+            "Levenshtein", "Damerau-Leven", "JP-Heinrich"
+        };
+    }
     @GetMapping("/test")
     public String test(Model model) throws ParseException {
 
@@ -178,19 +184,29 @@ public class ViewController {
     
         Sigma sigma1=new Sigma();
         model.addAttribute("sigma", sigma1);  // add greeting as object, which is used both in greeting.html and result.html as the instance
-       
+    //    model.addAttribute("alltypes", getalltypes());
+      //   sigma1.typeconv();
         return "test";
     }
     @PostMapping("/test")
     public String greetingSubmit(@ModelAttribute Sigma sigma) {
     	 // sigma.setSigmaDoub(sigma.wert);
-    	 
+    	  if (sigma.wert ==1.0)
          System.out.println("sigma für double ist jetzt:"+sigma.wert );
          System.out.println("sigma für tage ist jetzt:"+sigma.tagewert );
          System.out.println("sigma für monate ist jetzt:"+sigma.monatewert );
+         if (sigma.Strcmp2.equals("L"))
+        	 System.out.println("Stringvergleichfunktion benutzt: Levenshtein");
+         if (sigma.Strcmp2.equals("DL"))
+        	 System.out.println("Stringvergleichfunktion benutzt: Damerau-Levenshtein");
+         if (sigma.Strcmp2.equals("JPH"))
+        	 System.out.println("Stringvergleichfunktion benutzt: JFH Naive Algorithmus");
+     //    System.out.println("sigma.Strcmp2 ist "+sigma.Strcmp2);
          sigma.setSigmaDoub(sigma.wert);
          sigma.setSigmaTage(sigma.tagewert);
          sigma.setSigmaMonate(sigma.monatewert);
+    //     sigma.setStrcmp(sigma.Strcmp2);
+         sigma.typeconv();
         return "result";
     }
         

@@ -10,6 +10,22 @@
     	<p>Sigma für double: <input type="text" th:field="*{wert}" /></p>
         <p>Sigma für Tage: <input type="text" th:field="*{tagewert}" /></p>
         <p>Sigma für Monate: <input type="text" th:field="*{monatewert}" /></p>
+        <p>String Vergleich Funktionsparameter: bitte "L", "DL" oder "JPH" eingeben <input type="text" th:field="*{Strcmp2}" /></p>
+  <!--
+  <ul>
+  <li th:each="sigma: ${alltypes}">
+    <input type="radio" 
+        th:field="*{radioButtonSelectedValue}"
+        th:value="${radioValue}" />
+    <label 
+        th:for="${#ids.prev('radioButtonSelectedValue')}"
+        th:text="${radioValue}"></label>
+  </li>
+</ul>
+     -->
+         
+          
+     
 
         <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
     </form>

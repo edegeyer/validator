@@ -286,14 +286,14 @@ public class StringComp implements ComparerInterface {
         String _a = (String) a;
         String _b = (String) b;
         
-        if (StringCompType.Leven==true)
+        if (sig==1.0) // leven
         {
 	    double nenner= Math.max (_a.length(), _b.length());
     	
     	
 		return calculate(_a,_b)/nenner;
         }
-        else
+        else if  (sig==3.0)  // JPH
         {	
         if (_a.matches("\\d+") && _b.matches("\\D+")) {
     //        System.out.println("Error: different typ of inputs");
@@ -340,6 +340,7 @@ public class StringComp implements ComparerInterface {
         
     	
         }
+		return 1;
     }
     
 }
