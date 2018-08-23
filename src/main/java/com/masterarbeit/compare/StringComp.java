@@ -47,6 +47,37 @@ public class StringComp implements ComparerInterface {
      
         return dp[x.length()][y.length()];
     }
+    
+  
+    public int calculate_DL(String x, String y) {
+        int[][] dp = new int[x.length() + 1][y.length() + 1];
+     
+        for (int i = 0; i <= x.length(); i++) {
+            for (int j = 0; j <= y.length(); j++) {
+                if (i == 0) {
+                    dp[i][j] = j;
+                }
+                else if (j == 0) {
+                    dp[i][j] = i;
+                }
+                else {
+                    dp[i][j] = min(dp[i - 1][j - 1] 
+                     + costOfSubstitution(x.charAt(i - 1), y.charAt(j - 1)), 
+                     min( dp[i - 1][j] + 1, 
+                      dp[i][j - 1] + 1));
+                    
+                    if (i > 1 &&
+                            j > 1 &&
+                            x.charAt(i - 1) == y.charAt(j - 2) &&
+                            x.charAt(i - 2) == y.charAt(j - 1)) {
+                        dp[i][j] = Math.min(dp[i][j], dp[i - 2][j - 2] + x.charAt(i - 1) == y.charAt(j - 1) ? 0 : 1);
+                    }
+                }
+            }
+        }
+     
+        return dp[x.length()][y.length()];
+    }
     private int min(int i, int j) {
 		// TODO Auto-generated method stub
     	if (i>=j)
@@ -340,7 +371,15 @@ public class StringComp implements ComparerInterface {
         
     	
         }
-		return 1;
+        else if (sig==2.0) //Damerau-Levenshtein
+        {
+        	 double nenner= Math.max (_a.length(), _b.length());
+         	
+         	
+     	//	return calculate_DL(_a,_b)/nenner;
+        		return calculate_DL(_a,_b);
+        }
+		return 1.5;
     }
     
 }
