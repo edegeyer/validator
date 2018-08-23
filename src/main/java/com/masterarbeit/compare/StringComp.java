@@ -376,8 +376,8 @@ public class StringComp implements ComparerInterface {
         	 double nenner= Math.max (_a.length(), _b.length());
          	
          	
-     	//	return calculate_DL(_a,_b)/nenner;
-        		return calculate_DL(_a,_b);
+     		return calculate_DL(_a,_b)/nenner;
+        	//	return calculate_DL(_a,_b);
         }
 		return 1.5;
     }
