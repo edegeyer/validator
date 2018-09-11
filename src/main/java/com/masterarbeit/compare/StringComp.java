@@ -48,7 +48,7 @@ public class StringComp implements ComparerInterface {
         return dp[x.length()][y.length()];
     }
     
-  
+  // Damerau-Levenshtein Distance 
     public int calculate_DL(String x, String y) {
         int[][] dp = new int[x.length() + 1][y.length() + 1];
      
@@ -265,8 +265,8 @@ public class StringComp implements ComparerInterface {
 
     private double compareContent(String a, String b, double sig) {
 
-        double order = compareOrder(a, b, sig);
-        double distribution = compareDistribution(a, b, sig);
+        double order = compareOrder(a, b, Sigma.stro_);
+        double distribution = compareDistribution(a, b,Sigma.strd_);
         double result = 0.5 * (order + distribution);
     //    System.out.println("compareContent: " + result);
         return result;
@@ -358,7 +358,7 @@ public class StringComp implements ComparerInterface {
 
 
         double content = compareContent(_a, _b, sig);
-        double length = compareLength(_a, _b, sig);
+        double length = compareLength(_a, _b, Sigma.strl_);
 
         if (_a.toLowerCase().contains(_b.toLowerCase())||_b.toLowerCase().contains(_a.toLowerCase())){
             content = 0.0;

@@ -7,6 +7,7 @@ import java.io.PrintStream;
 import com.masterarbeit.entities.Patient;
 import com.masterarbeit.entities.Patient_anonym;
 import com.masterarbeit.entities.sap;
+
 import com.masterarbeit.entities.qup_sap;
 
 import java.lang.reflect.Field;
@@ -76,9 +77,9 @@ public class CompareService {
 
         for (Object result : results) {
             HashMap<String, Double> temp = (HashMap<String, Double>) result;
-            Set set = temp.entrySet();
+            Set<java.util.Map.Entry<String,Double>> set = temp.entrySet();
             for (Object aSet : set) {
-                Map.Entry me = (Map.Entry) aSet;
+                Map.Entry<String,Double> me = (Map.Entry<String,Double>) aSet;
                 System.out.println(me.getKey() + " : " + me.getValue());
             }
             System.out.println("-----------------------------");
@@ -137,7 +138,7 @@ public class CompareService {
                 
             }
             // wird je nach objekt typ entsprend gerechnet:datecomp doublecomp intergercomp stringcomp
-        Set set = result.entrySet();
+        Set<java.util.Map.Entry<String,Double>> set = result.entrySet();
         Iterator i = set.iterator();
        
        

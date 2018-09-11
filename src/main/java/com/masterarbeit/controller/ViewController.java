@@ -205,6 +205,10 @@ public class ViewController {
          sigma.setSigmaDoub(sigma.wert);
          sigma.setSigmaTage(sigma.tagewert);
          sigma.setSigmaMonate(sigma.monatewert);
+         sigma.setSigmastro_(sigma.stro);
+         sigma.setSigmastrl_(sigma.strl);
+         sigma.setSigmastrd_(sigma.strd);
+      //   sigma.setSigmaDoub(sigma.wert);
     //     sigma.setStrcmp(sigma.Strcmp2);
          sigma.typeconv();
         return "result";

@@ -8,12 +8,18 @@ public class Sigma {
   public static double Doub=1000; // gegen 310
   public static double Monate=2.0; // gegen month sigma=day sigma=2
   public static double Tage=1.0;
+  public static double strl_=1.0;
+  public static double strd_=1.0;
+  public static double stro_=1.0;
   
   public String Strcmp2;
 //  public String strcmp;
   public double wert;
   public double tagewert;
   public double monatewert;
+  public double strl;
+  public  double strd;
+  public double stro;
   
   public void typeconv() {
 	  if (Strcmp2.equals("L"))
@@ -30,6 +36,30 @@ public class Sigma {
 
 	    this.Strcmp2 = wert;
 	    }
+	   public double getStro(){
+		    return  stro;
+		    }
+
+		   public void setStro(double wert){
+
+		    this.stro= wert;
+		    }
+	   public double getStrd(){
+		    return  strd;
+		    }
+
+		   public void setStrd(double wert){
+
+		    this.strd= wert;
+		    }
+	   public double getStrl(){
+		    return  strl;
+		    }
+
+		   public void setStrl(double wert){
+
+		    this.strl= wert;
+		    }
   public double getWert(){
     return  wert;
     }
@@ -79,4 +109,16 @@ public class Sigma {
 /*  public void setStrcmp (String input) {
 	  strcmp = input;
 	}*/
+  public void setSigmastro_ (double input)
+  {
+	  stro_ = input;
+	}
+  public void setSigmastrl_ (double input)
+  {
+	  strl_ = input;
+	}
+  public void setSigmastrd_ (double input)
+  {
+	  strd_ = input;
+	}
 }
