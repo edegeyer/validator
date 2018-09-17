@@ -4,6 +4,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 
+
+
 import com.masterarbeit.entities.Patient;
 import com.masterarbeit.entities.Patient_anonym;
 import com.masterarbeit.entities.sap;
@@ -123,7 +125,7 @@ public class CompareService {
         Field[] fieldPatientAnonym = pa.getClass().getDeclaredFields();
 
         try
-        {
+        {  
             FileOutputStream fos = new FileOutputStream(file,true);
             PrintStream ps = new PrintStream(fos);
   	    	System.setOut(ps);						
