@@ -196,8 +196,9 @@ public class ViewController {
          System.out.println("sigma für tage ist jetzt:"+sigma.tagewert );
          System.out.println("sigma für monate ist jetzt:"+sigma.monatewert );
          System.out.println("sigma für string_length ist jetzt:"+sigma.strl );
-         System.out.println("sigma für string_order ist jetzt:"+sigma.stro );
          System.out.println("sigma für string_distribution ist jetzt:"+sigma.strd );
+         System.out.println("sigma für string_order ist jetzt:"+sigma.stro );
+         
          if (sigma.Strcmp2.equals("L"))
         	 System.out.println("Stringvergleichfunktion benutzt: Levenshtein");
          if (sigma.Strcmp2.equals("DL"))
