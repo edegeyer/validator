@@ -1,9 +1,8 @@
 # DSGVO_Validator
-txt Datei bitte mit Excel oeffen, beim Importieren habe ich als leerzeichen als tausendertrennzeichen gewaehlt
+Txt Datei bitte mit Excel öffene, beim Importieren habe ich leerzeichen als tausendertrennzeichen gewählt.
 
-Die Excel Ausgabe fuer swap3and4 gibt an, dass sigma length und sigma distribution spielt gar keine Rolle.
-Das macht sinn weil wenn man dritte und vierte Character vertaeuscht, die Laenge dieser Zeichenkette aendert gar nicht, deshalbt theta length is null. Das gilt auch fuer theta distribution.
+Die Excel Ausgabe für swap3and4 gibt an, dass Sigma length und Sigma distribution spielt gar keine Rolle bei Theta Rechnung. Ich denke das macht sinn weil wenn man drittes und viertes Character vertäuscht, die Länge dieser Zeichenkette ändert gar nicht, deshalb Theta length ist 0. Das gilt auch für Theta distribution.
 
-ich lade bald die domainname zusammenfassung datei hoch 
+Ich lade bald die Domainname Zusammenfassung Datei hoch.
 
 
