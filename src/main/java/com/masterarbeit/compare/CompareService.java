@@ -149,7 +149,8 @@ public class CompareService {
         int j =1;
         while(i.hasNext()&& j<fieldPatientAnonym.length) {
             Map.Entry me = (Map.Entry)i.next();
-            if (fieldPatient[j].getName()=="email"||fieldPatient[j].getName()=="lastAmountInvoiced"||fieldPatient[j].getName()=="birthday")
+      //      if (fieldPatient[j].getName()=="email"||fieldPatient[j].getName()=="lastAmountInvoiced"||fieldPatient[j].getName()=="birthday")
+            	   if (fieldPatient[j].getName()=="email")
             {
             System.out.print( "original:\t"+fieldPatient[j].get(p)+"\t"+"anonym:\t "+fieldPatientAnonym[j].get(pa)+"\t");
             
