@@ -266,7 +266,12 @@ public class StringComp implements ComparerInterface {
     private double compareContent(String a, String b, double sig) {
 
         double order = compareOrder(a, b, Sigma.stro_);
+        
         double distribution = compareDistribution(a, b,Sigma.strd_);
+        System.out.println ("Sigma.strd_ is " +Sigma.strd_);
+        System.out.println ("theta  distribution  is " +distribution );
+        System.out.println ("Sigma.stro_ is " +Sigma.stro_);	
+        System.out.println ("theta  order  is " +order );	
         double result = 0.5 * (order + distribution);
     //    System.out.println("compareContent: " + result);
         return result;
@@ -356,10 +361,11 @@ public class StringComp implements ComparerInterface {
        // else
       //      System.out.println("String ist alpha " + _a);
 
-
-        double content = compareContent(_a, _b, sig);
         double length = compareLength(_a, _b, Sigma.strl_);
-
+        System.out.println ("Sigma.strl_ is " +Sigma.strl_);
+        System.out.println ("Theta length is " +length);
+        double content = compareContent(_a, _b, sig);
+       
         if (_a.toLowerCase().contains(_b.toLowerCase())||_b.toLowerCase().contains(_a.toLowerCase())){
             content = 0.0;
         }
