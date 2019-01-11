@@ -19,7 +19,7 @@ public class DatabaseOperations {
         List tablenames = new LinkedList<String>();
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/zahnklinik?user=root&password=Boliga12.");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/zahnklinik?user=root&password=user12");
 
             DatabaseMetaData md = conn.getMetaData();
 
@@ -43,7 +43,7 @@ public class DatabaseOperations {
 
     public List<ArrayList> getTable(String tablename) throws Exception{
 
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/zahnklinik?user=root&password=Boliga12.");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/zahnklinik?user=root&password=user12");
         Statement stat = conn.createStatement();
         resultSet = stat.executeQuery("SELECT * FROM " + tablename);
         ResultSetMetaData md = resultSet.getMetaData();
