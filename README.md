@@ -20,6 +20,8 @@ Für Einrichtung des Systems:
 - Erzeugen der Datenbank Zahnklinik: (im Ordner der .sql Datei)
    - > mysql -u root -p
    - > CREATE DATABASE zahnklinik;
-   - > zahnklinik < zahnklinik.sql
+   - > mysql -u root -p zahnklinik < zahnklinik.sql
+   
+Aktuell sind die Zugangsdaten zu der Datenbank auf Nutzer = root und Passwort = user12 gesetzt. Wenn dies geändert werden soll, muss das sowohl in application.properties als auch in DatabaseOperations.java geschehen
 
     

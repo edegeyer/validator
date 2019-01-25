@@ -95,6 +95,7 @@ public class StringComp implements ComparerInterface {
    
     
 // naive string distance
+    //TODO: wird nicht verwendet, kann also weg
    private Long StringToLong(String x) {
     	if(x.length()>0)
     	{
