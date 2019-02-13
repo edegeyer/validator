@@ -1,5 +1,8 @@
 package com.masterarbeit.compare;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Sigma {
   public static double Bool=2.0;  
   public static double Inte=1.0;   //  testen gegen 2.0
@@ -13,6 +16,7 @@ public class Sigma {
   public static double stro_=1.0;
   
   public String Strcmp2;
+  public List<String> possibleComparer = Arrays.asList("Levenshtein", "Damerau", "Heinrich", "Hamming");
 //  public String strcmp;
   public double wert;
   public double tagewert;
@@ -22,12 +26,26 @@ public class Sigma {
   public double stro;
   
   public void typeconv() {
-	  if (Strcmp2.equals("L"))
-		  Str=1.0;
-	  if (Strcmp2.equals("DL"))
-		  Str=2.0;
-	  if (Strcmp2.equals("JPH"))
-		  Str=3.0;}
+
+      switch (Strcmp2){
+          case "Levenshtein":
+              Str = 1.0;
+              break;
+          case "Damerau":
+              Str = 2.0;
+              break;
+          case "Heinrich":
+              Str = 3.0;
+              break;
+          case "Hamming":
+              Str = 4.0;
+              break;
+          default:
+              Str = 0.0;
+              break;
+      }
+  }
+
   public String getStrcmp2(){
 	    return  Strcmp2;
 	    }

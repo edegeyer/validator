@@ -198,13 +198,15 @@ public class ViewController {
          System.out.println("sigma für string_length ist jetzt:"+sigma.strl );
          System.out.println("sigma für string_distribution ist jetzt:"+sigma.strd );
          System.out.println("sigma für string_order ist jetzt:"+sigma.stro );
-         
-         if (sigma.Strcmp2.equals("L"))
+         System.out.println(sigma.Strcmp2);
+         if (sigma.Strcmp2.equals("Levenshtein"))
         	 System.out.println("Stringvergleichfunktion benutzt: Levenshtein");
-         if (sigma.Strcmp2.equals("DL"))
+         if (sigma.Strcmp2.equals("Damerau"))
         	 System.out.println("Stringvergleichfunktion benutzt: Damerau-Levenshtein");
-         if (sigma.Strcmp2.equals("JPH"))
+         if (sigma.Strcmp2.equals("Heinrich"))
         	 System.out.println("Stringvergleichfunktion benutzt: JFH Naive Algorithmus");
+         if (sigma.Strcmp2.equals("Hamming"))
+             System.out.println("Stringvergleichsfunktion benutzt: Hamming");
      //    System.out.println("sigma.Strcmp2 ist "+sigma.Strcmp2);
          sigma.setSigmaDoub(sigma.wert);
          sigma.setSigmaTage(sigma.tagewert);

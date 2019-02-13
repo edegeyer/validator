@@ -13,22 +13,30 @@
         <p>Sigma für string length: <input type="text" th:field="*{strl}" /></p>
         <p>Sigma für string distribution: <input type="text" th:field="*{strd}" /></p>
         <p>Sigma für string order: <input type="text" th:field="*{stro}" /></p>
-        <p>String Vergleich Funktionsparameter: bitte "L", "DL" oder "JPH" eingeben <input type="text" th:field="*{Strcmp2}" /></p>
-  <!--   LENGTH- DISTRIBUTION - ORDER 
+
+
+        <ul>
+            <li th:each="sigmaOptions : *{possibleComparer}">
+                <input type="radio" th:field="*{Strcmp2}" th:value="${sigmaOptions}" />
+                <label th:for="${#ids.prev('Strcmp2')}" th:text="${sigmaOptions}">StringComparer</label>
+            </li>
+        </ul>
+
+  <!--   LENGTH- DISTRIBUTION - ORDER
   <ul>
   <li th:each="sigma: ${alltypes}">
-    <input type="radio" 
+    <input type="radio"
         th:field="*{radioButtonSelectedValue}"
         th:value="${radioValue}" />
-    <label 
+    <label
         th:for="${#ids.prev('radioButtonSelectedValue')}"
         th:text="${radioValue}"></label>
   </li>
 </ul>
      -->
-         
-          
-     
+
+
+
 
         <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
     </form>
