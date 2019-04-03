@@ -165,22 +165,24 @@ public class ViewController {
     @PostMapping("/test")
     public String greetingSubmit(@ModelAttribute Sigma sigma) {
 
+        if (sigma.wert != 0 && sigma.tagewert != 0 && sigma.monatewert != 0 &&
+            sigma.strd != 0 && sigma.strl != 0 && sigma.stro != 0) {
 
-        try {
             sigma.setSigmaDoub(sigma.wert);
             sigma.setSigmaTage(sigma.tagewert);
             sigma.setSigmaMonate(sigma.monatewert);
             sigma.setSigmastro_(sigma.stro);
             sigma.setSigmastrl_(sigma.strl);
             sigma.setSigmastrd_(sigma.strd);
+            sigma.typeconv();
         }
-        catch (IllegalArgumentException e){
-            e.printStackTrace();
+        else {
+            System.out.println("something went wrong here");
         }
-
-         sigma.typeconv();
         return "result";
     }
+
+
 
       
 

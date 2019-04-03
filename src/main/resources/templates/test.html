@@ -22,18 +22,6 @@
             </li>
         </ul>
 
-  <!--   LENGTH- DISTRIBUTION - ORDER
-  <ul>
-  <li th:each="sigma: ${alltypes}">
-    <input type="radio"
-        th:field="*{radioButtonSelectedValue}"
-        th:value="${radioValue}" />
-    <label
-        th:for="${#ids.prev('radioButtonSelectedValue')}"
-        th:text="${radioValue}"></label>
-  </li>
-</ul>
-     -->
         <p><input type="submit" value="Submit" id="submitButton"/> <input type="reset" value="Reset" /></p>
     </form>
     <script>
