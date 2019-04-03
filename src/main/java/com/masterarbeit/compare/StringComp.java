@@ -15,8 +15,7 @@ public class StringComp implements ComparerInterface {
 
     private final IntegerComp integerComp;
     private final InsuranceNumberComp insuranceNumberComp;
-//    private boolean Leven = true;
- //   private boolean Hein  = false;   // parameter to decide which string compare function will be implemented
+
 
     public StringComp(IntegerComp integerComp, InsuranceNumberComp insuranceNumberComp) {
 
@@ -79,7 +78,6 @@ public class StringComp implements ComparerInterface {
         return dp[x.length()][y.length()];
     }
     private int min(int i, int j) {
-		// TODO Auto-generated method stub
     	if (i>=j)
     		return j;
     	else
@@ -237,44 +235,37 @@ public class StringComp implements ComparerInterface {
 
     }
 
-    private double hammingDistance(String a, String b) {
+    private double hammingDistance(String string1, String string2) {
 
-        char[] s1 = a.toCharArray();
-        char[] s2 = b.toCharArray();
-
-        int shortest = Math.min(s1.length, s2.length);
-        int longest = Math.max(s1.length, s2.length);
-
-        double result = 0;
-        for (int i = 0; i < shortest; i++) {
-            if (s1[i] != s2[i]) result++;
+        int shortest = Math.min(string1.length(), string2.length());
+        int longest = Math.max(string1.length(), string2.length());
+        double result = 0.0;
+        // first: compare both strings (only the length of the shortest)
+        for (int i = 0; i < shortest; i++){
+            if(string1.charAt(i) != string2.charAt(i)){
+                result++;
+            }
         }
-
+        // both strings differ by the length difference, so also take that in consideration
         result += longest - shortest;
-   //     System.out.println(s1 + " " + s2 + " :" + result);
         return result;
     }
 
     private double compareLength(String a, String b, double sig) {
 
         double length = Math.abs(a.length() - b.length());
-     //   System.out.println("CL length: " + length);
-        double result = 1.0 - (exp(-0.5 * (Math.pow(length/sig, 2))));
-       // System.out.println("compareLength: " + result);
-        return result;
+
+            double result = 1.0 - (exp(-0.5 * (Math.pow(length / sig, 2))));
+            return result;
+
     }
 
     private double compareContent(String a, String b, double sig) {
 
         double order = compareOrder(a, b, Sigma.stro_);
         
-        double distribution = compareDistribution(a, b,Sigma.strd_);
-    //    System.out.println ("Sigma.strd_ is " +Sigma.strd_);
-    //    System.out.println ("theta  distribution  is " +distribution );
-    //    System.out.println ("Sigma.stro_ is " +Sigma.stro_);	
-    //    System.out.println ("theta  order  is " +order );	
+        double distribution = compareDistribution(a, b,Sigma.strd_);;
         double result = 0.5 * (order + distribution);
-    //    System.out.println("compareContent: " + result);
         return result;
     }
 
@@ -288,22 +279,17 @@ public class StringComp implements ComparerInterface {
         while (i.hasNext()) {
             Map.Entry<Character, Integer> entry = (Map.Entry) i.next();
             double d = entry.getValue();
-   //         System.out.println(d + " " + entry.getKey());
             sum += 1.0 - exp(-0.5 * (Math.pow(d / sig, 2)));
         }
         int size = distributions.size();
         if (size==0)
             return sum;
-     //   System.out.println("compareDistribution: " + sum * (1.0 / size));
         return (sum * (1.0 / size));
     }
 
     private double compareOrder(String a, String b, double sig) {
 
         int[] transpositions = getTranspositions(a, b);
-  //      System.out.println(a);
-  //      System.out.println(b);
-   //     System.out.println(Arrays.toString(transpositions));
         if (transpositions.length == 0)
             return 0.0;
         double sum = 0.0;
@@ -312,7 +298,6 @@ public class StringComp implements ComparerInterface {
             sum = sum + (1.0-exp(-0.5 * Math.pow(i / sig, 2.0)));
         }
 
-   //     System.out.println("compareOrder: " + (sum * (1.0/transpositions.length)));
         return (sum * (1.0/transpositions.length));
     }
 
@@ -330,6 +315,14 @@ public class StringComp implements ComparerInterface {
     	
 		return calculate(_a,_b)/nenner;
         }
+        else if (sig==2.0) //Damerau-Levenshtein
+        {
+            double nenner= Math.max (_a.length(), _b.length());
+
+
+            return calculate_DL(_a,_b)/nenner;
+        }
+
         else if  (sig==3.0)  // JPH
         {	
         if (_a.matches("\\d+") && _b.matches("\\D+")) {
@@ -342,7 +335,6 @@ public class StringComp implements ComparerInterface {
         }
 
         if (_a.matches("^\\d+[a-zA-Z][a-zA-Z\\d]*$") && _b.matches("^\\d+[a-zA-Z][a-zA-Z\\d]*$")){
-     //       System.out.println("String ist alphaNum");
             if ((_a.length()==12 && _b.length()==12)) {
                 String x = _a.substring(8,9);
                 String y = _b.substring(8,9);
@@ -359,12 +351,10 @@ public class StringComp implements ComparerInterface {
            // return this.integerComp.compare( StringToLong(_a), StringToLong(_b),sig);
             return 0.0;
         }
-       // else
-      //      System.out.println("String ist alpha " + _a);
+
 
         double length = compareLength(_a, _b, Sigma.strl_);
-  //      System.out.println ("Sigma.strl_ is " +Sigma.strl_);
-  //      System.out.println ("Theta length is " +length);
+
         double content = compareContent(_a, _b, sig);
        
         if (_a.toLowerCase().contains(_b.toLowerCase())||_b.toLowerCase().contains(_a.toLowerCase())){
@@ -372,20 +362,16 @@ public class StringComp implements ComparerInterface {
         }
 
         double result = 0.5 * (length + content);
-    //    System.out.println("Compare: " + result);
-        
+
         return result;
         
     	
         }
-        else if (sig==2.0) //Damerau-Levenshtein
-        {
-        	 double nenner= Math.max (_a.length(), _b.length());
-         	
-         	
-     		return calculate_DL(_a,_b)/nenner;
-        	//	return calculate_DL(_a,_b);
+        else if (sig == 4.0){ // Hamming
+            return hammingDistance(_a, _b);
         }
+
+        // return 1.5 to signal an error (aka sig == 0, the default value)
 		return 1.5;
     }
     

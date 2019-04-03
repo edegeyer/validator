@@ -125,46 +125,26 @@ public class CompareService {
         Field[] fieldPatientAnonym = pa.getClass().getDeclaredFields();
 
         try
-        {  
+        {
             FileOutputStream fos = new FileOutputStream(file,true);
             PrintStream ps = new PrintStream(fos);
-  	    	System.setOut(ps);						
+  	    	System.setOut(ps);
  	    	
  	    	
             for (int i=1; i<fieldPatientAnonym.length; i++) {
                 fieldPatient[i].setAccessible(true);
                 fieldPatientAnonym[i].setAccessible(true);
                 result.put(fieldPatient[i].getName(), comp.compare(fieldPatient[i].get(p), fieldPatientAnonym[i].get(pa), sigma));
-          //     System.out.print( "what is fieldpatient.getname"+fieldPatient[i].getName()+"\n");
-     //birthday insruance firstname lastname phone  id amount private_insuracne  email        
+
                 
             }
             // wird je nach objekt typ entsprend gerechnet:datecomp doublecomp intergercomp stringcomp
         Set<java.util.Map.Entry<String,Double>> set = result.entrySet();
-        Iterator i = set.iterator();
-       
-       
 
-        System.out.println();
-        int j =1;
-        while(i.hasNext()&& j<fieldPatientAnonym.length) {
-            Map.Entry me = (Map.Entry)i.next();
-      //      if (fieldPatient[j].getName()=="email"||fieldPatient[j].getName()=="lastAmountInvoiced"||fieldPatient[j].getName()=="birthday")
-            	   if (fieldPatient[j].getName()=="email")
-            {
-            System.out.print( "original:\t"+fieldPatient[j].get(p)+"\t"+"anonym:\t "+fieldPatientAnonym[j].get(pa)+"\t");
-            
-            System.out.print(me.getKey() + ":\t");
-            System.out.println(me.getValue());
-            }
-            j++;
-            // hier wird nur email lastAmountInvoiced und birthday ausgegeben
-        }
-        System.out.println();
         }
         catch  (FileNotFoundException ex) 
         {
-        
+            System.out.println("file not found exception "+ ex);
         }
         
 		return result;

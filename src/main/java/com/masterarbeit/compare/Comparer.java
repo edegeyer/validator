@@ -28,18 +28,18 @@ public class Comparer implements ComparerInterface {
 
     @Override
     public double compare(Object a, Object b, double sig) throws ParseException {
-
+        System.out.println("in compare "+ a +" " +b);
         if (a.getClass() != b.getClass()) {
      //       System.out.println("Error: Objects are not the same type");
             return 0.0;
         }
         if (a.getClass() == Integer.class || a.getClass() == Long.class){
- //           System.out.println("int oder long");
-  //          System.out.println(a);
+          System.out.println("int oder long");
+          System.out.println(a);
             return this.intComp.compare(a,b,Sigma.Inte);
         }
         if (a.getClass() == Double.class){
-  //          System.out.println("double");
+           System.out.println("double");
             return this.doubleComp.compare(a,b,Sigma.Doub);
         }
         if (a.getClass() == LocalDate.class || a.getClass() == Date.class){

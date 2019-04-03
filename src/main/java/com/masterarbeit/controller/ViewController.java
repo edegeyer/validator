@@ -158,72 +158,29 @@ public class ViewController {
     @GetMapping("/test")
     public String test(Model model) throws ParseException {
 
-/*
-        compareService = new CompareService();
-
-        String one = "Annabelle";
-        String two = "xüksäka";
-        System.out.println(compareService.compareAttribute(one,two));
-
-        long three = 98723489;
-        long four = 22017961;
-        System.out.println(compareService.compareAttribute(three,four));
-
-
-        LocalDate five = LocalDate.parse("1984-02-24");
-        LocalDate six = LocalDate.parse("2012-12-01");
-        System.out.println(five + " " + six);
-        System.out.println(compareService.compareAttribute(five,six));
-
-
-        double seven = 123.45;
-        double eight = 6.7890;
-        compareService.compareAttribute(seven,eight);
-        
-    */   
-    
         Sigma sigma1=new Sigma();
         model.addAttribute("sigma", sigma1);  // add greeting as object, which is used both in greeting.html and result.html as the instance
-    //    model.addAttribute("alltypes", getalltypes());
-      //   sigma1.typeconv();
         return "test";
     }
     @PostMapping("/test")
     public String greetingSubmit(@ModelAttribute Sigma sigma) {
-    	 // sigma.setSigmaDoub(sigma.wert);
-    	  if (sigma.wert ==1.0)
-         System.out.println("sigma für double ist jetzt:"+sigma.wert );
-         System.out.println("sigma für tage ist jetzt:"+sigma.tagewert );
-         System.out.println("sigma für monate ist jetzt:"+sigma.monatewert );
-         System.out.println("sigma für string_length ist jetzt:"+sigma.strl );
-         System.out.println("sigma für string_distribution ist jetzt:"+sigma.strd );
-         System.out.println("sigma für string_order ist jetzt:"+sigma.stro );
-         System.out.println(sigma.Strcmp2);
-         if (sigma.Strcmp2.equals("Levenshtein"))
-        	 System.out.println("Stringvergleichfunktion benutzt: Levenshtein");
-         if (sigma.Strcmp2.equals("Damerau"))
-        	 System.out.println("Stringvergleichfunktion benutzt: Damerau-Levenshtein");
-         if (sigma.Strcmp2.equals("Heinrich"))
-        	 System.out.println("Stringvergleichfunktion benutzt: JFH Naive Algorithmus");
-         if (sigma.Strcmp2.equals("Hamming"))
-             System.out.println("Stringvergleichsfunktion benutzt: Hamming");
-     //    System.out.println("sigma.Strcmp2 ist "+sigma.Strcmp2);
-         sigma.setSigmaDoub(sigma.wert);
-         sigma.setSigmaTage(sigma.tagewert);
-         sigma.setSigmaMonate(sigma.monatewert);
-         sigma.setSigmastro_(sigma.stro);
-         sigma.setSigmastrl_(sigma.strl);
-         sigma.setSigmastrd_(sigma.strd);
-      //   sigma.setSigmaDoub(sigma.wert);
-    //     sigma.setStrcmp(sigma.Strcmp2);
+
+
+        try {
+            sigma.setSigmaDoub(sigma.wert);
+            sigma.setSigmaTage(sigma.tagewert);
+            sigma.setSigmaMonate(sigma.monatewert);
+            sigma.setSigmastro_(sigma.stro);
+            sigma.setSigmastrl_(sigma.strl);
+            sigma.setSigmastrd_(sigma.strd);
+        }
+        catch (IllegalArgumentException e){
+            e.printStackTrace();
+        }
+
          sigma.typeconv();
         return "result";
     }
-        
-        
-       
-      //  model.addAttribute("sigint",input);
-      //  s1.setBool(input);
 
       
 

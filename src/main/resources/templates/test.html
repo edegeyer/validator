@@ -7,13 +7,13 @@
 <body>
 	<h1>Sigma Werte eingeben und Submit klicken</h1>
     <form action="#" th:action="@{/test}" th:object="${sigma}" method="post">
-    	<p>Sigma für double: <input type="text" th:field="*{wert}" /></p>
-        <p>Sigma für Tage: <input type="text" th:field="*{tagewert}" /></p>
-        <p>Sigma für Monate: <input type="text" th:field="*{monatewert}" /></p>
-        <p>Sigma für string length: <input type="text" th:field="*{strl}" /></p>
-        <p>Sigma für string distribution: <input type="text" th:field="*{strd}" /></p>
-        <p>Sigma für string order: <input type="text" th:field="*{stro}" /></p>
-
+    	<p>Sigma für double: <input type="text" th:field="*{wert}" onblur="checkValue('wert')" /></p>
+        <p>Sigma für Tage: <input type="text" th:field="*{tagewert}" onblur="checkValue('tagewert')"/></p>
+        <p>Sigma für Monate: <input type="text" th:field="*{monatewert}" onblur="checkValue('monatewert')" /></p>
+        <p>Sigma für string length: <input type="text" th:field="*{strl}" onblur="checkValue('strl')"/></p>
+        <p>Sigma für string distribution: <input type="text" th:field="*{strd}" onblur="checkValue('strd')"/></p>
+        <p>Sigma für string order: <input type="text" th:field="*{stro}" onblur="checkValue('stro')"/></p>
+        <p id ="errorField"></p>
 
         <ul>
             <li th:each="sigmaOptions : *{possibleComparer}">
@@ -34,11 +34,38 @@
   </li>
 </ul>
      -->
-
-
-
-
-        <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+        <p><input type="submit" value="Submit" id="submitButton"/> <input type="reset" value="Reset" /></p>
     </form>
+    <script>
+        var errorCount = 0;
+        function checkValue(fieldName) {
+            var field = document.getElementById(fieldName);
+            if (field.value == 0.0 || field.value == 0){
+                field.style.borderColor = "red";
+                document.getElementById("errorField").innerHTML = "Illegal input, Sigma needs to be higher than 0.0"
+                document.getElementById("errorField").style.color = "red";
+                console.log("error coutn before higher:" + errorCount)
+
+                errorCount += 1;
+                document.getElementById("submitButton").disabled = true;
+                console.log("error coutn higher:" + errorCount)
+            }
+            else {
+                if (field.style.borderColor == "red"){
+                    console.log("error coutn before lower:" + errorCount)
+                    errorCount  -= 1;
+                    console.log("error coutn: lower" + errorCount)
+                }
+                field.style.borderColor = "green";
+                if(errorCount == 0){
+                    document.getElementById("errorField").innerHTML = "";
+                    document.getElementById("submitButton").disabled = false;
+                }
+            }
+
+
+        }
+    </script>
+
 </body>
 </html>

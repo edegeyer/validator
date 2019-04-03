@@ -90,14 +90,20 @@ public class IntegerComp implements ComparerInterface {
                 return 0.0;
         }
         else if (a instanceof Integer && b instanceof Integer) {
-            if (a.equals(b))
-                return 0.0;
+            System.out.println("is integer " + a +" und " + b);
+            if (a.equals(b)){
+                System.out.println("equals");
+                return 0.0;}
             org = (intToArrayList(((Integer) a)));
             anonymus = (intToArrayList(((Integer) b)));
         }
         else if (a instanceof Long && b instanceof Long) {
-            if (a.equals(b))
-                return 0.0;
+            System.out.println("is long " + a +" und " + b);
+
+            if (a.equals(b)){
+                System.out.println("equals");
+
+                return 0.0;}
             org = (longToArrayList(((long) a)));
             anonymus = (longToArrayList(((long) b)));
         }

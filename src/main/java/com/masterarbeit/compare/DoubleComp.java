@@ -29,12 +29,9 @@ public class DoubleComp implements ComparerInterface {
 
     @Override
     public double compare(Object a, Object b, double sig) {
-    //    System.out.println(((compareCommaPosition(((Double) a), ((Double) b)) + this.integerComp.compare(DoubleToInt(((Double) a)), DoubleToInt(((Double) b)), sig))/2.0));
-   //     return ((compareCommaPosition(((Double) a), ((Double) b)) + this.integerComp.compare(DoubleToInt(((Double) a)), DoubleToInt(((Double) b)), sig))/2.0);
-    	
+
     	
     	double res =   1-exp(-0.5*(pow((ObjecttoDouble(a)-ObjecttoDouble(b))/sig,2)));
-   // 	 System.out.println(res);
     	return res;
     }
 /*

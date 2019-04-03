@@ -17,13 +17,13 @@ public class Sigma {
   
   public String Strcmp2;
   public List<String> possibleComparer = Arrays.asList("Levenshtein", "Damerau", "Heinrich", "Hamming");
-//  public String strcmp;
-  public double wert;
-  public double tagewert;
-  public double monatewert;
-  public double strl;
-  public  double strd;
-  public double stro;
+
+  public double wert = 1.0;
+  public double tagewert = 1.0;
+  public double monatewert = 1.0;
+  public double strl = 1.0;
+  public  double strd = 1.0;
+  public double stro = 1.0;
   
   public void typeconv() {
 
@@ -91,37 +91,44 @@ public class Sigma {
 	   }
  
    public void setTagewert(double wert){
-
+       checkSigma(wert);
 	     this.tagewert = wert;
 	       }
    public double getMonatewert(){
-	  
+       checkSigma(wert);
           return  monatewert;}
 
    public void setMonatewert(double wert){
-
+       checkSigma(wert);
 	       this.monatewert = wert;
 	       }
 	     
     public void setSigmaBool (double input) {
+        checkSigma(input);
 	  Bool=input;
   }
   public void setSigmaInte (double input) {
+      checkSigma(input);
 	  Inte=input;
   }
   public void setSigmaIntelength (double input) {
+      checkSigma(input);
 	  Intelength=input;
   }
   public void setSigmaStr (double input) {
+      checkSigma(input);
 	  Str=input;
   }
   public void setSigmaDoub (double input) {
+      checkSigma(input);
 	  Doub=input;
   }
   public void setSigmaMonate (double input) {
+      checkSigma(input);
 	  Monate=input;
   }
   public void setSigmaTage (double input) {
+      checkSigma(input);
   Tage = input;
 }
 /*  public void setStrcmp (String input) {
@@ -129,14 +136,23 @@ public class Sigma {
 	}*/
   public void setSigmastro_ (double input)
   {
+      checkSigma(input);
 	  stro_ = input;
 	}
   public void setSigmastrl_ (double input)
   {
+      checkSigma(input);
 	  strl_ = input;
 	}
   public void setSigmastrd_ (double input)
   {
+      checkSigma(input);
 	  strd_ = input;
 	}
+
+	public void checkSigma (double input){
+        if (input == 0.0){
+            throw new IllegalArgumentException("Sigma not allowed to be zero");
+        }
+    }
 }
