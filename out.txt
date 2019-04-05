@@ -4417,3 +4417,130 @@ sigma für string_order ist jetzt:1.0
 Heinrich
 Stringvergleichfunktion benutzt: JFH Naive Algorithmus
 [2m2019-04-03 13:23:03.882[0;39m [32mDEBUG[0;39m [35m22658[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@34d03679
+in compare 1234 1234
+int oder long
+1234
+is long 1234 und 1234
+equals
+in compare 015774653532 015774653532
+in compare 1984-03-22 1984-04-22
+is integer 1984 und 1984
+equals
+in compare Thomas Horst
+in compare Jaehnig Jaehnig
+in compare tjaehnig@proficom.de tjaehnig@pr123om.de
+in compare AOK IKK
+in compare false false
+in compare 100.0 120.0
+double
+in compare 1234 1234
+int oder long
+1234
+is long 1234 und 1234
+equals
+in compare 0351440080 0351440080
+in compare 1981-09-12 1981-09-12
+is integer 1981 und 1981
+equals
+in compare Carsten Neise
+in compare Neise Carsten
+in compare cneise@proficom.de cneise@proficom.de
+in compare AOK AOK
+in compare false false
+in compare 400.0 400.0
+double
+Table: 0.1544255654263576
+[2m2019-04-05 08:32:26.362[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m select patient0_.id as id1_0_, patient0_.birthday as birthday2_0_, patient0_.email as email3_0_, patient0_.first_name as first_na4_0_, patient0_.insurance as insuranc5_0_, patient0_.last_amount_invoiced as last_amo6_0_, patient0_.last_name as last_nam7_0_, patient0_.patient_number as patient_8_0_, patient0_.phone_number as phone_nu9_0_, patient0_.private_insurance as private10_0_ from patient patient0_
+[2m2019-04-05 08:32:26.368[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m select patient_an0_.id as id1_1_, patient_an0_.birthday as birthday2_1_, patient_an0_.email as email3_1_, patient_an0_.first_name as first_na4_1_, patient_an0_.insurance as insuranc5_1_, patient_an0_.last_amount_invoiced as last_amo6_1_, patient_an0_.last_name as last_nam7_1_, patient_an0_.patient_number as patient_8_1_, patient_an0_.phone_number as phone_nu9_1_, patient_an0_.private_insurance as private10_1_ from patient_anonym patient_an0_
+[2m2019-04-05 08:32:26.444[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@33fa0944
+[2m2019-04-05 08:32:30.528[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Bound request context to thread: org.apache.catalina.connector.RequestFacade@33fa0944
+[2m2019-04-05 08:32:30.545[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m select patient0_.id as id1_0_0_, patient0_.birthday as birthday2_0_0_, patient0_.email as email3_0_0_, patient0_.first_name as first_na4_0_0_, patient0_.insurance as insuranc5_0_0_, patient0_.last_amount_invoiced as last_amo6_0_0_, patient0_.last_name as last_nam7_0_0_, patient0_.patient_number as patient_8_0_0_, patient0_.phone_number as phone_nu9_0_0_, patient0_.private_insurance as private10_0_0_ from patient patient0_ where patient0_.id=?
+[2m2019-04-05 08:32:30.565[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m select patient_an0_.id as id1_1_0_, patient_an0_.birthday as birthday2_1_0_, patient_an0_.email as email3_1_0_, patient_an0_.first_name as first_na4_1_0_, patient_an0_.insurance as insuranc5_1_0_, patient_an0_.last_amount_invoiced as last_amo6_1_0_, patient_an0_.last_name as last_nam7_1_0_, patient_an0_.patient_number as patient_8_1_0_, patient_an0_.phone_number as phone_nu9_1_0_, patient_an0_.private_insurance as private10_1_0_ from patient_anonym patient_an0_ where patient_an0_.id=?
+in compare 1234 1234
+int oder long
+1234
+is long 1234 und 1234
+equals
+in compare 015774653532 015774653532
+in compare 1984-03-22 1984-04-22
+is integer 1984 und 1984
+equals
+in compare Thomas Horst
+in compare Jaehnig Jaehnig
+in compare tjaehnig@proficom.de tjaehnig@pr123om.de
+in compare AOK IKK
+in compare false false
+in compare 100.0 120.0
+double
+[2m2019-04-05 08:32:30.610[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@33fa0944
+[2m2019-04-05 08:32:50.628[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Bound request context to thread: org.apache.catalina.connector.RequestFacade@33fa0944
+[2m2019-04-05 08:32:50.635[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m select patient0_.id as id1_0_, patient0_.birthday as birthday2_0_, patient0_.email as email3_0_, patient0_.first_name as first_na4_0_, patient0_.insurance as insuranc5_0_, patient0_.last_amount_invoiced as last_amo6_0_, patient0_.last_name as last_nam7_0_, patient0_.patient_number as patient_8_0_, patient0_.phone_number as phone_nu9_0_, patient0_.private_insurance as private10_0_ from patient patient0_
+[2m2019-04-05 08:32:50.643[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m select patient_an0_.id as id1_1_, patient_an0_.birthday as birthday2_1_, patient_an0_.email as email3_1_, patient_an0_.first_name as first_na4_1_, patient_an0_.insurance as insuranc5_1_, patient_an0_.last_amount_invoiced as last_amo6_1_, patient_an0_.last_name as last_nam7_1_, patient_an0_.patient_number as patient_8_1_, patient_an0_.phone_number as phone_nu9_1_, patient_an0_.private_insurance as private10_1_ from patient_anonym patient_an0_
+[2m2019-04-05 08:32:50.664[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@33fa0944
+[2m2019-04-05 08:33:22.622[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Bound request context to thread: org.apache.catalina.connector.RequestFacade@33fa0944
+[2m2019-04-05 08:33:22.644[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@33fa0944
+[2m2019-04-05 08:33:27.663[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Bound request context to thread: org.apache.catalina.connector.RequestFacade@33fa0944
+[2m2019-04-05 08:33:27.678[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@33fa0944
+[2m2019-04-05 08:33:30.924[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Bound request context to thread: org.apache.catalina.connector.RequestFacade@33fa0944
+[2m2019-04-05 08:33:30.930[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m select patient0_.id as id1_0_, patient0_.birthday as birthday2_0_, patient0_.email as email3_0_, patient0_.first_name as first_na4_0_, patient0_.insurance as insuranc5_0_, patient0_.last_amount_invoiced as last_amo6_0_, patient0_.last_name as last_nam7_0_, patient0_.patient_number as patient_8_0_, patient0_.phone_number as phone_nu9_0_, patient0_.private_insurance as private10_0_ from patient patient0_
+[2m2019-04-05 08:33:30.937[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m select patient_an0_.id as id1_1_, patient_an0_.birthday as birthday2_1_, patient_an0_.email as email3_1_, patient_an0_.first_name as first_na4_1_, patient_an0_.insurance as insuranc5_1_, patient_an0_.last_amount_invoiced as last_amo6_1_, patient_an0_.last_name as last_nam7_1_, patient_an0_.patient_number as patient_8_1_, patient_an0_.phone_number as phone_nu9_1_, patient_an0_.private_insurance as private10_1_ from patient_anonym patient_an0_
+[2m2019-04-05 08:33:30.958[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@33fa0944
+[2m2019-04-05 08:33:34.744[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Bound request context to thread: org.apache.catalina.connector.RequestFacade@61f4055f
+[2m2019-04-05 08:33:34.750[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m select patient0_.id as id1_0_, patient0_.birthday as birthday2_0_, patient0_.email as email3_0_, patient0_.first_name as first_na4_0_, patient0_.insurance as insuranc5_0_, patient0_.last_amount_invoiced as last_amo6_0_, patient0_.last_name as last_nam7_0_, patient0_.patient_number as patient_8_0_, patient0_.phone_number as phone_nu9_0_, patient0_.private_insurance as private10_0_ from patient patient0_
+[2m2019-04-05 08:33:34.756[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m select patient_an0_.id as id1_1_, patient_an0_.birthday as birthday2_1_, patient_an0_.email as email3_1_, patient_an0_.first_name as first_na4_1_, patient_an0_.insurance as insuranc5_1_, patient_an0_.last_amount_invoiced as last_amo6_1_, patient_an0_.last_name as last_nam7_1_, patient_an0_.patient_number as patient_8_1_, patient_an0_.phone_number as phone_nu9_1_, patient_an0_.private_insurance as private10_1_ from patient_anonym patient_an0_
+in compare 1234 1234
+int oder long
+1234
+is long 1234 und 1234
+equals
+in compare 015774653532 015774653532
+in compare 1984-03-22 1984-04-22
+is integer 1984 und 1984
+equals
+in compare Thomas Horst
+in compare Jaehnig Jaehnig
+in compare tjaehnig@proficom.de tjaehnig@pr123om.de
+in compare AOK IKK
+in compare false false
+in compare 100.0 120.0
+double
+in compare 1234 1234
+int oder long
+1234
+is long 1234 und 1234
+equals
+in compare 0351440080 0351440080
+in compare 1981-09-12 1981-09-12
+is integer 1981 und 1981
+equals
+in compare Carsten Neise
+in compare Neise Carsten
+in compare cneise@proficom.de cneise@proficom.de
+in compare AOK AOK
+in compare false false
+in compare 400.0 400.0
+double
+Table: 0.15444420223901886
+[2m2019-04-05 08:33:34.770[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m select patient0_.id as id1_0_, patient0_.birthday as birthday2_0_, patient0_.email as email3_0_, patient0_.first_name as first_na4_0_, patient0_.insurance as insuranc5_0_, patient0_.last_amount_invoiced as last_amo6_0_, patient0_.last_name as last_nam7_0_, patient0_.patient_number as patient_8_0_, patient0_.phone_number as phone_nu9_0_, patient0_.private_insurance as private10_0_ from patient patient0_
+[2m2019-04-05 08:33:34.779[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m select patient_an0_.id as id1_1_, patient_an0_.birthday as birthday2_1_, patient_an0_.email as email3_1_, patient_an0_.first_name as first_na4_1_, patient_an0_.insurance as insuranc5_1_, patient_an0_.last_amount_invoiced as last_amo6_1_, patient_an0_.last_name as last_nam7_1_, patient_an0_.patient_number as patient_8_1_, patient_an0_.phone_number as phone_nu9_1_, patient_an0_.private_insurance as private10_1_ from patient_anonym patient_an0_
+[2m2019-04-05 08:33:34.803[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@61f4055f
+[2m2019-04-05 08:33:38.797[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Bound request context to thread: org.apache.catalina.connector.RequestFacade@61f4055f
+[2m2019-04-05 08:33:38.804[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m select patient0_.id as id1_0_0_, patient0_.birthday as birthday2_0_0_, patient0_.email as email3_0_0_, patient0_.first_name as first_na4_0_0_, patient0_.insurance as insuranc5_0_0_, patient0_.last_amount_invoiced as last_amo6_0_0_, patient0_.last_name as last_nam7_0_0_, patient0_.patient_number as patient_8_0_0_, patient0_.phone_number as phone_nu9_0_0_, patient0_.private_insurance as private10_0_0_ from patient patient0_ where patient0_.id=?
+[2m2019-04-05 08:33:38.809[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36morg.hibernate.SQL                       [0;39m [2m:[0;39m select patient_an0_.id as id1_1_0_, patient_an0_.birthday as birthday2_1_0_, patient_an0_.email as email3_1_0_, patient_an0_.first_name as first_na4_1_0_, patient_an0_.insurance as insuranc5_1_0_, patient_an0_.last_amount_invoiced as last_amo6_1_0_, patient_an0_.last_name as last_nam7_1_0_, patient_an0_.patient_number as patient_8_1_0_, patient_an0_.phone_number as phone_nu9_1_0_, patient_an0_.private_insurance as private10_1_0_ from patient_anonym patient_an0_ where patient_an0_.id=?
+in compare 1234 1234
+int oder long
+1234
+is long 1234 und 1234
+equals
+in compare 015774653532 015774653532
+in compare 1984-03-22 1984-04-22
+is integer 1984 und 1984
+equals
+in compare Thomas Horst
+in compare Jaehnig Jaehnig
+in compare tjaehnig@proficom.de tjaehnig@pr123om.de
+in compare AOK IKK
+in compare false false
+in compare 100.0 120.0
+double
+[2m2019-04-05 08:33:38.830[0;39m [32mDEBUG[0;39m [35m30110[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mo.s.b.w.f.OrderedRequestContextFilter   [0;39m [2m:[0;39m Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@61f4055f

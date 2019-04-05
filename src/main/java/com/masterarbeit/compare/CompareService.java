@@ -99,8 +99,7 @@ public class CompareService {
         for (Object aSet: set) {
             Map.Entry me = (Map.Entry) aSet;
             sum = sum + (Double) me.getValue();
-  //          System.out.println("Key: " + me.getKey() + " Value: " + me.getValue());
-            // theta per datensatz
+
         }
         return sum/(set.size());
     }

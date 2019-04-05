@@ -91,23 +91,7 @@ public class StringComp implements ComparerInterface {
     	
     }
    
-    
-// naive string distance
-    //TODO: wird nicht verwendet, kann also weg
-   private Long StringToLong(String x) {
-    	if(x.length()>0)
-    	{
-        x = x.replaceAll("\\s+", "");                                  
-        // regular expression, leerzeichen weg
-        return Long.parseLong(x);
-    	}
-    	else
-    	{
-    	return 0L;
-    	}
-    }
-
-    private HashMap<Character, Integer> StringToHashMap(String s){
+private HashMap<Character, Integer> StringToHashMap(String s){
 
         char[] _s = s.toLowerCase().toCharArray();
         HashMap<Character, Integer> result = new HashMap<>();
@@ -121,6 +105,7 @@ public class StringComp implements ComparerInterface {
         }
         return result;
     }
+
 // errechnet wie viel mal ein char in string vorkommt
     private int findCharInStringRight(char x, String a, int pos){
 
@@ -324,7 +309,7 @@ public class StringComp implements ComparerInterface {
         }
 
         else if  (sig==3.0)  // JPH
-        {	
+        {
         if (_a.matches("\\d+") && _b.matches("\\D+")) {
     //        System.out.println("Error: different typ of inputs");
             return 0.0;
@@ -345,6 +330,7 @@ public class StringComp implements ComparerInterface {
 
         if (_a.matches("[A-z]+[0-9]$") && _b.matches("[A-z]+[0-9]$")){
        //     System.out.println("String ist alphanumerisch " + _a);
+            // TODO: auch den alphanumerischen String als String betrachten und vergleichen
             return 0.0;
         } else if (_a.matches("[0-9 ]+") && _b.matches("[0-9 ]+")){
        //     System.out.println("String ist numerisch " + _a);

@@ -36,13 +36,10 @@
 
                 errorCount += 1;
                 document.getElementById("submitButton").disabled = true;
-                console.log("error coutn higher:" + errorCount)
             }
             else {
                 if (field.style.borderColor == "red"){
-                    console.log("error coutn before lower:" + errorCount)
                     errorCount  -= 1;
-                    console.log("error coutn: lower" + errorCount)
                 }
                 field.style.borderColor = "green";
                 if(errorCount == 0){
