@@ -4,11 +4,8 @@ import com.masterarbeit.dbOperations.DatabaseOperations;
 import com.masterarbeit.compare.CompareService;
 import com.masterarbeit.compare.Sigma;
 import com.masterarbeit.entities.Patient;
-import com.masterarbeit.entities.Patient_anonym;
-import com.masterarbeit.repositories.PatientAnonymRepository;
-import com.masterarbeit.repositories.PatientRepository;
-import com.masterarbeit.repositories.QupSapRepository;
-import com.masterarbeit.repositories.SapRepository;
+import com.masterarbeit.entities.lastcharweg;
+import com.masterarbeit.repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -25,37 +22,42 @@ import java.util.*;
 public class ViewController {
 
     private PatientRepository patientRepository;
-    private PatientAnonymRepository patientAnonymRepository;
-    private SapRepository sapRepository;
-    private QupSapRepository qupSapRepository;
+    private PatientLastCharwegRepository patientAnonymRepository;
     private CompareService compareService;
+    private PatientTestRepository patientTestRepository;
+    private PatientLastCharwegRepository lastCharwegRepository;
 
     @Autowired
-    public ViewController(PatientRepository patientRepository, PatientAnonymRepository patientAnonymRepository, SapRepository sapRepository, QupSapRepository qupSapRepository){
+    public ViewController(PatientRepository patientRepository, // PatientAnonymRepository patientAnonymRepository,
+                          PatientTestRepository patientTestRepository, PatientLastCharwegRepository lastCharwegRepository){
         this.patientRepository = patientRepository;
-        this.patientAnonymRepository = patientAnonymRepository;
-        this.sapRepository = sapRepository;
-        this.qupSapRepository = qupSapRepository;
+        this.patientAnonymRepository = lastCharwegRepository;
+        this.patientTestRepository = patientTestRepository;
+        this.lastCharwegRepository = lastCharwegRepository;
     }
 
     @RequestMapping("/")
     public String index(Model theModel){
 
-        theModel.addAttribute("patients", patientRepository.findAll());
-        theModel.addAttribute("patientsAnonym", patientAnonymRepository.findAll());
+        theModel.addAttribute("Patient", patientTestRepository.findAll());
+        theModel.addAttribute("lastcharweg", lastCharwegRepository.findAll());
+
 
         return "index";
     }
 
     @RequestMapping("/compare")
     public String compare(Model theModel) throws IllegalAccessException, ParseException, FileNotFoundException {
-
+        long start = System.currentTimeMillis();
         CompareService compareService = new CompareService();
         Map<Integer,Double> results = compareService.compareOneOnOne(patientRepository.findAll(), patientAnonymRepository.findAll());
         double tableResult = compareService.resultForTable(results);// gesamt ergebnis
         theModel.addAttribute("patients", patientRepository.findAll());
         theModel.addAttribute("patientsAnonym", patientAnonymRepository.findAll());
         theModel.addAttribute("result", results);
+        // total time in ms
+        long totalTime = System.currentTimeMillis() - start;
+        theModel.addAttribute("totalTime", totalTime);
         theModel.addAttribute("table", tableResult);
 
         return "compare";
@@ -80,7 +82,7 @@ public class ViewController {
 
         compareService = new CompareService();
         Patient p = patientRepository.findOne(Integer.parseInt(selection));
-        Patient_anonym pa = patientAnonymRepository.findOne(Integer.parseInt(selection));
+        lastcharweg pa = patientAnonymRepository.findOne(Integer.parseInt(selection));
         HashMap<String, Double> results = compareService.compareEntities(p, pa);
         model.addAttribute("patient",p);
         model.addAttribute("patientAnonym", pa);
@@ -94,9 +96,9 @@ public class ViewController {
 
         compareService = new CompareService();
         Patient p = patientRepository.findOne(Integer.parseInt(selection));
-        List<Patient_anonym> patient_anonym = patientAnonymRepository.findAll();
+        List<lastcharweg> patient_anonym = patientAnonymRepository.findAll();
         int mostLikely = compareService.findTheMostLikely(p,patient_anonym);
-        Patient_anonym pa = patientAnonymRepository.findOne(mostLikely);
+        lastcharweg pa = patientAnonymRepository.findOne(mostLikely);
         HashMap<String, Double> results = compareService.compareEntities(p,pa);
         double total = compareService.getAbsolute(results);
         System.out.println(total);
@@ -109,14 +111,14 @@ public class ViewController {
         return "findTheMostLikely";
     }
 
-
+/*
     @RequestMapping("/comparesap")
     public String compareSAP(Model model) throws IllegalAccessException, ParseException {
         compareService = new CompareService();
         Map<Integer, Double> results = compareService.doCompareSAP(sapRepository.findAll(), qupSapRepository.findAll());
 
         return "sap";
-    }
+    }*/
 
     @RequestMapping("/selectTables")
     public String tablenames(Model model) throws Exception {

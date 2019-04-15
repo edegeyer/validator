@@ -14,13 +14,19 @@
         <p>Sigma für string distribution: <input type="text" th:field="*{strd}" onblur="checkValue('strd')"/></p>
         <p>Sigma für string order: <input type="text" th:field="*{stro}" onblur="checkValue('stro')"/></p>
         <p id ="errorField"></p>
-
+        <p>
+            Levenshtein: only String <br />
+            Damerau: only String <br />
+            Hamming: only String <br />
+            Heinrich: all datatypes
+        </p>
         <ul>
             <li th:each="sigmaOptions : *{possibleComparer}">
                 <input type="radio" th:field="*{Strcmp2}" th:value="${sigmaOptions}" />
                 <label th:for="${#ids.prev('Strcmp2')}" th:text="${sigmaOptions}">StringComparer</label>
             </li>
         </ul>
+
 
         <p><input type="submit" value="Submit" id="submitButton"/> <input type="reset" value="Reset" /></p>
     </form>
@@ -30,9 +36,9 @@
             var field = document.getElementById(fieldName);
             if (field.value == 0.0 || field.value == 0){
                 field.style.borderColor = "red";
-                document.getElementById("errorField").innerHTML = "Illegal input, Sigma needs to be higher than 0.0"
+                document.getElementById("errorField").innerHTML = "Illegal input, Sigma needs to be higher than 0.0";
                 document.getElementById("errorField").style.color = "red";
-                console.log("error coutn before higher:" + errorCount)
+                console.log("error coutn before higher:" + errorCount);
 
                 errorCount += 1;
                 document.getElementById("submitButton").disabled = true;

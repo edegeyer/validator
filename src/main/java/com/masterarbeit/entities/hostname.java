@@ -1,19 +1,13 @@
 package com.masterarbeit.entities;
 
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.sql.Date;
 
-
-// class to be used for testing with the modified data
-// same structure as the database
-
-
 @Entity
-public class Patient {
+public class hostname {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -28,11 +22,11 @@ public class Patient {
     private String phoneNumber;
     private Integer privateInsurance;
 
-    public Patient(){}
+    public hostname(){}
 
-    public Patient(int id, Date birthday, String email, String contactFirstName,
-                   String insurance, String lastInvoice, String surname,
-                   int contact, String contactPhone, int privateInsurance){
+    public hostname(int id, Date birthday, String email, String contactFirstName,
+                        String insurance, String lastInvoice, String surname,
+                        int contact, String contactPhone, int privateInsurance){
         this.birthday = birthday;
         this.contact = contact;
         this.email = email;

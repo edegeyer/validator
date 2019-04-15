@@ -36,16 +36,16 @@
         </tr>
         </thead>
         <tbody>
-    <tr th:each="patient: ${patients}">
-        <td th:text="${patient.firstName}">Vorname</td>
-        <td th:text="${patient.lastName}">Nachname</td>
+    <tr th:each="patient: ${Patient}">
+        <td th:text="${patient.contactFirstName}">Vorname</td>
+        <td th:text="${patient.contactLastName}">Nachname</td>
         <td th:text="${patient.birthday}">Geburtstag</td>
         <td th:text="${patient.email}">Mail-Adresse</td>
-        <td th:text="${patient.patientNumber}">Patientennummer</td>
-        <td th:text="${patient.insurance}">Versicherung</td>
-        <td th:text="${patient.phoneNumber}">Telefonnummer</td>
+        <td th:text="${patient.id}">Patientennummer</td>
+        <td th:text="${patient.contact}">Versicherung</td>
+        <td th:text="${patient.contactPhone}">Telefonnummer</td>
         <td th:text="${patient.privateInsurance}">privateversichert</td>
-        <td th:text="${patient.lastAmountInvoiced}">letzter Rechnungsbetrag</td>
+        <td th:text="${patient.lastInvoice}">letzter Rechnungsbetrag</td>
         <td><input type="checkbox" id="pid" name="pid" th:value="${patient.id}"/></td>
     </tr>
     </tbody>
@@ -69,16 +69,16 @@
     </tr>
     </thead>
     <tbody>
-    <tr th:each="patient: ${patientsAnonym}">
-        <td th:text="${patient.firstName}">Vorname</td>
-        <td th:text="${patient.lastName}">Nachname</td>
+    <tr th:each="patient: ${lastcharweg}">
+        <td th:text="${patient.contactFirstName}">Vorname</td>
+        <td th:text="${patient.contactLastName}">Nachname</td>
         <td th:text="${patient.birthday}">Geburtstag</td>
         <td th:text="${patient.email}">Mail-Adresse</td>
-        <td th:text="${patient.patientNumber}">Patientennummer</td>
+        <td th:text="${patient.contact}">Patientennummer</td>
         <td th:text="${patient.insurance}">Versicherung</td>
-        <td th:text="${patient.phoneNumber}">Telefonnummer</td>
+        <td th:text="${patient.contactPhone}">Telefonnummer</td>
         <td th:text="${patient.privateInsurance}">privateversichert</td>
-        <td th:text="${patient.lastAmountInvoiced}">letzter Rechnungsbetrag</td>
+        <td th:text="${patient.lastInvoice}">letzter Rechnungsbetrag</td>
     </tr>
     </tbody>
 </table>

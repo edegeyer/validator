@@ -32,40 +32,40 @@
     </thead>
     <tbody>
     <tr bgcolor="#cbedc7">
-        <td th:text="${patient.firstName}">Vorname</td>
-        <td th:text="${patient.lastName}">Nachname</td>
+        <td th:text="${patient.contactFirstName}">Vorname</td>
+        <td th:text="${patient.contactLastName}">Nachname</td>
         <td th:text="${patient.birthday}">Geburtstag</td>
         <td th:text="${patient.email}">Mail</td>
-        <td th:text="${patient.patientNumber}">Patientennummer</td>
+        <td th:text="${patient.contact}">Patientennummer</td>
         <td th:text="${patient.insurance}">Versicherung</td>
-        <td th:text="${patient.phoneNumber}">Telefonnummer</td>
+        <td th:text="${patient.contactPhone}">Telefonnummer</td>
         <td th:text="${patient.privateInsurance}">Privatversichert</td>
-        <td th:text="${patient.lastAmountInvoiced}">Letzter Rechnungsbetrag</td>
+        <td th:text="${patient.lastInvoice}">Letzter Rechnungsbetrag</td>
     </tr>
     <tr bgcolor="#ff7f50">
-        <td th:text="${patientAnonym.firstName}">Vorname</td>
-        <td th:text="${patientAnonym.lastName}">Nachname</td>
+        <td th:text="${patientAnonym.contactFirstName}">Vorname</td>
+        <td th:text="${patientAnonym.contactLastName}">Nachname</td>
         <td th:text="${patientAnonym.birthday}">Geburtstag</td>
         <td th:text="${patientAnonym.email}">Mail</td>
-        <td th:text="${patientAnonym.patientNumber}">Patientennummer</td>
+        <td th:text="${patientAnonym.contact}">Patientennummer</td>
         <td th:text="${patientAnonym.insurance}">Versicherung</td>
-        <td th:text="${patientAnonym.phoneNumber}">Telefonnummer</td>
+        <td th:text="${patientAnonym.contactPhone}">Telefonnummer</td>
         <td th:text="${patientAnonym.privateInsurance}">Privatversichert</td>
-        <td th:text="${patientAnonym.lastAmountInvoiced}">Letzter Rechnungsbetrag</td>
+        <td th:text="${patientAnonym.lastInvoice}">Letzter Rechnungsbetrag</td>
     </tr>
     <tr bgcolor="#2ECCFA">
         <td th:text="${results.firstName}">Vorname</td>
-        <td th:text="${results.lastName}">Nachname</td>
+        <td th:text="${results.surname}">Nachname</td>
         <td th:text="${results.birthday}">Geburtstag</td>
         <td th:text="${results.email}">Mail</td>
-        <td th:text="${results.patientNumber}">Patientennummer</td>
+        <td th:text="${results.contact}">Patientennummer</td>
         <td th:text="${results.insurance}">Versicherung</td>
         <td th:text="${results.phoneNumber}">Telefonnummer</td>
         <td th:text="${results.privateInsurance}">Privatversichert</td>
-        <td th:text="${results.lastAmountInvoiced}">Letzter Rechnungsbetrag</td>
+        <td th:text="${results.lastInvoiceTotal}">Letzter Rechnungsbetrag</td>
     </tr>
     </tbody>
 </table>
-<a th:href="@{/findTheMostLikely(pid=${patient.id})}">Für diesen Datensatz den meist ähnlichen Finden</a>
+<a th:href="@{/findTheMostLikely(pid=${patient.id})}">Für diesen Datensatz den ähnlichsten finden</a>
 </body>
 </html>

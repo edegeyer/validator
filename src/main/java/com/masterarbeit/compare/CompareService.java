@@ -5,12 +5,7 @@ import java.io.FileOutputStream;
 import java.io.PrintStream;
 
 
-
-import com.masterarbeit.entities.Patient;
-import com.masterarbeit.entities.Patient_anonym;
-import com.masterarbeit.entities.sap;
-
-import com.masterarbeit.entities.qup_sap;
+import com.masterarbeit.entities.*;
 
 import java.lang.reflect.Field;
 import java.text.ParseException;
@@ -32,15 +27,16 @@ public class CompareService {
     private double sigma ;  // kontrollparameter
     File file = new File("out.txt");
 
-    public Map<Integer, Double> compareOneOnOne(List<Patient> patients, List<Patient_anonym> patient_anonym) throws IllegalAccessException, ParseException, FileNotFoundException {
+
+    public Map<Integer, Double> compareOneOnOne(List<Patient> patients, List<lastcharweg> patient_anonym) throws IllegalAccessException, ParseException, FileNotFoundException {
 
         Iterator<Patient> it1 = patients.iterator();
-        Iterator<Patient_anonym> it2 = patient_anonym.iterator();
+        Iterator<lastcharweg> it2 = patient_anonym.iterator();
         Map<Integer, Double> resultsPerRecord = new HashMap<>();
 
         while(it1.hasNext() && it2.hasNext()){
             Patient p = it1.next();
-            Patient_anonym pa = it2.next();
+            lastcharweg pa = it2.next();
             Map<String, Double> result = compareEntities(p, pa);
             resultsPerRecord.put(p.getId(), getAbsolute(result));
         }
@@ -117,7 +113,7 @@ public class CompareService {
 
     }
 
-    public LinkedHashMap<String, Double> compareEntities(Patient p, Patient_anonym pa) throws IllegalAccessException, ParseException, FileNotFoundException {
+    public LinkedHashMap<String, Double> compareEntities(Patient p, lastcharweg pa) throws IllegalAccessException, ParseException, FileNotFoundException {
 
     	LinkedHashMap<String, Double>  result = new LinkedHashMap<String,Double>();
         Field[] fieldPatient = p.getClass().getDeclaredFields();
@@ -149,14 +145,14 @@ public class CompareService {
 		return result;
     }
 // wird in compareoneonone aufgerufen
-    public Integer findTheMostLikely(Patient p, List<Patient_anonym> patient_anonym) throws IllegalAccessException, ParseException, FileNotFoundException {
+    public Integer findTheMostLikely(Patient p, List<lastcharweg> patient_anonym) throws IllegalAccessException, ParseException, FileNotFoundException {
 
         double res = 1.0;
         int mostLikely = 0;
 
-        for (Patient_anonym patientAnonym : patient_anonym) {
+        for (lastcharweg patientAnonym : patient_anonym) {
             double tmp = getAbsolute(compareEntities(p, patientAnonym));
-            System.out.println("tmp für: "+ patientAnonym.getFirstName() + " " + tmp);
+            System.out.println("tmp für: "+ patientAnonym.getContactFirstName() + " " + tmp);
             if (tmp < res) {
                 res = tmp;
                 mostLikely = patientAnonym.getId();

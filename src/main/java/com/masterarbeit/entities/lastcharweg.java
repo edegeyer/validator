@@ -1,6 +1,5 @@
 package com.masterarbeit.entities;
 
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -13,7 +12,7 @@ import java.sql.Date;
 
 
 @Entity
-public class Patient {
+public class lastcharweg {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -28,11 +27,11 @@ public class Patient {
     private String phoneNumber;
     private Integer privateInsurance;
 
-    public Patient(){}
+    public lastcharweg(){}
 
-    public Patient(int id, Date birthday, String email, String contactFirstName,
-                   String insurance, String lastInvoice, String surname,
-                   int contact, String contactPhone, int privateInsurance){
+    public lastcharweg(int id, Date birthday, String email, String contactFirstName,
+                       String insurance, String lastInvoice, String surname,
+                       int contact, String contactPhone, int privateInsurance){
         this.birthday = birthday;
         this.contact = contact;
         this.email = email;
