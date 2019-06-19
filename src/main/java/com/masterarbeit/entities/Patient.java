@@ -28,11 +28,12 @@ public class Patient {
     private String phoneNumber;
     private Integer privateInsurance;
 
-    public Patient(){}
+    public Patient() {
+    }
 
     public Patient(int id, Date birthday, String email, String contactFirstName,
                    String insurance, String lastInvoice, String surname,
-                   int contact, String contactPhone, int privateInsurance){
+                   int contact, String contactPhone, int privateInsurance) {
         this.birthday = birthday;
         this.contact = contact;
         this.email = email;

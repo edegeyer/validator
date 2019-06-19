@@ -26,15 +26,15 @@ public class ViewController {
     private PatientTestRepository patientTestRepository;
 
     @Autowired
-    public ViewController(PatientRepository patientRepository,  PatientAnonymRepository patientAnonymRepository,
-                          PatientTestRepository patientTestRepository){
+    public ViewController(PatientRepository patientRepository, PatientAnonymRepository patientAnonymRepository,
+                          PatientTestRepository patientTestRepository) {
         this.patientRepository = patientRepository;
         this.patientAnonymRepository = patientAnonymRepository;
         this.patientTestRepository = patientTestRepository;
     }
 
     @RequestMapping("/")
-    public String index(Model theModel){
+    public String index(Model theModel) {
 
         theModel.addAttribute("Patient", patientTestRepository.findAll());
         theModel.addAttribute("Patient_anonym", patientAnonymRepository.findAll());
@@ -47,7 +47,7 @@ public class ViewController {
     public String compare(Model theModel) throws IllegalAccessException, ParseException, FileNotFoundException {
         long start = System.currentTimeMillis();
         CompareService compareService = new CompareService();
-        Map<Integer,Double> results = compareService.compareOneOnOne(patientRepository.findAll(), patientAnonymRepository.findAll());
+        Map<Integer, Double> results = compareService.compareOneOnOne(patientRepository.findAll(), patientAnonymRepository.findAll());
         // Gesamtergebnis
         double tableResult = compareService.resultForTable(results);
         theModel.addAttribute("patients", patientRepository.findAll());
@@ -62,27 +62,27 @@ public class ViewController {
     }
 
     @RequestMapping("/compareSelected")
-    public String compareSelected(Model theModel, @RequestParam(name="pid") List<String> selection){
+    public String compareSelected(Model theModel, @RequestParam(name = "pid") List<String> selection) {
 
         List<Patient> list = new ArrayList<>();
 
-        for ( String s : selection){
+        for (String s : selection) {
             System.out.println(s);
             list.add(patientRepository.findOne(Integer.parseInt(s)));
         }
-        theModel.addAttribute("patients",list);
+        theModel.addAttribute("patients", list);
 
         return "compareSelected";
     }
 
     @RequestMapping("/compareOne")
-    public String compareOne(Model model, @RequestParam(name="pid") String selection) throws IllegalAccessException, ParseException,FileNotFoundException {
+    public String compareOne(Model model, @RequestParam(name = "pid") String selection) throws IllegalAccessException, ParseException, FileNotFoundException {
 
         compareService = new CompareService();
         Patient p = patientRepository.findOne(Integer.parseInt(selection));
         lastcharweg pa = patientAnonymRepository.findOne(Integer.parseInt(selection));
         HashMap<String, Double> results = compareService.compareEntities(p, pa);
-        model.addAttribute("patient",p);
+        model.addAttribute("patient", p);
         model.addAttribute("patientAnonym", pa);
         model.addAttribute("results", results);
 
@@ -90,14 +90,14 @@ public class ViewController {
     }
 
     @RequestMapping("/findTheMostLikely")
-    public String findTheMostLikely(Model model, @RequestParam(name="pid") String selection) throws IllegalAccessException, ParseException , FileNotFoundException{
+    public String findTheMostLikely(Model model, @RequestParam(name = "pid") String selection) throws IllegalAccessException, ParseException, FileNotFoundException {
 
         compareService = new CompareService();
         Patient p = patientRepository.findOne(Integer.parseInt(selection));
         List<lastcharweg> patient_anonym = patientAnonymRepository.findAll();
-        int mostLikely = compareService.findTheMostLikely(p,patient_anonym);
+        int mostLikely = compareService.findTheMostLikely(p, patient_anonym);
         lastcharweg pa = patientAnonymRepository.findOne(mostLikely);
-        HashMap<String, Double> results = compareService.compareEntities(p,pa);
+        HashMap<String, Double> results = compareService.compareEntities(p, pa);
         System.out.println(results.keySet());
         double total = compareService.getAbsolute(results);
         System.out.println(total);
@@ -117,12 +117,12 @@ public class ViewController {
         DatabaseOperations DatabaseOperations = new DatabaseOperations();
         List<String> tablenames = DatabaseOperations.readDBTables();
         System.out.println(Arrays.toString(tablenames.toArray()));
-        model.addAttribute("tablenames",tablenames);
+        model.addAttribute("tablenames", tablenames);
         return "showTables";
     }
 
     @RequestMapping("/showSelectedTables")
-    public String showSelectedTables(Model model, @RequestParam(name="table") List<String> selection) throws Exception {
+    public String showSelectedTables(Model model, @RequestParam(name = "table") List<String> selection) throws Exception {
 
         DatabaseOperations databaseOperations = new DatabaseOperations();
         List<String> selectedTables = new ArrayList<>();
@@ -131,10 +131,10 @@ public class ViewController {
         List<ArrayList> tableTwo = databaseOperations.getTable(selection.get(1));
 
 
-        for (String s: selection) {
+        for (String s : selection) {
             selectedTables.add(s);
         }
-        model.addAttribute("selectedTables",selectedTables);
+        model.addAttribute("selectedTables", selectedTables);
         model.addAttribute("tableOne", tableOne);
         model.addAttribute("tableTwo", tableTwo);
 
@@ -144,22 +144,24 @@ public class ViewController {
 
     @ModelAttribute("alltypes")
     public String[] getalltypes() {
-        return new String[] {
-            "Levenshtein", "Damerau-Leven", "JP-Heinrich"
+        return new String[]{
+                "Levenshtein", "Damerau-Leven", "JP-Heinrich"
         };
     }
+
     @GetMapping("/test")
     public String test(Model model) throws ParseException {
 
-        Sigma sigma1=new Sigma();
+        Sigma sigma1 = new Sigma();
         model.addAttribute("sigma", sigma1);  // add greeting as object, which is used both in greeting.html and result.html as the instance
         return "test";
     }
+
     @PostMapping("/test")
     public String greetingSubmit(@ModelAttribute Sigma sigma) {
 
         if (sigma.wert != 0 && sigma.tagewert != 0 && sigma.monatewert != 0 &&
-            sigma.strd != 0 && sigma.strl != 0 && sigma.stro != 0) {
+                sigma.strd != 0 && sigma.strl != 0 && sigma.stro != 0) {
 
             sigma.setSigmaDoub(sigma.wert);
             sigma.setSigmaTage(sigma.tagewert);
@@ -168,17 +170,13 @@ public class ViewController {
             sigma.setSigmastrl_(sigma.strl);
             sigma.setSigmastrd_(sigma.strd);
             sigma.typeconv();
-        }
-        else {
+        } else {
             System.out.println("something went wrong here");
         }
         return "result";
     }
 
 
-
-      
-
-    }
+}
 
 

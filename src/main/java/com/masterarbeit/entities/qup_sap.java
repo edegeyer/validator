@@ -70,8 +70,8 @@ public class qup_sap {
     private String ansprechpartner;
     private String kunde;
 
-    public qup_sap() {}
-
+    public qup_sap() {
+    }
 
 
 }

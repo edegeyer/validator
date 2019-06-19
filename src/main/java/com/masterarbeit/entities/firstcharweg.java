@@ -22,11 +22,12 @@ public class firstcharweg {
     private String phoneNumber;
     private Integer privateInsurance;
 
-    public firstcharweg(){}
+    public firstcharweg() {
+    }
 
     public firstcharweg(int id, Date birthday, String email, String contactFirstName,
                         String insurance, String lastInvoice, String surname,
-                        int contact, String contactPhone, int privateInsurance){
+                        int contact, String contactPhone, int privateInsurance) {
         this.birthday = birthday;
         this.contact = contact;
         this.email = email;

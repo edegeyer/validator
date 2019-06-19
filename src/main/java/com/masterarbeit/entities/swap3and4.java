@@ -22,11 +22,12 @@ public class swap3and4 {
     private String phoneNumber;
     private Integer privateInsurance;
 
-    public swap3and4(){}
+    public swap3and4() {
+    }
 
     public swap3and4(int id, Date birthday, String email, String contactFirstName,
-                        String insurance, String lastInvoice, String surname,
-                        int contact, String contactPhone, int privateInsurance){
+                     String insurance, String lastInvoice, String surname,
+                     int contact, String contactPhone, int privateInsurance) {
         this.birthday = birthday;
         this.contact = contact;
         this.email = email;

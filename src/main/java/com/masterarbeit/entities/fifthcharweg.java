@@ -23,11 +23,12 @@ public class fifthcharweg {
     private String phoneNumber;
     private Integer privateInsurance;
 
-    public fifthcharweg(){}
+    public fifthcharweg() {
+    }
 
     public fifthcharweg(int id, Date birthday, String email, String contactFirstName,
-                       String insurance, String lastInvoice, String surname,
-                       int contact, String contactPhone, int privateInsurance){
+                        String insurance, String lastInvoice, String surname,
+                        int contact, String contactPhone, int privateInsurance) {
         this.birthday = birthday;
         this.contact = contact;
         this.email = email;

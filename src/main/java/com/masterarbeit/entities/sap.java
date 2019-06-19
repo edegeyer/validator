@@ -70,8 +70,8 @@ public class sap {
     private String ansprechpartner;
     private String kunde;
 
-    public sap() {}
-
+    public sap() {
+    }
 
 
 }

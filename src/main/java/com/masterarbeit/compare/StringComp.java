@@ -326,7 +326,7 @@ public class StringComp implements ComparerInterface {
                 content = 0.0;
             }
 
-            return  0.5 * (length + content);
+            return 0.5 * (length + content);
 
 
         } else if (sig == 4.0) { // Hamming

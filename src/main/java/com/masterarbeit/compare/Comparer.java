@@ -30,7 +30,6 @@ public class Comparer implements ComparerInterface {
     public double compare(Object a, Object b, double sig) throws ParseException {
         System.out.println("in compare "+ a +" " +b);
         if (a.getClass() != b.getClass()) {
-     //       System.out.println("Error: Objects are not the same type");
             return 0.0;
         }
         if (a.getClass() == Integer.class || a.getClass() == Long.class){
@@ -43,7 +42,6 @@ public class Comparer implements ComparerInterface {
             return this.doubleComp.compare(a,b,Sigma.Doub);
         }
         if (a.getClass() == LocalDate.class || a.getClass() == Date.class){
-  //          System.out.println("LocalDate oder Date");
             return this.dateComp.compare(a,b,Sigma.Monate);
         }
         if (a.getClass() == String.class){
@@ -52,11 +50,9 @@ public class Comparer implements ComparerInterface {
         	
         }
         if (a.getClass() == Boolean.class){
-  //          System.out.println("Boolean");
             return this.boolComp.compare(a,b, Sigma.Bool);
         }
 
         return 0.0;
     }
 }
-// funktion zuordnen
