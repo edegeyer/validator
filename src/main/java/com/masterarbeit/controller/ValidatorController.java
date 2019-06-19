@@ -1,5 +1,6 @@
 package com.masterarbeit.controller;
 
+//import com.masterarbeit.entities.Patient;
 import com.masterarbeit.entities.Patient;
 import com.masterarbeit.repositories.PatientAnonymRepository;
 import com.masterarbeit.repositories.PatientRepository;

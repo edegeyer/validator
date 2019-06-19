@@ -3,8 +3,7 @@ package com.masterarbeit.controller;
 import com.masterarbeit.dbOperations.DatabaseOperations;
 import com.masterarbeit.compare.CompareService;
 import com.masterarbeit.compare.Sigma;
-import com.masterarbeit.entities.Patient;
-import com.masterarbeit.entities.lastcharweg;
+import com.masterarbeit.entities.*;
 import com.masterarbeit.repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -22,25 +21,23 @@ import java.util.*;
 public class ViewController {
 
     private PatientRepository patientRepository;
-    private PatientLastCharwegRepository patientAnonymRepository;
+    private PatientAnonymRepository patientAnonymRepository;
     private CompareService compareService;
     private PatientTestRepository patientTestRepository;
-    private PatientLastCharwegRepository lastCharwegRepository;
 
     @Autowired
-    public ViewController(PatientRepository patientRepository, // PatientAnonymRepository patientAnonymRepository,
-                          PatientTestRepository patientTestRepository, PatientLastCharwegRepository lastCharwegRepository){
+    public ViewController(PatientRepository patientRepository,  PatientAnonymRepository patientAnonymRepository,
+                          PatientTestRepository patientTestRepository){
         this.patientRepository = patientRepository;
-        this.patientAnonymRepository = lastCharwegRepository;
+        this.patientAnonymRepository = patientAnonymRepository;
         this.patientTestRepository = patientTestRepository;
-        this.lastCharwegRepository = lastCharwegRepository;
     }
 
     @RequestMapping("/")
     public String index(Model theModel){
 
         theModel.addAttribute("Patient", patientTestRepository.findAll());
-        theModel.addAttribute("lastcharweg", lastCharwegRepository.findAll());
+        theModel.addAttribute("Patient_anonym", patientAnonymRepository.findAll());
 
 
         return "index";
@@ -100,6 +97,7 @@ public class ViewController {
         int mostLikely = compareService.findTheMostLikely(p,patient_anonym);
         lastcharweg pa = patientAnonymRepository.findOne(mostLikely);
         HashMap<String, Double> results = compareService.compareEntities(p,pa);
+        System.out.println(results.keySet());
         double total = compareService.getAbsolute(results);
         System.out.println(total);
 

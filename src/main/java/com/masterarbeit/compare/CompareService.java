@@ -144,6 +144,12 @@ public class CompareService {
         
 		return result;
     }
+
+    public interface Comparable<T>{
+        public  int compareTo(T o);
+    }
+
+
 // wird in compareoneonone aufgerufen
     public Integer findTheMostLikely(Patient p, List<lastcharweg> patient_anonym) throws IllegalAccessException, ParseException, FileNotFoundException {
 

@@ -6,7 +6,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.sql.Date;
 
-
 // class to be used for testing with the modified data
 // same structure as the database
 
@@ -30,8 +29,8 @@ public class lastcharweg {
     public lastcharweg(){}
 
     public lastcharweg(int id, Date birthday, String email, String contactFirstName,
-                       String insurance, String lastInvoice, String surname,
-                       int contact, String contactPhone, int privateInsurance){
+                        String insurance, String lastInvoice, String surname,
+                        int contact, String contactPhone, int privateInsurance){
         this.birthday = birthday;
         this.contact = contact;
         this.email = email;
@@ -123,6 +122,7 @@ public class lastcharweg {
     public void setPrivateInsurance(Integer privateInsurance) {
         this.privateInsurance = privateInsurance;
     }
+
 
 
 }
