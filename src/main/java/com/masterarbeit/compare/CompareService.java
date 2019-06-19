@@ -146,7 +146,7 @@ public class CompareService {
     }
 
     public interface Comparable<T>{
-        public  int compareTo(T o);
+        int compareTo(T o);
     }
 
 

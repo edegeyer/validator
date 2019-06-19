@@ -48,7 +48,8 @@ public class ViewController {
         long start = System.currentTimeMillis();
         CompareService compareService = new CompareService();
         Map<Integer,Double> results = compareService.compareOneOnOne(patientRepository.findAll(), patientAnonymRepository.findAll());
-        double tableResult = compareService.resultForTable(results);// gesamt ergebnis
+        // Gesamtergebnis
+        double tableResult = compareService.resultForTable(results);
         theModel.addAttribute("patients", patientRepository.findAll());
         theModel.addAttribute("patientsAnonym", patientAnonymRepository.findAll());
         theModel.addAttribute("result", results);
@@ -109,14 +110,6 @@ public class ViewController {
         return "findTheMostLikely";
     }
 
-/*
-    @RequestMapping("/comparesap")
-    public String compareSAP(Model model) throws IllegalAccessException, ParseException {
-        compareService = new CompareService();
-        Map<Integer, Double> results = compareService.doCompareSAP(sapRepository.findAll(), qupSapRepository.findAll());
-
-        return "sap";
-    }*/
 
     @RequestMapping("/selectTables")
     public String tablenames(Model model) throws Exception {

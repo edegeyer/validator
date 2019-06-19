@@ -23,7 +23,7 @@ public class StringComp implements ComparerInterface {
     }
 
     // Levenshtein Distance Implementation
-    public int calculate(String x, String y) {
+    private int calculate(String x, String y) {
         int[][] dp = new int[x.length() + 1][y.length() + 1];
 
         for (int i = 0; i <= x.length(); i++) {
@@ -45,7 +45,7 @@ public class StringComp implements ComparerInterface {
     }
 
     // Damerau-Levenshtein Distance
-    public int calculate_DL(String x, String y) {
+    private int calculate_DL(String x, String y) {
         int[][] dp = new int[x.length() + 1][y.length() + 1];
 
         for (int i = 0; i <= x.length(); i++) {
@@ -80,7 +80,7 @@ public class StringComp implements ComparerInterface {
             return i;
     }
 
-    public int costOfSubstitution(char a, char b) {
+    private int costOfSubstitution(char a, char b) {
         if (a == b)
             return 0;
         else
@@ -103,7 +103,7 @@ public class StringComp implements ComparerInterface {
         return result;
     }
 
-    // errechnet wie viel mal ein char in string vorkommt
+    // calculates, how often one char is in a string
     private int findCharInStringRight(char x, String a, int pos) {
 
         if (pos >= a.length())
@@ -161,21 +161,17 @@ public class StringComp implements ComparerInterface {
 
             if (right[i] > left[i] && right[i] > -1) {
                 res[i] = right[i];
-                //    System.out.println("recht größer als link");
             }
             if (left[i] > right[i] && left[i] > -1) {
                 res[i] = right[i];
-                //     System.out.println("link größer als recht");
             }
             if (left[i] == right[i] && left[i] > -1) {
                 res[i] = right[i];
-                //   System.out.println("link gleich wie  recht");
             }
             if (left[i] == right[i] && left[i] == -1) {
                 res[i] = -1;
             }
         }
-// output soll verständlicher sein
         int count = 0;
         for (Integer i : res) {
             if (i != -1)
@@ -222,7 +218,7 @@ public class StringComp implements ComparerInterface {
         int shortest = Math.min(string1.length(), string2.length());
         int longest = Math.max(string1.length(), string2.length());
         double result = 0.0;
-        // first: compare both strings (only the length of the shortest)
+        // first: compare both strings (only with the length of the shortest)
         for (int i = 0; i < shortest; i++) {
             if (string1.charAt(i) != string2.charAt(i)) {
                 result++;
@@ -236,9 +232,7 @@ public class StringComp implements ComparerInterface {
     private double compareLength(String a, String b, double sig) {
 
         double length = Math.abs(a.length() - b.length());
-
-        double result = 1.0 - (exp(-0.5 * (Math.pow(length / sig, 2))));
-        return result;
+        return 1.0 - (exp(-0.5 * (Math.pow(length / sig, 2))));
 
     }
 
@@ -247,9 +241,7 @@ public class StringComp implements ComparerInterface {
         double order = compareOrder(a, b, Sigma.stro_);
 
         double distribution = compareDistribution(a, b, Sigma.strd_);
-        ;
-        double result = 0.5 * (order + distribution);
-        return result;
+        return 0.5 * (order + distribution);
     }
 
     private double compareDistribution(String a, String b, double sig) {
@@ -280,7 +272,6 @@ public class StringComp implements ComparerInterface {
         for (Integer i : transpositions) {
             sum = sum + (1.0 - exp(-0.5 * Math.pow(i / sig, 2.0)));
         }
-
         return (sum * (1.0 / transpositions.length));
     }
 
@@ -306,11 +297,9 @@ public class StringComp implements ComparerInterface {
         } else if (sig == 3.0)  // JPH
         {
             if (_a.matches("\\d+") && _b.matches("\\D+")) {
-                //        System.out.println("Error: different typ of inputs");
                 return 0.0;
             }
             if (_b.matches("\\d+") && _a.matches("\\D+")) {
-                //       System.out.println("Error: different typ of inputs");
                 return 0.0;
             }
 
@@ -324,27 +313,20 @@ public class StringComp implements ComparerInterface {
             }
 
             if (_a.matches("[A-z]+[0-9]$") && _b.matches("[A-z]+[0-9]$")) {
-                //     System.out.println("String ist alphanumerisch " + _a);
                 // TODO: auch den alphanumerischen String als String betrachten und vergleichen
                 return 0.0;
             } else if (_a.matches("[0-9 ]+") && _b.matches("[0-9 ]+")) {
-                //     System.out.println("String ist numerisch " + _a);
-                // return this.integerComp.compare( StringToLong(_a), StringToLong(_b),sig);
                 return 0.0;
             }
 
-
             double length = compareLength(_a, _b, Sigma.strl_);
-
             double content = compareContent(_a, _b, sig);
 
             if (_a.toLowerCase().contains(_b.toLowerCase()) || _b.toLowerCase().contains(_a.toLowerCase())) {
                 content = 0.0;
             }
 
-            double result = 0.5 * (length + content);
-
-            return result;
+            return  0.5 * (length + content);
 
 
         } else if (sig == 4.0) { // Hamming
