@@ -35,22 +35,22 @@ public class Comparer implements ComparerInterface {
         if (a.getClass() == Integer.class || a.getClass() == Long.class){
           System.out.println("int oder long");
           System.out.println(a);
-            return this.intComp.compare(a,b,Sigma.Inte);
+            return this.intComp.compare(a,b,Sigma.sigmaInteger);
         }
         if (a.getClass() == Double.class){
            System.out.println("double");
-            return this.doubleComp.compare(a,b,Sigma.Doub);
+            return this.doubleComp.compare(a,b,Sigma.sigmaDouble);
         }
         if (a.getClass() == LocalDate.class || a.getClass() == Date.class){
-            return this.dateComp.compare(a,b,Sigma.Monate);
+            return this.dateComp.compare(a,b,Sigma.sigmaMonth);
         }
         if (a.getClass() == String.class){
         	
-            return this.stringComp.compare(a,b,Sigma.Str);
+            return this.stringComp.compare(a,b,Sigma.sigmaString);
         	
         }
         if (a.getClass() == Boolean.class){
-            return this.boolComp.compare(a,b, Sigma.Bool);
+            return this.boolComp.compare(a,b, Sigma.sigmaBoolean);
         }
 
         return 0.0;

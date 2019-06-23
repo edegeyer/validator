@@ -4,23 +4,23 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Sigma {
-    public static double Bool = 2.0;
-    public static double Inte = 1.0;
-    public static double Intelength = 2;
-    public static double Str = 4.0;
-    public static double Doub = 1000;
-    public static double Monate = 2.0;
-    public static double Tage = 1.0;
-    public static double strl_ = 1.0;
-    public static double strd_ = 1.0;
-    public static double stro_ = 1.0;
+    public static double sigmaBoolean = 1.0;
+    public static double sigmaInteger = 1.0;
+    public static double sigmaIntLength = 2;
+    public static double sigmaString = 1.0;
+    public static double sigmaDouble = 1000;
+    public static double sigmaMonth = 1.0;
+    public static double sigmaDay = 1.0;
+    public static double sigmaStringLength = 1.0;
+    public static double sigmastringDistribution = 1.0;
+    public static double sigmaStringOrder = 1.0;
 
     public String Strcmp2;
     public List<String> possibleComparer = Arrays.asList("Levenshtein", "Damerau", "Heinrich", "Hamming");
 
-    public double wert = 1.0;
-    public double tagewert = 1.0;
-    public double monatewert = 1.0;
+    public double value = 1.0;
+    public double dayvalue = 1.0;
+    public double monthvalue = 1.0;
     public double strl = 1.0;
     public double strd = 1.0;
     public double stro = 1.0;
@@ -29,19 +29,19 @@ public class Sigma {
 
         switch (Strcmp2) {
             case "Levenshtein":
-                Str = 1.0;
+                sigmaString = 1.0;
                 break;
             case "Damerau":
-                Str = 2.0;
+                sigmaString = 2.0;
                 break;
             case "Heinrich":
-                Str = 3.0;
+                sigmaString = 3.0;
                 break;
             case "Hamming":
-                Str = 4.0;
+                sigmaString = 4.0;
                 break;
             default:
-                Str = 0.0;
+                sigmaString = 0.0;
                 break;
         }
     }
@@ -83,81 +83,81 @@ public class Sigma {
     }
 
     public double getWert() {
-        return wert;
+        return value;
     }
 
-    public void setWert(double wert) {
+    public void setWert(double value) {
 
-        this.wert = wert;
+        this.value = value;
     }
 
     public double getTagewert() {
-        return tagewert;
+        return dayvalue;
     }
 
-    public void setTagewert(double wert) {
-        checkSigma(wert);
-        this.tagewert = wert;
+    public void setTagewert(double dayvalue) {
+        checkSigma(dayvalue);
+        this.dayvalue = dayvalue;
     }
 
     public double getMonatewert() {
-        checkSigma(wert);
-        return monatewert;
+        checkSigma(monthvalue);
+        return monthvalue;
     }
 
-    public void setMonatewert(double wert) {
-        checkSigma(wert);
-        this.monatewert = wert;
+    public void setMonatewert(double monthvalue) {
+        checkSigma(monthvalue);
+        this.monthvalue = monthvalue;
     }
 
     public void setSigmaBool(double input) {
         checkSigma(input);
-        Bool = input;
+        sigmaBoolean = input;
     }
 
     public void setSigmaInte(double input) {
         checkSigma(input);
-        Inte = input;
+        sigmaInteger = input;
     }
 
     public void setSigmaIntelength(double input) {
         checkSigma(input);
-        Intelength = input;
+        sigmaIntLength = input;
     }
 
     public void setSigmaStr(double input) {
         checkSigma(input);
-        Str = input;
+        sigmaString = input;
     }
 
     public void setSigmaDoub(double input) {
         checkSigma(input);
-        Doub = input;
+        sigmaDouble = input;
     }
 
     public void setSigmaMonate(double input) {
         checkSigma(input);
-        Monate = input;
+        sigmaMonth = input;
     }
 
     public void setSigmaTage(double input) {
         checkSigma(input);
-        Tage = input;
+        sigmaDay = input;
     }
 
     public void setSigmastro_(double input) {
         checkSigma(input);
-        stro_ = input;
+        sigmaStringOrder = input;
     }
 
     public void setSigmastrl_(double input) {
         checkSigma(input);
-        strl_ = input;
+        sigmaStringOrder = input;
     }
 
     public void setSigmastrd_(double input) {
         checkSigma(input);
-        strd_ = input;
+        sigmastringDistribution = input;
     }
 
     public void checkSigma(double input) {

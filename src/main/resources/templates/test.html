@@ -7,9 +7,9 @@
 <body>
 	<h1>Sigma Werte eingeben und Submit klicken</h1>
     <form action="#" th:action="@{/test}" th:object="${sigma}" method="post">
-    	<p>Sigma für double: <input type="text" th:field="*{wert}" onblur="checkValue('wert')" /></p>
-        <p>Sigma für Tage: <input type="text" th:field="*{tagewert}" onblur="checkValue('tagewert')"/></p>
-        <p>Sigma für Monate: <input type="text" th:field="*{monatewert}" onblur="checkValue('monatewert')" /></p>
+    	<p>Sigma für double: <input type="text" th:field="*{wert}" onblur="checkValue('value')" /></p>
+        <p>Sigma für Tage: <input type="text" th:field="*{tagewert}" onblur="checkValue('dayvalue')"/></p>
+        <p>Sigma für Monate: <input type="text" th:field="*{monatewert}" onblur="checkValue('monthvalue')" /></p>
         <p>Sigma für string length: <input type="text" th:field="*{strl}" onblur="checkValue('strl')"/></p>
         <p>Sigma für string distribution: <input type="text" th:field="*{strd}" onblur="checkValue('strd')"/></p>
         <p>Sigma für string order: <input type="text" th:field="*{stro}" onblur="checkValue('stro')"/></p>

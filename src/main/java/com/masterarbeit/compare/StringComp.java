@@ -238,9 +238,9 @@ public class StringComp implements ComparerInterface {
 
     private double compareContent(String a, String b, double sig) {
 
-        double order = compareOrder(a, b, Sigma.stro_);
+        double order = compareOrder(a, b, Sigma.sigmaStringOrder);
 
-        double distribution = compareDistribution(a, b, Sigma.strd_);
+        double distribution = compareDistribution(a, b, Sigma.sigmastringDistribution);
         return 0.5 * (order + distribution);
     }
 
@@ -319,7 +319,7 @@ public class StringComp implements ComparerInterface {
                 return 0.0;
             }
 
-            double length = compareLength(_a, _b, Sigma.strl_);
+            double length = compareLength(_a, _b, Sigma.sigmaStringLength);
             double content = compareContent(_a, _b, sig);
 
             if (_a.toLowerCase().contains(_b.toLowerCase()) || _b.toLowerCase().contains(_a.toLowerCase())) {

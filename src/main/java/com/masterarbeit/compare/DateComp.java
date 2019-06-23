@@ -38,8 +38,8 @@ public class DateComp implements ComparerInterface {
     public double compare(Object a, Object b, double sig) {
         LocalDate date1 = convertDate(a);
         LocalDate date2 = convertDate(b);
-        double day = gausCompareTwoValues(date1.getDayOfMonth(), date2.getDayOfMonth(), Sigma.Monate);
-        double month = gausCompareTwoValues(date1.getMonthValue(), date2.getMonthValue(), Sigma.Tage);
+        double day = gausCompareTwoValues(date1.getDayOfMonth(), date2.getDayOfMonth(), Sigma.sigmaMonth);
+        double month = gausCompareTwoValues(date1.getMonthValue(), date2.getMonthValue(), Sigma.sigmaDay);
         double year = this.integerComp.compare(date1.getYear(), date2.getYear(), 1.0);
         return ((day + month + year) / 3.0);
     }

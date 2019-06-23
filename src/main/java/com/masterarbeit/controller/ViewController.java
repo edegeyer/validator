@@ -160,12 +160,12 @@ public class ViewController {
     @PostMapping("/test")
     public String greetingSubmit(@ModelAttribute Sigma sigma) {
 
-        if (sigma.wert != 0 && sigma.tagewert != 0 && sigma.monatewert != 0 &&
+        if (sigma.value != 0 && sigma.dayvalue != 0 && sigma.monthvalue != 0 &&
                 sigma.strd != 0 && sigma.strl != 0 && sigma.stro != 0) {
 
-            sigma.setSigmaDoub(sigma.wert);
-            sigma.setSigmaTage(sigma.tagewert);
-            sigma.setSigmaMonate(sigma.monatewert);
+            sigma.setSigmaDoub(sigma.value);
+            sigma.setSigmaTage(sigma.dayvalue);
+            sigma.setSigmaMonate(sigma.monthvalue);
             sigma.setSigmastro_(sigma.stro);
             sigma.setSigmastrl_(sigma.strl);
             sigma.setSigmastrd_(sigma.strd);
