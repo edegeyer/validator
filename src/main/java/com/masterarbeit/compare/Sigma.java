@@ -15,7 +15,7 @@ public class Sigma {
     public static double sigmastringDistribution = 1.0;
     public static double sigmaStringOrder = 1.0;
 
-    public String Strcmp2;
+    public String Strcmp2 = "Heinrich";
     public List<String> possibleComparer = Arrays.asList("Levenshtein", "Damerau", "Heinrich", "Hamming");
 
     public double value = 1.0;

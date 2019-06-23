@@ -2,14 +2,14 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8" />
-    <title>Vergleich bestimmter Datensätze</title>
+    <title>compare certain datasets</title>
     <link rel="stylesheet" href="../static/bootstrap.css"  th:href="@{/bootstrap.css}" />
 </head>
 <body>
 <header>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Vergleich ausgewählter Datensätze</a>
+            <a class="navbar-brand" href="#">compare certain datasets </a>
         </div>
     </nav>
 
@@ -18,22 +18,22 @@
 <table class="table">
     <thead>
     <tr>
-        <th>Vorname</th>
-        <th>Nachname</th>
-        <th>E-Mail</th>
-        <th>Versichertennummer</th>
-        <th>Versicherung</th>
-        <th>Telefonnummer</th>
+        <th>first name</th>
+        <th>surname</th>
+        <th>email</th>
+        <th>contact ID</th>
+        <th>insurance</th>
+        <th>phone number</th>
     </tr>
     </thead>
     <tbody>
     <tr th:each="patient: ${patients}">
-        <td th:text="${patient.contactFirstName}">Vorname</td>
-        <td th:text="${patient.contactLastName}">Nachname</td>
-        <td th:text="${patient.email}">Mail</td>
-        <td th:text="${patient.contact}">Patientennummer</td>
-        <td th:text="${patient.insurance}">Versicherung</td>
-        <td th:text="${patient.contactPhone}">Telefon</td>
+        <td th:text="${patient.contactFirstName}">first name</td>
+        <td th:text="${patient.contactLastName}">surname</td>
+        <td th:text="${patient.email}">email</td>
+        <td th:text="${patient.contact}">contact ID</td>
+        <td th:text="${patient.insurance}">insurance</td>
+        <td th:text="${patient.contactPhone}">phone number</td>
     </tr>
     </tbody>
 </table>

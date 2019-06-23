@@ -1,18 +1,18 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head> 
-    <title>Sigma Einstellung für unterschiedlichen Datentypen</title>
+    <title>set sigma for the datatypes</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-	<h1>Sigma Werte eingeben und Submit klicken</h1>
+	<h1>insert sigma values</h1>
     <form action="#" th:action="@{/test}" th:object="${sigma}" method="post">
-    	<p>Sigma für double: <input type="text" th:field="*{wert}" onblur="checkValue('value')" /></p>
-        <p>Sigma für Tage: <input type="text" th:field="*{tagewert}" onblur="checkValue('dayvalue')"/></p>
-        <p>Sigma für Monate: <input type="text" th:field="*{monatewert}" onblur="checkValue('monthvalue')" /></p>
-        <p>Sigma für string length: <input type="text" th:field="*{strl}" onblur="checkValue('strl')"/></p>
-        <p>Sigma für string distribution: <input type="text" th:field="*{strd}" onblur="checkValue('strd')"/></p>
-        <p>Sigma für string order: <input type="text" th:field="*{stro}" onblur="checkValue('stro')"/></p>
+    	<p>sigma for double: <input type="text" th:field="*{wert}" onblur="checkValue('value')" /></p>
+        <p>sigma for days: <input type="text" th:field="*{tagewert}" onblur="checkValue('dayvalue')"/></p>
+        <p>sigma for months: <input type="text" th:field="*{monatewert}" onblur="checkValue('monthvalue')" /></p>
+        <p>sigma for string length: <input type="text" th:field="*{strl}" onblur="checkValue('strl')"/></p>
+        <p>sigma for string distribution: <input type="text" th:field="*{strd}" onblur="checkValue('strd')"/></p>
+        <p>sigma for string order: <input type="text" th:field="*{stro}" onblur="checkValue('stro')"/></p>
         <p id ="errorField"></p>
         <p>
             Levenshtein: only String <br />

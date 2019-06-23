@@ -3,63 +3,63 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8" />
-    <title>Vergleich</title>
+    <title>compare</title>
     <link rel="stylesheet" href="../static/bootstrap.css"  th:href="@{/bootstrap.css}" />
 </head>
 <body>
 <header>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <h3 class="align-content-center">Gesamtvergleich</h3>
+            <h3 class="align-content-center">compare all</h3>
             <a class="navbar-brand" href="/">Home</a>
         </div>
     </nav>
 </header>
-<div class="align-content-center"><h3 class="alert-success" th:text="${'Gesamtergebnis = ' + table + ' total time: '+ totalTime +' ms'}">Gesamtergebnis</h3>
+<div class="align-content-center"><h3 class="alert-success" th:text="${'total result = ' + table + ' total time: '+ totalTime +' ms'}">total result</h3>
 
 </div>
     <table class="table">
         <thead>
             <tr>
-                <th>Vorname</th>
-                <th>Nachname</th>
-                <th>Geburtstag</th>
-                <th>E-Mail</th>
-                <th>Versichertennummer</th>
-                <th>Versicherung</th>
-                <th>Telefonnummer</th>
-                <th>Privatversichert</th>
-                <th>Letzter Rechnungsbetrag</th>
+                <th>first name</th>
+                <th>surname</th>
+                <th>birthday</th>
+                <th>email</th>
+                <th>contact ID</th>
+                <th>insurance</th>
+                <th>phone number</th>
+                <th>private insured?</th>
+                <th>last invoice</th>
                 <th style="width: 90px"></th>
             </tr>
         </thead>
         <tbody>
             <tr th:each="index: ${#numbers.sequence(0, #arrays.length(patients)-1)}">
                 <tr bgcolor="#cbedc7">
-                    <td th:text="${patients[index].contactFirstName}">Vorname</td>
-                    <td th:text="${patients[index].contactLastName}">Nachname</td>
-                    <td th:text="${patients[index].birthday}">Geburtstag</td>
-                    <td th:text="${patients[index].email}">mail</td>
-                    <td th:text="${patients[index].contact}">Patientennummer</td>
-                    <td th:text="${patients[index].insurance}">versicherung</td>
-                    <td th:text="${patients[index].contactPhone}">telefon</td>
-                    <td th:text="${patients[index].privateInsurance}">privateversichert</td>
-                    <td th:text="${patients[index].lastInvoice}">letzter Rechnungsbetrag</td>
+                    <td th:text="${patients[index].contactFirstName}">first name</td>
+                    <td th:text="${patients[index].contactLastName}">surname</td>
+                    <td th:text="${patients[index].birthday}">birthday</td>
+                    <td th:text="${patients[index].email}">email</td>
+                    <td th:text="${patients[index].contact}">contact ID</td>
+                    <td th:text="${patients[index].insurance}">insurance</td>
+                    <td th:text="${patients[index].contactPhone}">telephone</td>
+                    <td th:text="${patients[index].privateInsurance}">private insured?</td>
+                    <td th:text="${patients[index].lastInvoice}">last invoice</td>
                 </tr>
                 <tr bgcolor="#ff7f50">
-                    <td th:text="${patientsAnonym[index].contactFirstName}">Vorname</td>
-                    <td th:text="${patientsAnonym[index].contactLastName}">Nachname</td>
-                    <td th:text="${patientsAnonym[index].birthday}">Geburtstag</td>
-                    <td th:text="${patientsAnonym[index].email}">Mail</td>
-                    <td th:text="${patientsAnonym[index].contact}">Patientennummer</td>
-                    <td th:text="${patientsAnonym[index].insurance}">Versicherung</td>
-                    <td th:text="${patientsAnonym[index].contactPhone}">Telefon</td>
-                    <td th:text="${patientsAnonym[index].privateInsurance}">privateversichert</td>
-                    <td th:text="${patientsAnonym[index].lastInvoice}">letzter Rechnungsbetrag</td>
+                    <td th:text="${patientsAnonym[index].contactFirstName}">first name</td>
+                    <td th:text="${patientsAnonym[index].contactLastName}">surname</td>
+                    <td th:text="${patientsAnonym[index].birthday}">birthday</td>
+                    <td th:text="${patientsAnonym[index].email}">email</td>
+                    <td th:text="${patientsAnonym[index].contact}">contact ID</td>
+                    <td th:text="${patientsAnonym[index].insurance}">insurance</td>
+                    <td th:text="${patientsAnonym[index].contactPhone}">telephone</td>
+                    <td th:text="${patientsAnonym[index].privateInsurance}">private insured?</td>
+                    <td th:text="${patientsAnonym[index].lastInvoice}">last invoice</td>
                 </tr>
                 <tr bgcolor="#2ECCFA">
                     <td th:text="${result.get(patients[index].id)}"></td>
-                    <td><a th:href="@{/compareOne(pid=${patients[index].id})}">Journal für diesen Datensatz</a></td>
+                    <td><a th:href="@{/compareOne(pid=${patients[index].id})}">journal for this dataset</a></td>
                 </tr>
             </tr>
         </tbody>
