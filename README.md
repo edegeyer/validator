@@ -2,16 +2,18 @@
 
 System requirements:
 
-- Running Java Version
+- working Java
 - MySQL Database containing at least 2 tables of the same structure (and size)
+- optional: IDE
 
 1. Get the project from github and import it into the editor of your choice
 2. Set up a MySQl Database including at minimum two tables (one with the original data, one with the anonymized data) -> working at proficom: you find some example data in the sharepoint folder in the databases.zip -> see exact steps of setting up the database further down
-3. Go into the project -> application.properties -> set up the url of your database and the required access data (username and password) for it
+3. Easiest to include the data in the database: use DBeaver or MySQL workbench
+3. Go into the project -> application.properties -> set up the url of your database and the required access data (username and password) for it -> same data that you just set up in step 2
 4. Adjust this data also in java -> dbOperations -> DatabaseOperations.java in both the functions “readDBTables” and “getTable” both for the getconnection Function
 5. Adjust the repository files, currently they’re setup to use “patientRepository” and “patientAnonymRepository”
     - Due to restriction with JPA you need to adjust the name of the used table in the line “public Interface XXXX extends JpaRepository<A, B>” -> set A to the name of the table you’re using, otherwise JPA cannot connect to the right table and use the data in it
-    -  The current Table layout is the following:
+    -  The current table layout is the following:
         - id
         - birthday
         - email
@@ -29,10 +31,11 @@ System requirements:
     - standard values are 1.0 for everything, a value of 0.0 is not allowed
     - currently changing the distance metric means, that this is only changed for string, as only the heinrich metric offers native support of other datatypes
     - see the publications to get more information about the impact of sigma
+    - 1st publication (explains the mathematical functions): https://www.proficom.de/fileadmin/user_upload/Downloads/proficom_AEhnlichkeitsmessung_von_ausgewaehlten_Datentypen_in_Datenbanksystemen_zur_Berechnung_des_Grades_der_Anonymisierung.pdf
 9. via the link “compare all data” the system compares all the data with each other using the scheme line 1 from table A with line 1 from table B, line 2A with line 2B and so on
 10. the link “journal for this dataset” gives you all the single values for each cell of the two rows compared with each other
 11. using the link “find the most similar dataset” searches for the row of data, that is the most similar, the result depends on your data
-12. currently, intelliJ marks some of the thymeleaf code as incorrect, which doesn’t seem right in use. So that can just be ignored
+12. currently, intellij marks some of the thymeleaf code as incorrect, which doesn’t seem right in use. So that can just be ignored
 
 
 
