@@ -1,5 +1,7 @@
 package com.masterarbeit.controller;
 
+//import com.masterarbeit.entities.Patient;
+
 import com.masterarbeit.entities.Patient;
 import com.masterarbeit.repositories.PatientAnonymRepository;
 import com.masterarbeit.repositories.PatientRepository;
@@ -19,40 +21,38 @@ public class ValidatorController {
     private PatientAnonymRepository patientAnonymRepository;
 
     @Autowired
-    public ValidatorController(PatientRepository patientRepository){
+    public ValidatorController(PatientRepository patientRepository) {
         this.patientRepository = patientRepository;
     }
 
     @RequestMapping("/all")
-    public List<Patient> getAll(){
+    public List<Patient> getAll() {
         return patientRepository.findAll();
     }
 
     @RequestMapping("/create")
-    public List<Patient> create(@RequestBody Patient patient){
+    public List<Patient> create(@RequestBody Patient patient) {
         patientRepository.save(patient);
         return patientRepository.findAll();
     }
 
     @RequestMapping("/delete/{id}")
-    public List<Patient> remove(@PathVariable int id){
+    public List<Patient> remove(@PathVariable int id) {
         patientRepository.delete(id);
         return patientRepository.findAll();
     }
 
 
     @RequestMapping(value = "/compareSelected", method = RequestMethod.POST)
-    public String compareSelected(@RequestParam(name="pid")  List<String> selection){
+    public String compareSelected(@RequestParam(name = "pid") List<String> selection) {
 
 
-        for ( String s : selection){
+        for (String s : selection) {
             System.out.println(s);
         }
 
         return "test";
     }
-
-
 
 
 }

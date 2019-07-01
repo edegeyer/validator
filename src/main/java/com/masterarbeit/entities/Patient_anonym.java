@@ -25,9 +25,10 @@ public class Patient_anonym {
     private boolean privateInsurance;
     private double lastAmountInvoiced;
 
-    public Patient_anonym(){}
+    public Patient_anonym() {
+    }
 
-    public Patient_anonym(int id, String firstName, String lastName, Date birthday, String email, String insurance, Long patientNumber, String phoneNumber, boolean privateInsurance, double lastAmountInvoiced){
+    public Patient_anonym(int id, String firstName, String lastName, Date birthday, String email, String insurance, Long patientNumber, String phoneNumber, boolean privateInsurance, double lastAmountInvoiced) {
 
         this.id = id;
         this.firstName = firstName;

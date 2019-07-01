@@ -1,6 +1,7 @@
 package com.masterarbeit.repositories;
 
-import com.masterarbeit.entities.Patient_anonym;
+
+import com.masterarbeit.entities.*;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -8,5 +9,5 @@ import org.springframework.stereotype.Repository;
  * Created by Jan on 14.04.2017.
  */
 @Repository
-public interface PatientAnonymRepository extends JpaRepository<Patient_anonym, Integer> {
+public interface PatientAnonymRepository extends JpaRepository<lastcharweg, Integer> {
 }

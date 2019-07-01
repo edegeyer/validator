@@ -1,14 +1,16 @@
 package com.masterarbeit.entities;
 
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.sql.Date;
 
-/**
- * Created by Jan on 12.04.2017.
- */
+
+// class to be used for testing with the modified data
+// same structure as the database
+
 
 @Entity
 public class Patient {
@@ -16,110 +18,113 @@ public class Patient {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private Long patientNumber;
-    private String phoneNumber;
     private Date birthday;
-    private String firstName;
-    private String lastName;
     private String email;
+    private String firstName;
     private String insurance;
-    private boolean privateInsurance;
-    private double lastAmountInvoiced;
+    private String lastInvoiceTotal;
+    private String surname;
+    private Integer contact;
+    private String phoneNumber;
+    private Integer privateInsurance;
 
+    public Patient() {
+    }
 
-    public Patient() {}
-
-    public Patient(int id, String firstName, String lastName, Date birthday, String email, String insurance, Long patientNumber, String phoneNumber, boolean privateInsurance, double lastAmountInvoiced){
-
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public Patient(int id, Date birthday, String email, String contactFirstName,
+                   String insurance, String lastInvoice, String surname,
+                   int contact, String contactPhone, int privateInsurance) {
         this.birthday = birthday;
+        this.contact = contact;
         this.email = email;
+        this.firstName = contactFirstName;
+        this.surname = surname;
+        this.phoneNumber = contactPhone;
+        this.id = id;
         this.insurance = insurance;
-        this.patientNumber = patientNumber;
-        this.phoneNumber = phoneNumber;
+        this.lastInvoiceTotal = lastInvoice;
         this.privateInsurance = privateInsurance;
-        this.lastAmountInvoiced = lastAmountInvoiced;
     }
 
     public Date getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
-    }
-
-    public int getId() {
+    public Integer getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public Long getPatientNumber() {
-        return patientNumber;
-    }
-
-    public void setPatientNumber(Long patientNumber) {
-        this.patientNumber = patientNumber;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
     }
 
     public String getEmail() {
         return email;
     }
 
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Integer getContact() {
+        return contact;
+    }
+
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public Integer getPrivateInsurance() {
+        return privateInsurance;
+    }
+
+    public String getContactFirstName() {
+        return firstName;
+    }
+
+    public String getContactLastName() {
+        return surname;
+    }
+
+    public String getContactPhone() {
+        return phoneNumber;
     }
 
     public String getInsurance() {
         return insurance;
     }
 
+    public String getLastInvoice() {
+        return lastInvoiceTotal;
+    }
+
+    public void setContact(Integer contact) {
+        this.contact = contact;
+    }
+
+    public void setContactFirstName(String contactFirstName) {
+        this.firstName = contactFirstName;
+    }
+
+    public void setContactLastName(String surname) {
+        this.surname = surname;
+    }
+
+    public void setContactPhone(String contactPhone) {
+        this.phoneNumber = contactPhone;
+    }
+
     public void setInsurance(String insurance) {
         this.insurance = insurance;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
+    public void setLastInvoice(String lastInvoice) {
+        this.lastInvoiceTotal = lastInvoice;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
-    public boolean isPrivateInsurance() {
-        return privateInsurance;
-    }
-
-    public void setPrivateInsurance(boolean privateInsurance) {
+    public void setPrivateInsurance(Integer privateInsurance) {
         this.privateInsurance = privateInsurance;
     }
 
-    public double getLastAmountInvoiced() {
-        return lastAmountInvoiced;
-    }
 
-    public void setLastAmountInvoiced(double lastAmountInvoiced) {
-        this.lastAmountInvoiced = lastAmountInvoiced;
-    }
 }

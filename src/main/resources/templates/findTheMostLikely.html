@@ -2,14 +2,14 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8" />
-    <title>Vergleich bestimmter Datensätze</title>
+    <title>compare certain datasets</title>
     <link rel="stylesheet" href="../static/bootstrap.css"  th:href="@{/bootstrap.css}" />
 </head>
 <body>
 <header>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <h3 class="align-content-center">Journalansicht für Datensatz</h3>
+            <h3 class="align-content-center">Journal for dataset</h3>
             <a class="navbar-brand" href="/">Home</a>
         </div>
     </nav>
@@ -19,50 +19,50 @@
 <table class="table">
     <thead>
     <tr>
-        <th>Vorname</th>
-        <th>Nachname</th>
-        <th>Geburtstag</th>
-        <th>E-Mail</th>
-        <th>Versichertennummer</th>
-        <th>Versicherung</th>
-        <th>Telefonnummer</th>
-        <th>Privatversichert</th>
-        <th>Letzter Rechnungsbetrag</th>
+        <th>first name</th>
+        <th>surname</th>
+        <th>birthday</th>
+        <th>email</th>
+        <th>contact ID</th>
+        <th>insurance</th>
+        <th>phone number</th>
+        <th>private insured?</th>
+        <th>last invoice</th>
     </tr>
     </thead>
     <tbody>
     <tr bgcolor="#cbedc7">
-        <td th:text="${patient.firstName}">Vorname</td>
-        <td th:text="${patient.lastName}">Nachname</td>
-        <td th:text="${patient.birthday}">Geburtstag</td>
-        <td th:text="${patient.email}">Mail</td>
-        <td th:text="${patient.patientNumber}">Versicherungsnummer</td>
-        <td th:text="${patient.insurance}">Versicherung</td>
-        <td th:text="${patient.phoneNumber}">Telefonnummer</td>
-        <td th:text="${patient.privateInsurance}">Privatversichert</td>
-        <td th:text="${patient.lastAmountInvoiced}">Letzter Rechnungsbetrag</td>
+        <td th:text="${patient.contactFirstName}">first name</td>
+        <td th:text="${patient.contactLastName}">surname</td>
+        <td th:text="${patient.birthday}">birthday</td>
+        <td th:text="${patient.email}">email</td>
+        <td th:text="${patient.contact}">contact ID</td>
+        <td th:text="${patient.insurance}">insurance</td>
+        <td th:text="${patient.contactPhone}">phone number</td>
+        <td th:text="${patient.privateInsurance}">private insured?</td>
+        <td th:text="${patient.lastInvoice}">last invoice</td>
     </tr>
     <tr bgcolor="#ff7f50">
-        <td th:text="${mostLikely.firstName}">Vorname</td>
-        <td th:text="${mostLikely.lastName}">Nachname</td>
-        <td th:text="${mostLikely.birthday}">Geburtstag</td>
-        <td th:text="${mostLikely.email}">Mail</td>
-        <td th:text="${mostLikely.patientNumber}">Patientennummer</td>
-        <td th:text="${mostLikely.insurance}">Versicherung</td>
-        <td th:text="${mostLikely.phoneNumber}">Telefonnummer</td>
-        <td th:text="${mostLikely.privateInsurance}">Privatversichert</td>
-        <td th:text="${mostLikely.lastAmountInvoiced}">Letzter Rechnungsbetrag</td>
+        <td th:text="${mostLikely.contactFirstName}">first name</td>
+        <td th:text="${mostLikely.contactLastName}">surname</td>
+        <td th:text="${mostLikely.birthday}">birthday</td>
+        <td th:text="${mostLikely.email}">email</td>
+        <td th:text="${mostLikely.contact}">contact ID</td>
+        <td th:text="${mostLikely.insurance}">insurance</td>
+        <td th:text="${mostLikely.contactPhone}">phone number</td>
+        <td th:text="${mostLikely.privateInsurance}">private insured?</td>
+        <td th:text="${mostLikely.lastInvoice}">last invoice</td>
     </tr>
     <tr bgcolor="#2ECCFA">
-        <td th:text="${results.firstName}">Vorname</td>
-        <td th:text="${results.lastName}">Nachname</td>
-        <td th:text="${results.birthday}">Geburtstag</td>
-        <td th:text="${results.email}">Mail</td>
-        <td th:text="${results.patientNumber}">Patientennummer</td>
-        <td th:text="${results.insurance}">Versicherung</td>
-        <td th:text="${results.phoneNumber}">Telefonnummer</td>
-        <td th:text="${results.privateInsurance}">Privatversichert</td>
-        <td th:text="${results.lastAmountInvoiced}">Letzter Rechnungsbetrag</td>
+        <td th:text="${results.firstName}">first name</td>
+        <td th:text="${results.surname}">surname</td>
+        <td th:text="${results.birthday}">birthday</td>
+        <td th:text="${results.email}">email</td>
+        <td th:text="${results.contact}">contact ID</td>
+        <td th:text="${results.insurance}">insurance</td>
+        <td th:text="${results.phoneNumber}">phone number</td>
+        <td th:text="${results.privateInsurance}">private insured?</td>
+        <td th:text="${results.lastInvoiceTotal}">last invoice</td>
     </tr>
     </tbody>
 </table>

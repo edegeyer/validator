@@ -15,7 +15,7 @@ public class DatabaseOperations {
     private PreparedStatement preparedStatement = null;
     private ResultSet resultSet = null;
 
-    public List<String> readDBTables() throws Exception{
+    public List<String> readDBTables() throws Exception {
         List tablenames = new LinkedList<String>();
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -23,17 +23,16 @@ public class DatabaseOperations {
 
             DatabaseMetaData md = conn.getMetaData();
 
-            resultSet = md.getTables(null,null,"%",null);
+            resultSet = md.getTables(null, null, "%", null);
 
-            while (resultSet.next()){
+            while (resultSet.next()) {
                 System.out.println(resultSet.getString(3));
                 tablenames.add(resultSet.getString(3));
             }
 
-        } catch (Exception e){
+        } catch (Exception e) {
             throw e;
-        }
-        finally {
+        } finally {
             conn.close();
         }
         return tablenames;
@@ -41,7 +40,7 @@ public class DatabaseOperations {
     }
 
 
-    public List<ArrayList> getTable(String tablename) throws Exception{
+    public List<ArrayList> getTable(String tablename) throws Exception {
 
         conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/zahnklinik?user=root&password=user12");
         Statement stat = conn.createStatement();
@@ -49,13 +48,13 @@ public class DatabaseOperations {
         ResultSetMetaData md = resultSet.getMetaData();
         int length = md.getColumnCount();
         System.out.println(length);
-        HashMap<String, String> date = null;
+        HashMap<String, String> date;
         ArrayList<HashMap> entry = new ArrayList<>();
         List<ArrayList> table = new ArrayList<>();
 
-        while (resultSet.next()){
+        while (resultSet.next()) {
             date = new HashMap<>();
-            for (int i=1; i<=length;i++) {
+            for (int i = 1; i <= length; i++) {
                 System.out.println(md.getColumnName(i) + " - " + resultSet.getString(i) + " - " + md.getColumnClassName(i));
                 date.put(md.getColumnName(i), resultSet.getString(i));
             }
@@ -66,8 +65,6 @@ public class DatabaseOperations {
         conn.close();
         return table;
     }
-
-
 
 
 }
